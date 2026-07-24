@@ -27,7 +27,7 @@ function App() {
   }, [darkMode]);
 
   return (
-    <Router>
+    <Router basename="/Fitnesstrainer">
       <div className={darkMode ? 'dark' : ''}>
         <div className="flex min-h-screen flex-col bg-white dark:bg-gray-900">
           <Navigation darkMode={darkMode} setDarkMode={setDarkMode} />
