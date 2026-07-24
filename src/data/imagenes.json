@@ -1,0 +1,408 @@
+[
+  {
+    "id": "k2-01",
+    "capitulo_id": "k2",
+    "archivo": "images/k2-01.jpg",
+    "titulo_de": "Körpersprache in der Kommunikation",
+    "titulo_es": "El lenguaje corporal en la comunicación"
+  },
+  {
+    "id": "k3.2-01",
+    "capitulo_id": "k3.2",
+    "archivo": "images/k3.2-01.jpg",
+    "titulo_de": "Zellaufbau",
+    "titulo_es": "Estructura de la célula"
+  },
+  {
+    "id": "k3.3-01",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-01.jpg",
+    "titulo_de": "Skelett",
+    "titulo_es": "El esqueleto humano"
+  },
+  {
+    "id": "k3.3-02",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-02.jpg",
+    "titulo_de": "Knochenstruktur",
+    "titulo_es": "Estructura de un hueso largo"
+  },
+  {
+    "id": "k3.3-03",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-03.jpg",
+    "titulo_de": "Bänder des Sprunggelenks",
+    "titulo_es": "Ligamentos del tobillo"
+  },
+  {
+    "id": "k3.3-04",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-04.jpg",
+    "titulo_de": "Grundaufbau eines echten Gelenks",
+    "titulo_es": "Estructura básica de una articulación verdadera"
+  },
+  {
+    "id": "k3.3-05",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-05.jpg",
+    "titulo_de": "Kugelgelenk (Hüftgelenk)",
+    "titulo_es": "Articulación esferoidea (cadera)"
+  },
+  {
+    "id": "k3.3-06",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-06.jpg",
+    "titulo_de": "Eigelenk (Handgelenk)",
+    "titulo_es": "Articulación elipsoidea (muñeca)"
+  },
+  {
+    "id": "k3.3-07",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-07.jpg",
+    "titulo_de": "Sattelgelenk (Daumenwurzelgelenk)",
+    "titulo_es": "Articulación en silla de montar (raíz del pulgar)"
+  },
+  {
+    "id": "k3.3-08",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-08.jpg",
+    "titulo_de": "Scharniergelenk (Ellenbogengelenk)",
+    "titulo_es": "Articulación en bisagra (codo)"
+  },
+  {
+    "id": "k3.3-09",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-09.jpg",
+    "titulo_de": "Zapfengelenk (Ellen-Speichen-Gelenk)",
+    "titulo_es": "Articulación de pivote (radiocubital)"
+  },
+  {
+    "id": "k3.3-10",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-10.jpg",
+    "titulo_de": "Planes Gelenk (Hand-/Fußwurzel)",
+    "titulo_es": "Articulación plana (carpo/tarso)"
+  },
+  {
+    "id": "k3.3-11",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-11.jpg",
+    "titulo_de": "Unechte Gelenke (Synarthrosen)",
+    "titulo_es": "Articulaciones falsas (sinartrosis)"
+  },
+  {
+    "id": "k3.3-12",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-12.jpg",
+    "titulo_de": "Kniegelenk",
+    "titulo_es": "Articulación de la rodilla"
+  },
+  {
+    "id": "k3.3-13",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-13.jpg",
+    "titulo_de": "Der Meniskus",
+    "titulo_es": "El menisco"
+  },
+  {
+    "id": "k3.3-14",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-14.jpg",
+    "titulo_de": "Aufbau der Wirbelsäule",
+    "titulo_es": "Estructura de la columna vertebral"
+  },
+  {
+    "id": "k3.3-15",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-15.jpg",
+    "titulo_de": "Übersicht Aufbau der Wirbel",
+    "titulo_es": "Estructura de las vértebras (cervical/torácica/lumbar)"
+  },
+  {
+    "id": "k3.3-16",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-16.jpg",
+    "titulo_de": "1. und 2. Halswirbel (Atlas und Axis)",
+    "titulo_es": "1ª y 2ª vértebras cervicales (atlas y axis)"
+  },
+  {
+    "id": "k3.3-17",
+    "capitulo_id": "k3.3",
+    "archivo": "images/k3.3-17.jpg",
+    "titulo_de": "Aufbau der Bandscheibe",
+    "titulo_es": "Estructura del disco intervertebral"
+  },
+  {
+    "id": "k3.4-01",
+    "capitulo_id": "k3.4",
+    "archivo": "images/k3.4-01.jpg",
+    "titulo_de": "Muskelfaserbündel",
+    "titulo_es": "Fascículo de fibras musculares"
+  },
+  {
+    "id": "k3.4-02",
+    "capitulo_id": "k3.4",
+    "archivo": "images/k3.4-02.jpg",
+    "titulo_de": "Aufbau der Myofibrille",
+    "titulo_es": "Estructura de la miofibrilla"
+  },
+  {
+    "id": "k3.4-03",
+    "capitulo_id": "k3.4",
+    "archivo": "images/k3.4-03.jpg",
+    "titulo_de": "Motorische Einheit",
+    "titulo_es": "Unidad motora"
+  },
+  {
+    "id": "k3.4-04",
+    "capitulo_id": "k3.4",
+    "archivo": "images/k3.4-04.jpg",
+    "titulo_de": "Muskelformen",
+    "titulo_es": "Formas musculares"
+  },
+  {
+    "id": "k3.4-05",
+    "capitulo_id": "k3.4",
+    "archivo": "images/k3.4-05.jpg",
+    "titulo_de": "Herzmuskel, Skelettmuskel, glatte Muskulatur",
+    "titulo_es": "Músculo cardíaco, esquelético y liso"
+  },
+  {
+    "id": "k3.5-01",
+    "capitulo_id": "k3.5",
+    "archivo": "images/k3.5-01.jpg",
+    "titulo_de": "Zur Verkürzung neigende Muskeln",
+    "titulo_es": "Músculos con tendencia al acortamiento (a estirar)"
+  },
+  {
+    "id": "k3.5-02",
+    "capitulo_id": "k3.5",
+    "archivo": "images/k3.5-02.jpg",
+    "titulo_de": "Zur Abschwächung neigende Muskeln",
+    "titulo_es": "Músculos con tendencia al debilitamiento (a fortalecer)"
+  },
+  {
+    "id": "k3.5-03",
+    "capitulo_id": "k3.5",
+    "archivo": "images/k3.5-03.jpg",
+    "titulo_de": "Körperachsen und -ebenen",
+    "titulo_es": "Ejes y planos corporales"
+  },
+  {
+    "id": "k3.5-04",
+    "capitulo_id": "k3.5",
+    "archivo": "images/k3.5-04.jpg",
+    "titulo_de": "Lage- und Richtungsbezeichnungen",
+    "titulo_es": "Términos de posición y dirección"
+  },
+  {
+    "id": "k3.6-01",
+    "capitulo_id": "k3.6",
+    "archivo": "images/k3.6-01.jpg",
+    "titulo_de": "Lage des Herzens",
+    "titulo_es": "Ubicación del corazón"
+  },
+  {
+    "id": "k3.6-02",
+    "capitulo_id": "k3.6",
+    "archivo": "images/k3.6-02.jpg",
+    "titulo_de": "Bau und Funktion des Herzens",
+    "titulo_es": "Estructura y función del corazón"
+  },
+  {
+    "id": "k3.6-03",
+    "capitulo_id": "k3.6",
+    "archivo": "images/k3.6-03.jpg",
+    "titulo_de": "Gasaustausch in der Lunge",
+    "titulo_es": "Intercambio de gases en el pulmón"
+  },
+  {
+    "id": "k4-01",
+    "capitulo_id": "k4",
+    "archivo": "images/k4-01.jpg",
+    "titulo_de": "Gesetz der Homöostase",
+    "titulo_es": "Ley de la homeostasis (fases de adaptación)"
+  },
+  {
+    "id": "k4-02",
+    "capitulo_id": "k4",
+    "archivo": "images/k4-02.jpg",
+    "titulo_de": "Kraftpyramide",
+    "titulo_es": "Pirámide de la fuerza"
+  },
+  {
+    "id": "k5-7-01",
+    "capitulo_id": "k5-7",
+    "archivo": "images/k5-7-01.jpg",
+    "titulo_de": "Maximalkraftpyramide (Wiederholungszahl)",
+    "titulo_es": "Pirámide de fuerza máxima (nº de repeticiones)"
+  },
+  {
+    "id": "k5-7-02",
+    "capitulo_id": "k5-7",
+    "archivo": "images/k5-7-02.jpg",
+    "titulo_de": "Maximalkraftpyramide (Belastungsdauer)",
+    "titulo_es": "Pirámide de fuerza máxima (duración de la carga)"
+  },
+  {
+    "id": "k5-7-03",
+    "capitulo_id": "k5-7",
+    "archivo": "images/k5-7-03.jpg",
+    "titulo_de": "Borg-Skala",
+    "titulo_es": "Escala de Borg (esfuerzo percibido)"
+  },
+  {
+    "id": "k5-7-04",
+    "capitulo_id": "k5-7",
+    "archivo": "images/k5-7-04.jpg",
+    "titulo_de": "Borg-Skala (modifiziert)",
+    "titulo_es": "Escala de Borg (modificada)"
+  },
+  {
+    "id": "k5-7-05",
+    "capitulo_id": "k5-7",
+    "archivo": "images/k5-7-05.jpg",
+    "titulo_de": "Laktatschwellen",
+    "titulo_es": "Umbrales de lactato"
+  },
+  {
+    "id": "k8-01",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-01.jpg",
+    "titulo_de": "Bankdrücken",
+    "titulo_es": "Press de banca"
+  },
+  {
+    "id": "k8-02",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-02.jpg",
+    "titulo_de": "Fliegende Bewegungen / Butterfly",
+    "titulo_es": "Vuelos / Butterfly"
+  },
+  {
+    "id": "k8-03",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-03.jpg",
+    "titulo_de": "Liegestütze",
+    "titulo_es": "Flexiones de brazos (push-ups)"
+  },
+  {
+    "id": "k8-04",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-04.jpg",
+    "titulo_de": "Rudern",
+    "titulo_es": "Remo"
+  },
+  {
+    "id": "k8-05",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-05.jpg",
+    "titulo_de": "Latzug",
+    "titulo_es": "Jalón al pecho"
+  },
+  {
+    "id": "k8-06",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-06.jpg",
+    "titulo_de": "Klimmzüge",
+    "titulo_es": "Dominadas"
+  },
+  {
+    "id": "k8-07",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-07.jpg",
+    "titulo_de": "Schulterdrücken",
+    "titulo_es": "Press de hombros"
+  },
+  {
+    "id": "k8-08",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-08.jpg",
+    "titulo_de": "Butterfly reverse",
+    "titulo_es": "Butterfly inverso"
+  },
+  {
+    "id": "k8-09",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-09.jpg",
+    "titulo_de": "Seitheben",
+    "titulo_es": "Elevaciones laterales"
+  },
+  {
+    "id": "k8-10",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-10.jpg",
+    "titulo_de": "Bizeps-Curl",
+    "titulo_es": "Curl de bíceps"
+  },
+  {
+    "id": "k8-11",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-11.jpg",
+    "titulo_de": "Trizepsdrücken",
+    "titulo_es": "Press de tríceps"
+  },
+  {
+    "id": "k8-12",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-12.jpg",
+    "titulo_de": "Crunches (Rumpfaufrichten)",
+    "titulo_es": "Crunches (abdominales)"
+  },
+  {
+    "id": "k8-13",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-13.jpg",
+    "titulo_de": "Rückenstrecken (Backextension)",
+    "titulo_es": "Extensión de espalda (backextension)"
+  },
+  {
+    "id": "k8-14",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-14.jpg",
+    "titulo_de": "Unterarmstütz (Plank)",
+    "titulo_es": "Plancha (plank)"
+  },
+  {
+    "id": "k8-15",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-15.jpg",
+    "titulo_de": "Kniebeuge",
+    "titulo_es": "Sentadilla"
+  },
+  {
+    "id": "k8-16",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-16.jpg",
+    "titulo_de": "Beinpresse",
+    "titulo_es": "Prensa de piernas"
+  },
+  {
+    "id": "k8-17",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-17.jpg",
+    "titulo_de": "Beinbeugen",
+    "titulo_es": "Flexión de piernas (femoral)"
+  },
+  {
+    "id": "k8-18",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-18.jpg",
+    "titulo_de": "Beinstrecken",
+    "titulo_es": "Extensión de piernas (cuádriceps)"
+  },
+  {
+    "id": "k8-19",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-19.jpg",
+    "titulo_de": "Ausfallschritte (Lunges)",
+    "titulo_es": "Zancadas (lunges)"
+  },
+  {
+    "id": "k8-20",
+    "capitulo_id": "k8",
+    "archivo": "images/k8-20.jpg",
+    "titulo_de": "Wadenheben",
+    "titulo_es": "Elevación de talones"
+  }
+]

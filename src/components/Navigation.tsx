@@ -44,6 +44,11 @@ export default function Navigation({ darkMode, setDarkMode }: NavigationProps) {
                 Examen
               </Link>
             </li>
+            <li>
+              <Link to="/imagenes" className="text-gray-700 hover:text-teal-600 dark:text-gray-300 dark:hover:text-teal-400">
+                Imágenes
+              </Link>
+            </li>
           </ul>
 
           <button
