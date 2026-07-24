@@ -1,16 +1,21 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useLeitner } from '../../stores/useLeitner';
 import { useUserProgress } from '../../stores/useUserProgress';
+import { useState } from 'react';
 import capitulosData from '../../data/capitulos.json';
 import preguntasData from '../../data/preguntas.json';
-import { ArrowLeft, CheckCircle, XCircle, Clock } from 'lucide-react';
+import leccionesContenido from '../../data/lecciones_contenido.json';
+import { ArrowLeft, CheckCircle, XCircle, Clock, ChevronDown, ChevronUp } from 'lucide-react';
 import type { Pregunta } from '../../types';
+
+const contenidoPorCapitulo = leccionesContenido as Record<string, string[]>;
 
 export default function CapituloDetail() {
   const { capitulo_id } = useParams<{ capitulo_id: string }>();
   const navigate = useNavigate();
   const { tarjetas, responderPregunta } = useLeitner();
   const { progress, registrarRespuesta } = useUserProgress();
+  const [leccionAbierta, setLeccionAbierta] = useState(true);
 
   if (!capitulo_id) {
     return <div className="text-center text-gray-500">Capítulo no encontrado</div>;
@@ -66,6 +71,44 @@ export default function CapituloDetail() {
           <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">{capitulo.titulo_de}</p>
         </div>
       </div>
+
+      {/* Contenido de la lección */}
+      {contenidoPorCapitulo[capitulo_id] && (
+        <div className="card">
+          <button
+            onClick={() => setLeccionAbierta((v) => !v)}
+            className="flex w-full items-center justify-between text-left"
+          >
+            <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
+              Contenido de la lección
+            </h2>
+            {leccionAbierta ? (
+              <ChevronUp className="h-5 w-5 flex-shrink-0 text-gray-500" />
+            ) : (
+              <ChevronDown className="h-5 w-5 flex-shrink-0 text-gray-500" />
+            )}
+          </button>
+
+          {leccionAbierta && (
+            <div className="mt-4 space-y-3">
+              {contenidoPorCapitulo[capitulo_id].map((parrafo, idx) =>
+                parrafo.startsWith('•') || parrafo.startsWith('✓') ? (
+                  <p
+                    key={idx}
+                    className="pl-4 text-sm text-gray-800 dark:text-gray-200"
+                  >
+                    {parrafo}
+                  </p>
+                ) : (
+                  <p key={idx} className="text-sm leading-relaxed text-gray-800 dark:text-gray-200">
+                    {parrafo}
+                  </p>
+                )
+              )}
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Subcapítulos y preguntas */}
       {capitulo.subcapitulos && capitulo.subcapitulos.length > 0 ? (
