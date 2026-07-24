@@ -192,12 +192,25 @@ export default function QuizResults({
                     #{pregunta.numero}
                   </span>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm text-gray-900 dark:text-white">
+                    <p className="text-sm font-medium text-gray-900 dark:text-white">
+                      {pregunta.pregunta_de}
+                    </p>
+                    <p className="text-xs italic text-gray-500 dark:text-gray-400">
                       {pregunta.pregunta_es}
                     </p>
-                    <p className="mt-1 text-xs text-gray-600 dark:text-gray-400">
-                      Respuesta: {pregunta.respuesta_es}
+                    <p className="mt-1 whitespace-pre-line text-xs text-gray-700 dark:text-gray-300">
+                      Antwort: {pregunta.respuesta_de}
                     </p>
+                    {pregunta.respuesta_es && (
+                      <p className="mt-1 whitespace-pre-line text-xs italic text-gray-600 dark:text-gray-400">
+                        {pregunta.respuesta_es}
+                      </p>
+                    )}
+                    {pregunta.explicacion_es && (
+                      <p className="mt-1 text-xs text-gray-600 dark:text-gray-400">
+                        <span className="font-semibold">Por qué:</span> {pregunta.explicacion_es}
+                      </p>
+                    )}
                   </div>
                 </div>
               </div>
