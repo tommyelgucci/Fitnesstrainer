@@ -1,0 +1,160 @@
+{
+  "capitulos": [
+    {
+      "id": "k2",
+      "numero": 2,
+      "titulo_de": "Grundsätze Trainerverhalten",
+      "titulo_es": "Principios del comportamiento del entrenador",
+      "peso": 0.08,
+      "subcapitulos": [
+        {
+          "id": "k2_intro",
+          "titulo_de": "Kompetenz und Verantwortung",
+          "titulo_es": "Competencia y responsabilidad"
+        }
+      ]
+    },
+    {
+      "id": "k3.2",
+      "numero": 3,
+      "subtitulo": "3.2",
+      "titulo_de": "Der Zellaufbau",
+      "titulo_es": "La estructura celular",
+      "peso": 0.10,
+      "subcapitulos": [
+        {
+          "id": "k3.2_intro",
+          "titulo_de": "Grundstruktur der Zelle",
+          "titulo_es": "Estructura básica de la célula"
+        }
+      ]
+    },
+    {
+      "id": "k3.3",
+      "numero": 3,
+      "subtitulo": "3.3",
+      "titulo_de": "Passiver Bewegungsapparat",
+      "titulo_es": "Aparato locomotor pasivo",
+      "peso": 0.15,
+      "subcapitulos": [
+        {
+          "id": "k3.3_knochen",
+          "titulo_de": "Knochen und Knorpel",
+          "titulo_es": "Huesos y cartílagos"
+        },
+        {
+          "id": "k3.3_gelenke",
+          "titulo_de": "Gelenke und Bänder",
+          "titulo_es": "Articulaciones y ligamentos"
+        },
+        {
+          "id": "k3.3_wirbelsaule",
+          "titulo_de": "Wirbelsäule",
+          "titulo_es": "Columna vertebral"
+        }
+      ]
+    },
+    {
+      "id": "k3.4",
+      "numero": 3,
+      "subtitulo": "3.4",
+      "titulo_de": "Aktiver Bewegungsapparat",
+      "titulo_es": "Aparato locomotor activo",
+      "peso": 0.15,
+      "subcapitulos": [
+        {
+          "id": "k3.4_muskel",
+          "titulo_de": "Muskelaufbau und Kontraktion",
+          "titulo_es": "Estructura muscular y contracción"
+        }
+      ]
+    },
+    {
+      "id": "k3.5",
+      "numero": 3,
+      "subtitulo": "3.5",
+      "titulo_de": "Muskelkatalog & Dysbalancen",
+      "titulo_es": "Catálogo muscular y desequilibrios",
+      "peso": 0.12,
+      "subcapitulos": [
+        {
+          "id": "k3.5_katalog",
+          "titulo_de": "Hauptmuskelgruppen",
+          "titulo_es": "Grupos musculares principales"
+        }
+      ]
+    },
+    {
+      "id": "k3.6",
+      "numero": 3,
+      "subtitulo": "3.6",
+      "titulo_de": "Herz-Kreislauf-System",
+      "titulo_es": "Sistema cardiovascular",
+      "peso": 0.06,
+      "subcapitulos": [
+        {
+          "id": "k3.6_cardio",
+          "titulo_de": "Herz und Blutkreislauf",
+          "titulo_es": "Corazón y circulación sanguínea"
+        }
+      ]
+    },
+    {
+      "id": "k3.7",
+      "numero": 3,
+      "subtitulo": "3.7",
+      "titulo_de": "Nervensystem",
+      "titulo_es": "Sistema nervioso",
+      "peso": 0.06,
+      "subcapitulos": [
+        {
+          "id": "k3.7_neuro",
+          "titulo_de": "Zentrales und peripheres Nervensystem",
+          "titulo_es": "Sistema nervioso central y periférico"
+        }
+      ]
+    },
+    {
+      "id": "k4",
+      "numero": 4,
+      "titulo_de": "Trainings- und Bewegungslehre",
+      "titulo_es": "Teoría del entrenamiento y movimiento",
+      "peso": 0.12,
+      "subcapitulos": [
+        {
+          "id": "k4_intro",
+          "titulo_de": "Grundlagen der Trainingslehre",
+          "titulo_es": "Fundamentos de la teoría del entrenamiento"
+        }
+      ]
+    },
+    {
+      "id": "k5-7",
+      "numero": 5,
+      "titulo_de": "Belastungssteuerung, Trainingsplanung & Kommunikation",
+      "titulo_es": "Control de carga, planificación y comunicación",
+      "peso": 0.11,
+      "subcapitulos": [
+        {
+          "id": "k5_carga",
+          "titulo_de": "Belastungssteuerung",
+          "titulo_es": "Control de la carga"
+        }
+      ]
+    },
+    {
+      "id": "k8",
+      "numero": 8,
+      "titulo_de": "Übungskatalog",
+      "titulo_es": "Catálogo de ejercicios",
+      "peso": 0.05,
+      "subcapitulos": [
+        {
+          "id": "k8_ejercicios",
+          "titulo_de": "Ejercicios por grupo muscular",
+          "titulo_es": "Ejercicios por grupo muscular"
+        }
+      ]
+    }
+  ]
+}
