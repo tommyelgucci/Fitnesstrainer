@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { BookOpen, Layers, Zap, Target, TrendingUp } from 'lucide-react';
+import { BookOpen, Layers, Zap, Target, TrendingUp, Image as ImageIcon } from 'lucide-react';
 
 export default function Dashboard() {
   useEffect(() => {
@@ -65,9 +65,9 @@ export default function Dashboard() {
       </div>
 
       {/* Main CTA Buttons */}
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 mb-8">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-3 mb-8">
         <Link
-          to="/lessons"
+          to="/lecciones"
           className="card hover:shadow-lg transition-shadow cursor-pointer"
         >
           <div className="flex items-center gap-4">
@@ -99,6 +99,25 @@ export default function Dashboard() {
               </h2>
               <p className="text-sm text-gray-600 dark:text-gray-400">
                 Memoriza términos alemanes
+              </p>
+            </div>
+          </div>
+        </Link>
+
+        <Link
+          to="/imagenes"
+          className="card hover:shadow-lg transition-shadow cursor-pointer"
+        >
+          <div className="flex items-center gap-4">
+            <div className="rounded-lg bg-teal-100 p-3 dark:bg-teal-900">
+              <ImageIcon className="h-6 w-6 text-teal-600 dark:text-teal-400" />
+            </div>
+            <div>
+              <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
+                Imágenes
+              </h2>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                Diagramas y gráficas del manual
               </p>
             </div>
           </div>

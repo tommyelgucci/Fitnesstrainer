@@ -9,6 +9,7 @@ import CapituloDetail from './components/Lecciones/CapituloDetail';
 import FlashcardBrowser from './components/Flashcards/FlashcardBrowser';
 import QuizBrowser from './components/Quiz/QuizBrowser';
 import ExamBrowser from './components/Exam/ExamBrowser';
+import Imagenes from './components/Imagenes/Imagenes';
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
@@ -40,6 +41,7 @@ function App() {
               <Route path="/flashcards" element={<FlashcardBrowser />} />
               <Route path="/quiz" element={<QuizBrowser />} />
               <Route path="/exam" element={<ExamBrowser />} />
+              <Route path="/imagenes" element={<Imagenes />} />
               <Route path="/leitner-demo" element={<LeitnerDemo />} />
             </Routes>
           </main>

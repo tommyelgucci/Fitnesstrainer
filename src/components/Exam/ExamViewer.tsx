@@ -184,9 +184,37 @@ export default function ExamViewer({ startTime, onBack }: ExamViewerProps) {
             Pregunta #{currentPregunta.numero}
           </p>
           <p className="mt-4 text-center text-xl font-semibold text-gray-900 dark:text-white">
+            {currentPregunta.pregunta_de}
+          </p>
+          <p className="mt-2 text-center text-sm italic text-gray-600 dark:text-gray-400">
             {currentPregunta.pregunta_es}
           </p>
         </div>
+
+        {/* Respuesta correcta + explicación (solo tras responder) */}
+        {currentAnswer?.answered && (
+          <div className="card bg-gray-50 dark:bg-gray-800/50">
+            <p className="text-xs font-semibold uppercase text-gray-600 dark:text-gray-400">
+              Antwort
+            </p>
+            <p className="mt-1 whitespace-pre-line text-sm font-medium text-gray-900 dark:text-white">
+              {currentPregunta.respuesta_de}
+            </p>
+            {currentPregunta.respuesta_es && (
+              <p className="mt-2 whitespace-pre-line text-sm italic text-gray-600 dark:text-gray-400">
+                {currentPregunta.respuesta_es}
+              </p>
+            )}
+            {currentPregunta.explicacion_es && (
+              <div className="mt-3 border-t border-gray-200 pt-2 dark:border-gray-700">
+                <p className="text-xs font-semibold text-gray-600 dark:text-gray-400">Por qué</p>
+                <p className="mt-1 text-sm text-gray-700 dark:text-gray-300">
+                  {currentPregunta.explicacion_es}
+                </p>
+              </div>
+            )}
+          </div>
+        )}
 
         {/* Respuesta */}
         <div className="space-y-3">
