@@ -17,8 +17,8 @@ export default function Navigation({ darkMode, setDarkMode }: NavigationProps) {
           </span>
         </Link>
 
-        <div className="flex items-center gap-4">
-          <ul className="hidden flex-1 items-center gap-6 md:flex md:ml-8">
+        <div className="flex min-w-0 flex-1 items-center gap-4">
+          <ul className="flex flex-1 items-center gap-4 overflow-x-auto whitespace-nowrap text-sm md:ml-8 md:gap-6 md:text-base">
             <li>
               <Link to="/" className="text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">
                 Dashboard
