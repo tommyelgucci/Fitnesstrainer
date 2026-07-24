@@ -134,6 +134,9 @@ export default function FlashcardViewer({
                 Pregunta
               </p>
               <p className="mt-4 text-center text-lg font-semibold text-gray-900 dark:text-white">
+                {currentPregunta.pregunta_de}
+              </p>
+              <p className="mt-2 text-center text-sm italic text-gray-600 dark:text-gray-400">
                 {currentPregunta.pregunta_es}
               </p>
             </div>
@@ -144,18 +147,23 @@ export default function FlashcardViewer({
 
           {/* Respuesta side */}
           <div
-            className={`absolute inset-0 flex flex-col justify-between rounded-xl border-2 border-green-300 bg-gradient-to-br from-green-50 to-emerald-50 p-6 dark:border-green-700 dark:from-green-900/20 dark:to-emerald-900/20 ${
+            className={`absolute inset-0 flex flex-col justify-between overflow-y-auto rounded-xl border-2 border-green-300 bg-gradient-to-br from-green-50 to-emerald-50 p-6 dark:border-green-700 dark:from-green-900/20 dark:to-emerald-900/20 ${
               !isFlipped ? 'pointer-events-none opacity-0' : ''
             }`}
             style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
           >
             <div>
               <p className="text-xs font-semibold uppercase text-green-600 dark:text-green-400">
-                Respuesta
+                Antwort
               </p>
-              <p className="mt-4 text-center text-lg font-semibold text-gray-900 dark:text-white">
-                {currentPregunta.respuesta_es}
+              <p className="mt-4 whitespace-pre-line text-center text-lg font-semibold text-gray-900 dark:text-white">
+                {currentPregunta.respuesta_de}
               </p>
+              {currentPregunta.respuesta_es && (
+                <p className="mt-2 whitespace-pre-line text-center text-sm italic text-gray-600 dark:text-gray-400">
+                  {currentPregunta.respuesta_es}
+                </p>
+              )}
               {currentPregunta.explicacion_es && (
                 <div className="mt-4 border-t border-green-200 pt-3 dark:border-green-800">
                   <p className="text-xs font-semibold uppercase text-green-600 dark:text-green-400">

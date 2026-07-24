@@ -27,7 +27,7 @@ export default function FlashcardBrowser() {
     setSelectedCapitulo(null);
   };
 
-  if (mode === 'viewer' && selectedCapitulo) {
+  if (mode === 'viewer') {
     return (
       <FlashcardViewer
         capituloId={selectedCapitulo}
