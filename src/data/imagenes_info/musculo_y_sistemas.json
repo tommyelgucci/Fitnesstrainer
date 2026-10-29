@@ -1,0 +1,765 @@
+{
+  "k3.4-01": {
+    "tipo": "anatomia",
+    "resumen_es": "Del músculo entero hasta la molécula: el músculo se compone de fascículos, que se componen de fibras, que se componen de miofibrillas, que se componen de sarcómeros con filamentos de actina y miosina. La imagen original está en inglés; aquí la tienes en alemán y español.",
+    "claves_es": [
+      "Orden de lo grande a lo pequeño: músculo → fascículo → fibra muscular → miofibrilla → sarcómero → filamentos.",
+      "El sarcómero es la unidad contráctil más pequeña.",
+      "La contracción ocurre cuando los filamentos de actina y miosina se deslizan entre sí."
+    ],
+    "terminos": [
+      {
+        "de": "Muskel",
+        "es": "Músculo",
+        "nota": "Muscle",
+        "x": 15.7,
+        "y": 25.2
+      },
+      {
+        "de": "Faszie",
+        "es": "Fascia",
+        "nota": "Fascia: envoltura de tejido conectivo.",
+        "x": 25.7,
+        "y": 31.8
+      },
+      {
+        "de": "Muskelfasern",
+        "es": "Fibras musculares",
+        "nota": "Muscle fibers: células musculares largas.",
+        "x": 38.6,
+        "y": 39.8
+      },
+      {
+        "de": "Blutgefäße",
+        "es": "Vasos sanguíneos",
+        "nota": "Blood vessels: aportan oxígeno y nutrientes.",
+        "x": 50,
+        "y": 50.4
+      },
+      {
+        "de": "Sarkomer",
+        "es": "Sarcómero",
+        "nota": "Sarcomere: unidad contráctil.",
+        "x": 72.9,
+        "y": 62.3
+      },
+      {
+        "de": "Myofibrille",
+        "es": "Miofibrilla",
+        "nota": "Myofibril: cadena de sarcómeros.",
+        "x": 77.1,
+        "y": 76.9
+      },
+      {
+        "de": "Aktin",
+        "es": "Actina",
+        "nota": "Actin: filamento fino.",
+        "x": 91.4,
+        "y": 84.9
+      },
+      {
+        "de": "Myosin",
+        "es": "Miosina",
+        "nota": "Myosin: filamento grueso con 'cabezas' que tiran de la actina.",
+        "x": 87.1,
+        "y": 87.5
+      }
+    ]
+  },
+  "k3.4-02": {
+    "tipo": "anatomia",
+    "resumen_es": "Ampliación de una miofibrilla hasta el nivel de sarcómero. Cada sarcómero está limitado por dos discos Z y contiene filamentos finos (actina) y gruesos (miosina). Al contraerse, los filamentos se deslizan y los discos Z se acercan (teoría del deslizamiento de los filamentos).",
+    "claves_es": [
+      "Sarcómero = tramo entre dos discos Z.",
+      "Actina (fina) se ancla a los discos Z; miosina (gruesa) queda en el centro.",
+      "Contracción = los discos Z se acercan; los filamentos NO se acortan, solo se deslizan."
+    ],
+    "terminos": [
+      {
+        "de": "Myofibrille",
+        "es": "Miofibrilla",
+        "nota": "Estructura en forma de cilindro dentro de la fibra muscular.",
+        "x": 47,
+        "y": 17
+      },
+      {
+        "de": "Sarkomer",
+        "es": "Sarcómero",
+        "nota": "Unidad funcional mínima del músculo.",
+        "x": 57,
+        "y": 60
+      },
+      {
+        "de": "Z-Scheibe",
+        "es": "Disco Z (línea Z)",
+        "nota": "Límite entre dos sarcómeros.",
+        "x": 26.4,
+        "y": 70.6
+      },
+      {
+        "de": "Z-Scheibe (rechts)",
+        "es": "Disco Z (derecho)",
+        "nota": "El otro extremo del sarcómero.",
+        "x": 87,
+        "y": 58.5
+      },
+      {
+        "de": "Aktinfilament",
+        "es": "Filamento de actina",
+        "nota": "Fino; se desliza hacia el centro.",
+        "x": 45,
+        "y": 79.6
+      },
+      {
+        "de": "Myosinfilament",
+        "es": "Filamento de miosina",
+        "nota": "Grueso; sus cabezas tiran de la actina.",
+        "x": 62.9,
+        "y": 64.5
+      }
+    ]
+  },
+  "k3.4-03": {
+    "tipo": "anatomia",
+    "resumen_es": "Una unidad motora es una motoneurona de la médula espinal junto con todas las fibras musculares que inerva. Cuando la neurona manda una señal, todas sus fibras se contraen a la vez ('todo o nada').",
+    "claves_es": [
+      "Unidades pequeñas (pocas fibras) → movimientos finos (ojo, dedos).",
+      "Unidades grandes (muchas fibras) → movimientos potentes (glúteo, cuádriceps).",
+      "Entrenar la fuerza máxima mejora el reclutamiento de unidades motoras (coordinación intramuscular)."
+    ],
+    "terminos": [
+      {
+        "de": "Rückenmark",
+        "es": "Médula espinal",
+        "nota": "Aquí está el cuerpo de la motoneurona."
+      },
+      {
+        "de": "Motoneuron",
+        "es": "Motoneurona",
+        "nota": "Neurona que envía la orden al músculo."
+      },
+      {
+        "de": "Axon",
+        "es": "Axón",
+        "nota": "Prolongación larga de la neurona."
+      },
+      {
+        "de": "Muskelfasern",
+        "es": "Fibras musculares",
+        "nota": "Todas las de una unidad motora se contraen juntas."
+      },
+      {
+        "de": "motorische Endplatte",
+        "es": "Placa motora (unión neuromuscular)",
+        "nota": "Donde el nervio 'habla' con la fibra muscular."
+      },
+      {
+        "de": "motorische Einheit",
+        "es": "Unidad motora",
+        "nota": "Motoneurona + sus fibras."
+      },
+      {
+        "de": "Alles-oder-Nichts-Gesetz",
+        "es": "Ley del todo o nada",
+        "nota": "La fibra se contrae completamente o no se contrae."
+      }
+    ]
+  },
+  "k3.4-04": {
+    "tipo": "anatomia",
+    "resumen_es": "Formas básicas de los músculos según la disposición de sus fibras. La forma influye en la fuerza y en el recorrido del músculo.",
+    "claves_es": [
+      "Fusiforme: recorrido largo (p. ej. bíceps).",
+      "Peniforme (pennado): fibras oblicuas → más fibras en el mismo volumen, más fuerza pero menos recorrido.",
+      "Plano: se extiende como una lámina (p. ej. dorsal ancho, oblicuos)."
+    ],
+    "terminos": [
+      {
+        "de": "spindelförmig",
+        "es": "Fusiforme (en forma de huso)",
+        "nota": "Ej.: músculo braquial."
+      },
+      {
+        "de": "einfach gefiedert",
+        "es": "Unipenniforme (una pluma)",
+        "nota": "Fibras oblicuas de un solo lado del tendón."
+      },
+      {
+        "de": "zweifach gefiedert",
+        "es": "Bipenniforme (doble pluma)",
+        "nota": "Ej.: recto femoral."
+      },
+      {
+        "de": "zweiköpfig",
+        "es": "Bicipital (dos cabezas)",
+        "nota": "Ej.: bíceps braquial."
+      },
+      {
+        "de": "mehrbäuchig",
+        "es": "Poligástrico (varios vientres)",
+        "nota": "Ej.: recto abdominal, con intersecciones tendinosas."
+      },
+      {
+        "de": "platt",
+        "es": "Plano (aplanado)",
+        "nota": "Ej.: dorsal ancho, trapecio, oblicuos."
+      }
+    ]
+  },
+  "k3.4-05": {
+    "tipo": "anatomia",
+    "resumen_es": "Los tres tipos de tejido muscular del cuerpo: cardíaco (solo en el corazón), esquelético (el que se mueve a voluntad y mueve los huesos) y liso (paredes de órganos y vasos). Se diferencian en el aspecto de sus fibras y en si los controlamos voluntariamente.",
+    "claves_es": [
+      "Esquelético: estriado, voluntario, se cansa; es el que se entrena.",
+      "Cardíaco: estriado pero involuntario, no se cansa.",
+      "Liso: no estriado, involuntario; en intestino, vasos, vejiga."
+    ],
+    "terminos": [
+      {
+        "de": "Herzmuskel",
+        "es": "Músculo cardíaco",
+        "nota": "Quer gestreift (estriado), unwillkürlich (involuntario). En el corazón."
+      },
+      {
+        "de": "Skelettmuskel",
+        "es": "Músculo esquelético",
+        "nota": "Quer gestreift, willkürlich (voluntario). Mueve el esqueleto."
+      },
+      {
+        "de": "Glatte Muskulatur",
+        "es": "Músculo liso",
+        "nota": "Nicht gestreift, unwillkürlich. Órganos y vasos."
+      },
+      {
+        "de": "willkürlich",
+        "es": "Voluntario",
+        "nota": "Lo controlas con la voluntad."
+      },
+      {
+        "de": "unwillkürlich",
+        "es": "Involuntario",
+        "nota": "No lo controlas conscientemente."
+      },
+      {
+        "de": "quergestreift",
+        "es": "Estriado",
+        "nota": "Con bandas transversales (sarcómeros)."
+      }
+    ]
+  },
+  "k3.5-01": {
+    "tipo": "anatomia",
+    "resumen_es": "Músculos que por la vida diaria (sentarse mucho, malas posturas) y por el entrenamiento unilateral tienden a acortarse. Su acortamiento tira de las articulaciones y provoca desequilibrios posturales. Se trabajan sobre todo con estiramientos. Vistos de frente y de espalda.",
+    "claves_es": [
+      "Musculatura tónica (postural): tiende a acortarse.",
+      "Se estira; la antagonista (que tiende a debilitarse) se fortalece.",
+      "Ejemplo típico del oficinista: flexores de cadera acortados → hiperlordosis lumbar."
+    ],
+    "terminos": [
+      {
+        "de": "Brustmuskulatur",
+        "es": "Musculatura pectoral",
+        "nota": "M. pectoralis: hombros hacia delante."
+      },
+      {
+        "de": "Hüftbeuger",
+        "es": "Flexores de la cadera",
+        "nota": "M. iliopsoas, recto femoral."
+      },
+      {
+        "de": "Untere Rückenmuskulatur",
+        "es": "Musculatura lumbar (parte baja de la espalda)",
+        "nota": "Erector de la columna lumbar."
+      },
+      {
+        "de": "Beugemuskulatur des Oberschenkels",
+        "es": "Isquiotibiales (parte posterior del muslo)",
+        "nota": "Ischiocrurale Muskulatur."
+      },
+      {
+        "de": "Wadenmuskulatur",
+        "es": "Musculatura de la pantorrilla (gemelos y sóleo)",
+        "nota": "M. triceps surae."
+      }
+    ]
+  },
+  "k3.5-02": {
+    "tipo": "anatomia",
+    "resumen_es": "Músculos que tienden a debilitarse por falta de uso o por desequilibrio. Hay que fortalecerlos para equilibrar la postura. Son los antagonistas de los músculos que tienden a acortarse.",
+    "claves_es": [
+      "Musculatura fásica: tiende a debilitarse.",
+      "Se fortalece con ejercicios de fuerza.",
+      "Trabajar solo pecho sin espalda → hombros hacia delante: por eso se fortalecen rombo, trapecio y rotadores externos."
+    ],
+    "terminos": [
+      {
+        "de": "Halsbeuger",
+        "es": "Flexores del cuello",
+        "nota": "Tiran de la cabeza hacia atrás cuando fallan (cuello adelantado)."
+      },
+      {
+        "de": "Tiefe Bauchmuskulatur",
+        "es": "Musculatura abdominal profunda",
+        "nota": "Transverso del abdomen: estabiliza el tronco."
+      },
+      {
+        "de": "Beinstrecker",
+        "es": "Extensores de la pierna (cuádriceps)"
+      },
+      {
+        "de": "Fußheber",
+        "es": "Dorsiflexores del pie",
+        "nota": "Ej.: tibial anterior (Schienbeinmuskel)."
+      },
+      {
+        "de": "Hintere Schultermuskulatur",
+        "es": "Musculatura posterior del hombro"
+      },
+      {
+        "de": "Trapezmuskel",
+        "es": "Trapecio",
+        "nota": "Parte media e inferior."
+      },
+      {
+        "de": "Rautenmuskeln",
+        "es": "Romboides",
+        "nota": "Juntan los omóplatos."
+      },
+      {
+        "de": "Außenrotatoren",
+        "es": "Rotadores externos del hombro",
+        "nota": "Infraespinoso, redondo menor."
+      },
+      {
+        "de": "Rückenstrecker BWS",
+        "es": "Erectores de la columna torácica",
+        "nota": "BWS = Brustwirbelsäule."
+      },
+      {
+        "de": "Gesäßmuskulatur",
+        "es": "Glúteos",
+        "nota": "M. gluteus maximus."
+      }
+    ]
+  },
+  "k3.5-03": {
+    "tipo": "anatomia",
+    "resumen_es": "Los tres planos del cuerpo (cortes imaginarios) y los tres ejes (líneas alrededor de las que giran los movimientos). Sirven para describir cualquier movimiento: cada movimiento ocurre EN un plano y ALREDEDOR de un eje perpendicular a ese plano.",
+    "claves_es": [
+      "Plano sagital (divide izquierda/derecha): flexión y extensión. Eje: horizontal (transversal).",
+      "Plano frontal (divide delante/detrás): abducción y aducción. Eje: sagital.",
+      "Plano transversal (divide arriba/abajo): rotaciones. Eje: longitudinal.",
+      "Regla: el eje es siempre perpendicular al plano del movimiento."
+    ],
+    "terminos": [
+      {
+        "de": "Frontalebene",
+        "es": "Plano frontal (coronal)",
+        "nota": "Divide cuerpo en parte anterior y posterior.",
+        "x": 17,
+        "y": 36
+      },
+      {
+        "de": "Sagittalebene",
+        "es": "Plano sagital",
+        "nota": "Divide en mitades derecha e izquierda. Medianebene = justo por el centro.",
+        "x": 80,
+        "y": 31
+      },
+      {
+        "de": "Transversalebene",
+        "es": "Plano transversal (horizontal)",
+        "nota": "Divide en parte superior e inferior.",
+        "x": 17,
+        "y": 47
+      },
+      {
+        "de": "Longitudinalachse",
+        "es": "Eje longitudinal (vertical)",
+        "nota": "De la cabeza a los pies; rotaciones.",
+        "x": 58.6,
+        "y": 73.8
+      },
+      {
+        "de": "Horizontalachse",
+        "es": "Eje horizontal (transversal)",
+        "nota": "De izquierda a derecha; flexión/extensión.",
+        "x": 25.7,
+        "y": 92
+      },
+      {
+        "de": "Sagittalachse",
+        "es": "Eje sagital",
+        "nota": "De delante a atrás; abducción/aducción.",
+        "x": 67,
+        "y": 90.8
+      },
+      {
+        "de": "Medianebene",
+        "es": "Plano mediano",
+        "nota": "El plano sagital que pasa por la línea media."
+      }
+    ]
+  },
+  "k3.5-04": {
+    "tipo": "anatomia",
+    "resumen_es": "Mapa de términos de posición y dirección que usan los profesionales para decir 'dónde' está algo en el cuerpo. A la izquierda, vista de frente; a la derecha, vista lateral. Toca cada punto para ver el término en alemán/latín y su significado.",
+    "claves_es": [
+      "Cranial/caudal = hacia la cabeza / hacia los pies.",
+      "Proximal/distal = cerca / lejos del tronco (para brazos y piernas).",
+      "Medial/lateral = hacia la línea media / hacia el lado.",
+      "Ventral/dorsal = vientre / espalda; anterior/posterior = delante / detrás.",
+      "Volar = palma de la mano; plantar = planta del pie."
+    ],
+    "terminos": [
+      {
+        "de": "cranial",
+        "es": "Craneal (hacia la cabeza)",
+        "nota": "kopfwärts",
+        "x": 24.6,
+        "y": 7.4
+      },
+      {
+        "de": "caudal",
+        "es": "Caudal (hacia los pies)",
+        "nota": "steißwärts",
+        "x": 25.7,
+        "y": 44.8
+      },
+      {
+        "de": "dexter",
+        "es": "Derecho",
+        "nota": "rechts",
+        "x": 8.6,
+        "y": 19
+      },
+      {
+        "de": "sinister",
+        "es": "Izquierdo",
+        "nota": "links",
+        "x": 41,
+        "y": 19
+      },
+      {
+        "de": "proximal",
+        "es": "Proximal (cerca del tronco)",
+        "x": 15.7,
+        "y": 30.8
+      },
+      {
+        "de": "distal",
+        "es": "Distal (lejos del tronco)",
+        "x": 14,
+        "y": 54.4
+      },
+      {
+        "de": "lateral",
+        "es": "Lateral (hacia el lado)",
+        "nota": "seitwärts",
+        "x": 8.9,
+        "y": 36.2
+      },
+      {
+        "de": "medial",
+        "es": "Medial (hacia el centro)",
+        "nota": "Hacia la línea media del cuerpo.",
+        "x": 25.7,
+        "y": 36.2
+      },
+      {
+        "de": "dorsal (Hand)",
+        "es": "Dorso (de la mano)",
+        "nota": "Dorsal = hacia la espalda / parte superior del pie o mano.",
+        "x": 41.9,
+        "y": 47.8
+      },
+      {
+        "de": "volar",
+        "es": "Volar (palmar)",
+        "nota": "Palma de la mano.",
+        "x": 26.4,
+        "y": 58
+      },
+      {
+        "de": "radial",
+        "es": "Radial (lado del pulgar)",
+        "x": 33,
+        "y": 68.4
+      },
+      {
+        "de": "ulnar",
+        "es": "Cubital (lado del meñique)",
+        "x": 35,
+        "y": 78.6
+      },
+      {
+        "de": "dorsal (Fuß)",
+        "es": "Dorso (del pie)",
+        "nota": "La parte superior del pie.",
+        "x": 16.4,
+        "y": 83.5
+      },
+      {
+        "de": "plantar",
+        "es": "Plantar (planta del pie)",
+        "x": 30.4,
+        "y": 96
+      },
+      {
+        "de": "ventral",
+        "es": "Ventral (hacia el vientre)",
+        "nota": "bauchwärts",
+        "x": 94.3,
+        "y": 35.9
+      },
+      {
+        "de": "dorsal (Rücken)",
+        "es": "Dorsal (hacia la espalda)",
+        "nota": "rückwärts",
+        "x": 69.6,
+        "y": 35.9
+      },
+      {
+        "de": "anterior",
+        "es": "Anterior (delante)",
+        "nota": "vorne",
+        "x": 94.3,
+        "y": 65.4
+      },
+      {
+        "de": "posterior",
+        "es": "Posterior (detrás)",
+        "nota": "hinten",
+        "x": 69.6,
+        "y": 65.4
+      }
+    ]
+  },
+  "k3.6-01": {
+    "tipo": "anatomia",
+    "resumen_es": "Posición del corazón en el tórax: está en el centro del pecho, detrás del esternón, algo desplazado hacia la izquierda, entre los dos pulmones y apoyado sobre el diafragma. Tiene aproximadamente el tamaño de un puño.",
+    "claves_es": [
+      "El corazón está protegido por el esternón y las costillas.",
+      "Su punta apunta hacia abajo y a la izquierda.",
+      "Es un músculo hueco que bombea unos 5 litros de sangre por minuto en reposo."
+    ],
+    "terminos": [
+      {
+        "de": "Herz",
+        "es": "Corazón",
+        "nota": "Cor."
+      },
+      {
+        "de": "Brustkorb",
+        "es": "Caja torácica (tórax)",
+        "nota": "Costillas, esternón y columna torácica."
+      },
+      {
+        "de": "Brustbein",
+        "es": "Esternón"
+      },
+      {
+        "de": "Rippen",
+        "es": "Costillas"
+      },
+      {
+        "de": "Zwerchfell",
+        "es": "Diafragma",
+        "nota": "Músculo de la respiración bajo los pulmones y el corazón."
+      }
+    ]
+  },
+  "k3.6-02": {
+    "tipo": "anatomia",
+    "resumen_es": "Corte del corazón con sus cuatro cavidades (dos aurículas arriba, dos ventrículos abajo), válvulas y grandes vasos. El lado derecho recibe sangre pobre en oxígeno y la envía a los pulmones; el lado izquierdo recibe sangre rica en oxígeno y la envía a todo el cuerpo. Las flechas blancas indican el sentido del flujo.",
+    "claves_es": [
+      "Circuito: cuerpo → vena cava → aurícula derecha → válvula tricúspide → ventrículo derecho → válvula pulmonar → arteria pulmonar → pulmones.",
+      "Pulmones → venas pulmonares → aurícula izquierda → válvula mitral → ventrículo izquierdo → válvula aórtica → aorta → cuerpo.",
+      "En azul: sangre pobre en O₂; en rojo: sangre rica en O₂ (salvo las venas/arterias pulmonares, que al revés)."
+    ],
+    "terminos": [
+      {
+        "de": "Aorta",
+        "es": "Aorta",
+        "nota": "Arteria principal: lleva sangre oxigenada al cuerpo.",
+        "x": 36.4,
+        "y": 11
+      },
+      {
+        "de": "Obere Hohlvene",
+        "es": "Vena cava superior",
+        "nota": "Trae sangre pobre en O₂ de la parte superior del cuerpo.",
+        "x": 25.7,
+        "y": 18.6
+      },
+      {
+        "de": "Pulmonalarterie",
+        "es": "Arteria pulmonar",
+        "nota": "Lleva sangre pobre en O₂ a los pulmones.",
+        "x": 62.9,
+        "y": 16.8
+      },
+      {
+        "de": "Lungenvene",
+        "es": "Vena pulmonar",
+        "nota": "Trae sangre rica en O₂ desde los pulmones.",
+        "x": 75,
+        "y": 28
+      },
+      {
+        "de": "Rechter Vorhof",
+        "es": "Aurícula derecha",
+        "x": 33.6,
+        "y": 47.5
+      },
+      {
+        "de": "Linker Vorhof",
+        "es": "Aurícula izquierda",
+        "x": 65.7,
+        "y": 43.8
+      },
+      {
+        "de": "Trikuspidalklappe",
+        "es": "Válvula tricúspide",
+        "nota": "Entre aurícula y ventrículo derechos (3 valvas).",
+        "x": 41.4,
+        "y": 56.8
+      },
+      {
+        "de": "Mitralklappe",
+        "es": "Válvula mitral",
+        "nota": "Entre aurícula y ventrículo izquierdos (2 valvas).",
+        "x": 63.6,
+        "y": 55
+      },
+      {
+        "de": "Pulmonalklappe",
+        "es": "Válvula pulmonar",
+        "nota": "Entre ventrículo derecho y arteria pulmonar.",
+        "x": 49,
+        "y": 52.5
+      },
+      {
+        "de": "Aortenklappe",
+        "es": "Válvula aórtica",
+        "nota": "Entre ventrículo izquierdo y aorta.",
+        "x": 57.5,
+        "y": 53
+      },
+      {
+        "de": "Rechte Kammer",
+        "es": "Ventrículo derecho",
+        "nota": "Bombea hacia los pulmones.",
+        "x": 45.7,
+        "y": 73.5
+      },
+      {
+        "de": "Linke Kammer",
+        "es": "Ventrículo izquierdo",
+        "nota": "Pared más gruesa: bombea a todo el cuerpo.",
+        "x": 68.6,
+        "y": 80
+      },
+      {
+        "de": "Septum",
+        "es": "Tabique (septo)",
+        "nota": "Separa el corazón derecho del izquierdo.",
+        "x": 58.6,
+        "y": 82
+      }
+    ]
+  },
+  "k3.6-03": {
+    "tipo": "anatomia",
+    "resumen_es": "A la izquierda, las vías respiratorias y los pulmones; a la derecha, un zoom hasta los alvéolos, donde ocurre el intercambio de gases: el oxígeno del aire pasa a la sangre y el dióxido de carbono pasa de la sangre al aire.",
+    "claves_es": [
+      "Camino del aire: nariz/boca → laringe → tráquea → bronquios → bronquiolos → alvéolos.",
+      "Gasaustausch por difusión: O₂ entra a la sangre, CO₂ sale.",
+      "Sangre pobre en oxígeno (azul/violeta) → sangre rica en oxígeno (roja)."
+    ],
+    "terminos": [
+      {
+        "de": "Lungenflügel",
+        "es": "Pulmón (lóbulo pulmonar)",
+        "x": 11.7,
+        "y": 60.5
+      },
+      {
+        "de": "Bronchien",
+        "es": "Bronquios",
+        "nota": "Ramas de la tráquea hacia cada pulmón.",
+        "x": 31.7,
+        "y": 66.5
+      },
+      {
+        "de": "Herz",
+        "es": "Corazón",
+        "x": 21.7,
+        "y": 77.6
+      },
+      {
+        "de": "Zwerchfell",
+        "es": "Diafragma",
+        "nota": "Músculo principal de la inspiración.",
+        "x": 7.5,
+        "y": 88.7
+      },
+      {
+        "de": "Lungenbläschen (Alveolen)",
+        "es": "Alvéolos pulmonares",
+        "nota": "Sacos diminutos donde se intercambian los gases.",
+        "x": 88.3,
+        "y": 26.2
+      },
+      {
+        "de": "Bronchiole",
+        "es": "Bronquiolo",
+        "nota": "Ramas finas de los bronquios.",
+        "x": 68.3,
+        "y": 25.8
+      },
+      {
+        "de": "Blutgefäße (Kapillaren)",
+        "es": "Vasos sanguíneos (capilares)",
+        "nota": "Rodean los alvéolos.",
+        "x": 85.8,
+        "y": 38.3
+      },
+      {
+        "de": "sauerstoffarmes Blut",
+        "es": "Sangre pobre en oxígeno",
+        "x": 85.8,
+        "y": 53.4
+      },
+      {
+        "de": "Alveole",
+        "es": "Alvéolo",
+        "x": 89,
+        "y": 70
+      },
+      {
+        "de": "Einatemluft (Sauerstoff)",
+        "es": "Aire inspirado (oxígeno)",
+        "x": 75,
+        "y": 71.6
+      },
+      {
+        "de": "Ausatemluft (Kohlendioxid)",
+        "es": "Aire espirado (dióxido de carbono)",
+        "x": 75,
+        "y": 76.2
+      },
+      {
+        "de": "sauerstoffreiches Blut",
+        "es": "Sangre rica en oxígeno",
+        "x": 86.7,
+        "y": 91.7
+      },
+      {
+        "de": "Gasaustausch",
+        "es": "Intercambio de gases",
+        "nota": "Difusión de O₂ y CO₂ entre alvéolo y capilar."
+      }
+    ]
+  }
+}

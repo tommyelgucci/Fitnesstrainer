@@ -1,0 +1,327 @@
+{
+  "k4-01": {
+    "tipo": "grafico",
+    "diagrama": "supercompensacion",
+    "resumen_es": "Así se adapta el cuerpo al entrenamiento (ley de la homeostasis). La carga cansa al cuerpo y baja el rendimiento; en la recuperación el cuerpo no solo vuelve al nivel inicial, sino que lo supera un poco (supercompensación). Si entrenas de nuevo en ese momento, mejoras; si esperas demasiado, el nivel vuelve al de partida.",
+    "claves_es": [
+      "Fase 1: duración de la carga, con descenso del nivel de rendimiento (fatiga).",
+      "Fase 2: recuperación de la disposición energética (regeneración) + aumento del nivel inicial = supercompensación.",
+      "Fase 3: reducción del nivel de rendimiento hasta el nivel inicial.",
+      "Para una adaptación óptima la carga debe repetirse varias veces.",
+      "Los estímulos decisivos para la adaptación ocurren durante la carga."
+    ],
+    "terminos": [
+      {
+        "de": "Leistungsniveau",
+        "es": "Nivel de rendimiento"
+      },
+      {
+        "de": "Ermüdung",
+        "es": "Fatiga"
+      },
+      {
+        "de": "Belastung",
+        "es": "Carga (esfuerzo)",
+        "nota": "Aquí actúa el estímulo decisivo para la adaptación."
+      },
+      {
+        "de": "Erholung",
+        "es": "Recuperación",
+        "nota": "Se renuevan las reservas hasta el nivel inicial e incluso más allá."
+      },
+      {
+        "de": "Superkompensation",
+        "es": "Supercompensación",
+        "nota": "Fase 3: nivel de rendimiento superior al inicial."
+      },
+      {
+        "de": "vergrößertes Reservoir",
+        "es": "Reserva ampliada",
+        "nota": "El cuerpo 'se prepara' para la próxima carga."
+      },
+      {
+        "de": "Abnahme",
+        "es": "Descenso",
+        "nota": "Si no hay un nuevo estímulo, el efecto se pierde (en 2-3 días)."
+      },
+      {
+        "de": "Trainingszeit",
+        "es": "Tiempo de entrenamiento (días, semanas, meses)"
+      },
+      {
+        "de": "Homöostase",
+        "es": "Homeostasis",
+        "nota": "Tendencia del cuerpo a mantener el equilibrio interno."
+      }
+    ]
+  },
+  "k4-02": {
+    "tipo": "grafico",
+    "diagrama": "kraftpyramide",
+    "resumen_es": "Esquema de las formas de fuerza y cómo se relacionan: la resistencia a la fuerza es la base; de ella se derivan la resistencia a la fuerza máxima y la resistencia a la fuerza rápida; y de éstas, la fuerza máxima y la fuerza rápida, con la fuerza explosiva y la fuerza de arranque como formas intermedias.",
+    "claves_es": [
+      "Fuerza máxima = la mayor fuerza posible de una contracción voluntaria.",
+      "Fuerza rápida = capacidad de vencer resistencias con gran velocidad.",
+      "Resistencia a la fuerza = resistir la fatiga durante cargas de fuerza prolongadas."
+    ],
+    "terminos": [
+      {
+        "de": "Kraftausdauer",
+        "es": "Resistencia a la fuerza",
+        "nota": "Forma base de la que parten las demás."
+      },
+      {
+        "de": "Maximalkraftausdauer",
+        "es": "Resistencia a la fuerza máxima",
+        "nota": "Mantener fuerza alta durante repeticiones."
+      },
+      {
+        "de": "Schnellkraftausdauer",
+        "es": "Resistencia a la fuerza rápida",
+        "nota": "Repetir acciones rápidas sin perder potencia."
+      },
+      {
+        "de": "Maximalkraft",
+        "es": "Fuerza máxima",
+        "nota": "Mayor fuerza de una contracción voluntaria."
+      },
+      {
+        "de": "Explosivkraft",
+        "es": "Fuerza explosiva",
+        "nota": "Subir la fuerza lo más rápido posible."
+      },
+      {
+        "de": "Startkraft",
+        "es": "Fuerza de arranque",
+        "nota": "Fuerza producida al inicio del movimiento."
+      },
+      {
+        "de": "Schnellkraft",
+        "es": "Fuerza rápida (potencia)",
+        "nota": "Fuerza aplicada con alta velocidad."
+      }
+    ]
+  },
+  "k5-7-01": {
+    "tipo": "grafico",
+    "diagrama": "pyramide_wdh",
+    "resumen_es": "Relación entre el número de repeticiones que puedes hacer con un peso y el porcentaje de tu fuerza máxima de una repetición (1RM). Cuantas más repeticiones, menor es el porcentaje del peso respecto a tu máximo. Sirve para calcular qué peso usar según el objetivo.",
+    "claves_es": [
+      "1 repetición = 100 % del 1RM (peso máximo).",
+      "Según el manual: fuerza máxima 90–100 % de la fuerza máxima (1–6 repeticiones); hipertrofia 70–90 % (6–15 rep.); resistencia a la fuerza 50–70 % (15–25 rep.).",
+      "Ejemplo: si tu 1RM es 100 kg, puedes hacer unas 6 repeticiones con 80 kg.",
+      "Requisito: ejecución técnica limpia."
+    ],
+    "terminos": [
+      {
+        "de": "Wiederholung (Wdh.)",
+        "es": "Repetición",
+        "nota": "Un movimiento completo del ejercicio."
+      },
+      {
+        "de": "Maximalkraft",
+        "es": "Fuerza máxima",
+        "nota": "1RM."
+      },
+      {
+        "de": "Wiederholungszahl",
+        "es": "Número de repeticiones"
+      },
+      {
+        "de": "Intensität",
+        "es": "Intensidad (% del 1RM)",
+        "nota": "Cuánto pesa la carga respecto al máximo."
+      }
+    ]
+  },
+  "k5-7-02": {
+    "tipo": "grafico",
+    "diagrama": "pyramide_dauer",
+    "resumen_es": "La misma idea que la pirámide anterior, pero en lugar de repeticiones se mide el tiempo de la serie (duración de la carga). Cuanto más corta e intensa es la carga, más fuerza máxima y coordinación; cuanto más larga y suave, más resistencia a la fuerza.",
+    "claves_es": [
+      "1–5 s (100 %): entrenamiento de fuerza máxima.",
+      "5–15 s (90–95 %): coordinación intramuscular.",
+      "15–40 s (70–90 %): hipertrofia (crecimiento muscular).",
+      "40–60 s (50–70 %): resistencia a la fuerza."
+    ],
+    "terminos": [
+      {
+        "de": "Maximalkrafttraining",
+        "es": "Entrenamiento de fuerza máxima",
+        "nota": "1–5 s, 100 %."
+      },
+      {
+        "de": "Intramuskuläres Koordinationstraining",
+        "es": "Entrenamiento de coordinación intramuscular",
+        "nota": "Mejora el reclutamiento de fibras. 5–15 s, 90–95 %."
+      },
+      {
+        "de": "Hypertrophietraining",
+        "es": "Entrenamiento de hipertrofia",
+        "nota": "Aumenta el tamaño del músculo. 15–40 s, 70–90 %."
+      },
+      {
+        "de": "Kraftausdauertraining",
+        "es": "Entrenamiento de resistencia a la fuerza",
+        "nota": "40–60 s, 50–70 %."
+      },
+      {
+        "de": "Belastungsdauer",
+        "es": "Duración de la carga",
+        "nota": "Tiempo bajo tensión de una serie."
+      }
+    ]
+  },
+  "k5-7-03": {
+    "tipo": "tabla",
+    "diagrama": "borg_6_20",
+    "resumen_es": "Escala de Borg (6–20): el cliente califica su esfuerzo percibido del 6 al 20. Multiplicando el valor por 10 se obtiene aproximadamente la frecuencia cardíaca (pulsaciones por minuto) en un adulto joven. La tabla también indica el % de la capacidad máxima.",
+    "claves_es": [
+      "6 = ningún esfuerzo; 20 = esfuerzo máximo.",
+      "Valores 12–13 = zona de entrenamiento óptima ('optimaler Trainingsbereich') para la resistencia general.",
+      "Valor × 10 ≈ frecuencia cardíaca aproximada (p. ej. 13 ≈ 130 lat/min).",
+      "Verde = suave; amarillo = óptimo; rojo = muy exigente."
+    ],
+    "terminos": [
+      {
+        "de": "Skalenwert nach Borg",
+        "es": "Valor en la escala de Borg",
+        "nota": "De 6 a 20."
+      },
+      {
+        "de": "Anstrengungsgrad",
+        "es": "Grado de esfuerzo"
+      },
+      {
+        "de": "% der max. Beanspruchung/Leistung",
+        "es": "% de la carga/rendimiento máximo"
+      },
+      {
+        "de": "überhaupt keine Anstrengung",
+        "es": "Ningún esfuerzo"
+      },
+      {
+        "de": "extrem leicht",
+        "es": "Extremadamente fácil"
+      },
+      {
+        "de": "sehr leicht",
+        "es": "Muy fácil"
+      },
+      {
+        "de": "leicht",
+        "es": "Fácil"
+      },
+      {
+        "de": "optimaler Trainingsbereich",
+        "es": "Zona de entrenamiento óptima"
+      },
+      {
+        "de": "etwas schwer",
+        "es": "Algo difícil"
+      },
+      {
+        "de": "schwer",
+        "es": "Difícil"
+      },
+      {
+        "de": "sehr schwer",
+        "es": "Muy difícil"
+      },
+      {
+        "de": "extrem schwer",
+        "es": "Extremadamente difícil"
+      },
+      {
+        "de": "größtmögliche Anstrengung",
+        "es": "Máximo esfuerzo posible"
+      },
+      {
+        "de": "Überlastung",
+        "es": "Sobrecarga"
+      }
+    ]
+  },
+  "k5-7-04": {
+    "tipo": "tabla",
+    "diagrama": "borg_cr10",
+    "resumen_es": "Escala de Borg modificada (CR10, de 0 a 10): el cliente califica con un número de 0 a 10 su esfuerzo, su dolor o su dificultad respiratoria (disnea). Es más fácil de usar que la de 6-20, y se emplea en rehabilitación y entrenamiento.",
+    "claves_es": [
+      "0 = nada; 10 = máximo.",
+      "Valores 3–4: esfuerzo moderado; 5–6: esfuerzo considerable; 7–10: muy duro.",
+      "Se puede usar para tres sensaciones distintas: esfuerzo, dolor y falta de aire."
+    ],
+    "terminos": [
+      {
+        "de": "Wert",
+        "es": "Valor"
+      },
+      {
+        "de": "Anstrengung",
+        "es": "Esfuerzo"
+      },
+      {
+        "de": "Schmerz",
+        "es": "Dolor"
+      },
+      {
+        "de": "Dyspnoe (Atemnot)",
+        "es": "Disnea (falta de aire)"
+      },
+      {
+        "de": "Maximale Anstrengung",
+        "es": "Esfuerzo máximo"
+      },
+      {
+        "de": "Stärkstmöglicher Schmerz",
+        "es": "Dolor máximo imaginable"
+      },
+      {
+        "de": "Stärkstmögliche Atemnot",
+        "es": "Falta de aire máxima imaginable"
+      }
+    ]
+  },
+  "k5-7-05": {
+    "tipo": "grafico",
+    "diagrama": "laktatschwellen",
+    "resumen_es": "Curva de lactato en sangre según la intensidad del esfuerzo, con dos umbrales: a partir de 2 mmol/l empieza la transición aeróbica-anaeróbica; a partir de 4 mmol/l domina la obtención de energía anaeróbica. El lactato sube de forma muy acusada cuando el esfuerzo supera el umbral anaeróbico.",
+    "claves_es": [
+      "Hasta ~2 mmol/l: zona aeróbica (resistencia de base, se puede mantener mucho tiempo).",
+      "2–4 mmol/l: zona de transición aeróbica-anaeróbica.",
+      "Por encima de ~4 mmol/l: predomina la energía anaeróbica (no se puede mantener mucho tiempo).",
+      "Se usa para dosificar la intensidad del entrenamiento de resistencia."
+    ],
+    "terminos": [
+      {
+        "de": "Laktat",
+        "es": "Lactato",
+        "nota": "Producto del metabolismo anaeróbico de la glucosa."
+      },
+      {
+        "de": "Laktatschwelle",
+        "es": "Umbral de lactato"
+      },
+      {
+        "de": "dominant aerobe Energiegewinnung",
+        "es": "Obtención de energía predominantemente aeróbica",
+        "nota": "Hasta ~2 mmol/l."
+      },
+      {
+        "de": "aerob-anaerober Übergang",
+        "es": "Transición aeróbica-anaeróbica",
+        "nota": "~2–4 mmol/l."
+      },
+      {
+        "de": "dominant anaerobe Energiegewinnung",
+        "es": "Obtención de energía predominantemente anaeróbica",
+        "nota": "Por encima de ~4 mmol/l."
+      },
+      {
+        "de": "Intensität",
+        "es": "Intensidad",
+        "nota": "Aquí en m/s (velocidad)."
+      }
+    ]
+  }
+}

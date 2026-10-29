@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Moon, Sun } from 'lucide-react';
+import ChipProgreso from './ChipProgreso';
 
 interface NavigationProps {
   darkMode: boolean;
@@ -50,6 +51,8 @@ export default function Navigation({ darkMode, setDarkMode }: NavigationProps) {
               </Link>
             </li>
           </ul>
+
+          <ChipProgreso />
 
           <button
             onClick={() => setDarkMode(!darkMode)}
