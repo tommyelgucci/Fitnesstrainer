@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom';
 import { BookOpen, Layers, Flame, Target, TrendingUp, Image as ImageIcon } from 'lucide-react';
 import { useUserProgress } from '../../stores/useUserProgress';
+import { estaPendiente, useRepasoTerminos } from '../../stores/repasoTerminos';
 import { LOGROS, META_DIARIA_XP, claveDia, nivelDe, rachaVigente, useGamificacion, xpDeHoy } from '../../stores/gamificacion';
 
 export default function Dashboard() {
   const e = useGamificacion();
   const { progress, obtenerTasaExito } = useUserProgress();
+  const repaso = useRepasoTerminos().filter((t) => estaPendiente(t)).length;
   const hoy = claveDia();
   const racha = rachaVigente(e, hoy);
   const nivel = nivelDe(e.xp);
@@ -81,6 +83,16 @@ export default function Dashboard() {
           </div>
         </div>
       </div>
+
+      {repaso > 0 && (
+        <Link to="/imagenes?tab=repaso" className="card mb-4 flex items-center gap-3 border-teal-300 bg-teal-50 hover:shadow-lg dark:border-teal-700 dark:bg-teal-900/20">
+          <ImageIcon className="h-8 w-8 flex-shrink-0 text-teal-600 dark:text-teal-400" />
+          <div>
+            <p className="font-semibold text-gray-900 dark:text-white">{repaso} {repaso === 1 ? 'término' : 'términos'} de figuras por repasar hoy</p>
+            <p className="text-sm text-gray-600 dark:text-gray-400">Los que fallaste vuelven en el momento justo (Leitner). Toca para repasar.</p>
+          </div>
+        </Link>
+      )}
 
       {/* Quick Stats */}
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mb-8">

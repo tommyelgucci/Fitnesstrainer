@@ -2,36 +2,39 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { CheckCircle2, XCircle, Volume2, RotateCcw } from 'lucide-react';
 import { imagenes } from '../../data/imagenesInfo';
-import { barajar, itemsDe } from './quizUtils';
-import type { Item, Modo } from './quizUtils';
+import { barajar, itemsDe, modoEfectivo } from './quizUtils';
+import type { Item, Modo, ModoQuiz } from './quizUtils';
 import ImagenInteractiva from './ImagenInteractiva';
 import { hablarAleman } from './hablar';
 import { registrarRespuestaXP, rondaCompletada } from '../../stores/gamificacion';
+import { responderTermino } from '../../stores/repasoTerminos';
 
 interface Pregunta {
+  modo: Modo;
   item: Item;
   opciones: Item[];
 }
 
-function crearPreguntas(items: Item[], modo: Modo, n: number): Pregunta[] {
-  const todos = itemsDe(imagenes, modo);
+function crearPreguntas(items: Item[], modo: ModoQuiz, n: number): Pregunta[] {
+  const todos = itemsDe(imagenes, 'vocab');
   return barajar(items)
     .slice(0, n)
     .map((item) => {
+      const m = modoEfectivo(modo, item.t);
       const mismos = items.filter((o) => o.img.id === item.img.id && o.t.de !== item.t.de);
       const otros = todos.filter((o) => o.t.de !== item.t.de && !mismos.includes(o));
       const pool = [...barajar(mismos), ...barajar(otros)];
       const vistos = new Set([item.t.de]);
       const distractores: Item[] = [];
       for (const o of pool) {
-        const clave = modo === 'puntos' ? o.t.de : o.t.es;
+        const clave = m === 'puntos' ? o.t.de : o.t.es;
         if (vistos.has(o.t.de) || vistos.has(clave)) continue;
         vistos.add(o.t.de);
         vistos.add(clave);
         distractores.push(o);
         if (distractores.length === 3) break;
       }
-      return { item, opciones: barajar([item, ...distractores]) };
+      return { modo: m, item, opciones: barajar([item, ...distractores]) };
     });
 }
 
@@ -42,7 +45,7 @@ export default function ImagenQuiz({
   onSalir,
 }: {
   items: Item[];
-  modo: Modo;
+  modo: ModoQuiz;
   cantidad?: number;
   onSalir: () => void;
 }) {
@@ -118,6 +121,7 @@ export default function ImagenQuiz({
     if (respondida) return;
     setElegida(k);
     registrarRespuestaXP(k === correcta);
+    responderTermino(p.item.img.id, p.item.t.de, k === correcta);
     if (k === correcta) setAciertos((a) => a + 1);
     else setFallos((f) => [...f, p.item]);
   };
@@ -132,7 +136,7 @@ export default function ImagenQuiz({
         <div className="h-full bg-teal-500 transition-all" style={{ width: `${(i / preguntas.length) * 100}%` }} />
       </div>
 
-      {modo === 'puntos' ? (
+      {p.modo === 'puntos' ? (
         <>
           <p className="font-semibold text-gray-900 dark:text-white">¿Qué estructura señala el punto?</p>
           <ImagenInteractiva img={p.item.img} activo={null} soloIndice={p.item.indice} />
@@ -149,8 +153,8 @@ export default function ImagenQuiz({
 
       <div className="grid gap-2 sm:grid-cols-2">
         {p.opciones.map((o, k) => {
-          const texto = modo === 'puntos' ? o.t.de : o.t.es;
-          const sub = respondida ? (modo === 'puntos' ? o.t.es : o.t.de) : null;
+          const texto = p.modo === 'puntos' ? o.t.de : o.t.es;
+          const sub = respondida ? (p.modo === 'puntos' ? o.t.es : o.t.de) : null;
           const estilo = !respondida
             ? 'border-gray-300 hover:border-teal-500 dark:border-gray-600'
             : k === correcta

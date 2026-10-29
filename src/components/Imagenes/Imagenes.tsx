@@ -1,16 +1,19 @@
 import { useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Image as ImageIcon, Search, Volume2, Sparkles, Dumbbell, BarChart3, Bone } from 'lucide-react';
+import { Link, useSearchParams } from 'react-router-dom';
+import { Image as ImageIcon, Search, Volume2, Sparkles, Dumbbell, BarChart3, Bone, RotateCcw } from 'lucide-react';
 import capitulosData from '../../data/capitulos.json';
 import { imagenes, tieneHotspots } from '../../data/imagenesInfo';
 import type { Imagen } from '../../data/imagenesInfo';
 import ImagenQuiz from './ImagenQuiz';
 import { itemsDe } from './quizUtils';
+import type { Item } from './quizUtils';
 import type { Modo } from './quizUtils';
 import { Diagrama } from './Diagramas';
 import { hablarAleman } from './hablar';
+import { claveTermino, estaPendiente, useRepasoTerminos } from '../../stores/repasoTerminos';
+import { formatearTiempoProxRepaso } from '../../utils/leitner';
 
-type Pestana = 'figuras' | 'glosario' | 'practica';
+type Pestana = 'figuras' | 'glosario' | 'practica' | 'repaso';
 type Filtro = 'todas' | Imagen['tipo'];
 
 const FILTROS: { id: Filtro; texto: string }[] = [
@@ -227,12 +230,96 @@ function Practica() {
   );
 }
 
+function Repaso() {
+  const tarjetas = useRepasoTerminos();
+  const [repasando, setRepasando] = useState(false);
+
+  const porClave = useMemo(() => {
+    const m = new Map<string, Item>();
+    for (const it of itemsDe(imagenes, 'vocab')) m.set(claveTermino(it.img.id, it.t.de), it);
+    return m;
+  }, []);
+
+  const conItem = tarjetas.flatMap((c) => {
+    const it = porClave.get(c.pregunta_id);
+    return it ? [{ c, it }] : [];
+  });
+  const pendientes = conItem.filter(({ c }) => estaPendiente(c));
+  const porCaja = [1, 2, 3, 4, 5].map((n) => conItem.filter(({ c }) => c.numero_caja === n).length);
+  const items = useMemo(
+    () => (repasando ? pendientes.map((p) => p.it) : []),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [repasando],
+  );
+
+  if (repasando) return <ImagenQuiz key="repaso" items={items} modo="mixto" onSalir={() => setRepasando(false)} />;
+
+  if (conItem.length === 0) {
+    return (
+      <div className="card text-center">
+        <RotateCcw className="mx-auto mb-2 h-8 w-8 text-teal-600" />
+        <p className="font-semibold text-gray-900 dark:text-white">Todavía no tienes términos para repasar</p>
+        <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
+          Cada término que falles en la pestaña Práctica (o en el quiz de una figura) llegará aquí y volverá a salir en el momento justo: al día siguiente, a los 3 días, a la semana…
+        </p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="space-y-4">
+      <div className="card space-y-3">
+        <p className="text-gray-900 dark:text-white">
+          <span className="text-3xl font-bold text-teal-600 dark:text-teal-400">{pendientes.length}</span>{' '}
+          {pendientes.length === 1 ? 'término toca' : 'términos tocan'} hoy
+        </p>
+        <button className="btn btn-primary" disabled={pendientes.length === 0} onClick={() => setRepasando(true)}>
+          {pendientes.length === 0 ? 'Nada pendiente por hoy' : `Repasar ahora (${pendientes.length})`}
+        </button>
+        <div className="grid grid-cols-5 gap-2 text-center text-xs">
+          {porCaja.map((n, k) => (
+            <div key={k} className="rounded-lg bg-gray-100 p-2 dark:bg-gray-700">
+              <p className="text-lg font-bold text-gray-900 dark:text-white">{n}</p>
+              <p className="text-gray-600 dark:text-gray-400">{k === 4 ? 'Dominado' : `Caja ${k + 1}`}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <ul className="card divide-y divide-gray-200 p-0 dark:divide-gray-700">
+        {[...conItem]
+          .sort((a, b) => a.c.fecha_proximo_repaso - b.c.fecha_proximo_repaso)
+          .map(({ c, it }) => (
+            <li key={c.pregunta_id} className="flex items-center gap-3 p-3">
+              <div className="min-w-0 flex-1">
+                <p className="font-semibold text-gray-900 dark:text-white">{it.t.de}</p>
+                <p className="text-sm italic text-gray-600 dark:text-gray-400">{it.t.es}</p>
+                <Link to={`/imagenes/${it.img.id}`} className="text-xs text-teal-600 hover:underline dark:text-teal-400">{it.img.titulo_es}</Link>
+              </div>
+              <div className="text-right text-xs text-gray-600 dark:text-gray-400">
+                <p>Caja {c.numero_caja}</p>
+                <p className={estaPendiente(c) ? 'font-semibold text-amber-700 dark:text-amber-400' : ''}>{formatearTiempoProxRepaso(c.fecha_proximo_repaso)}</p>
+              </div>
+              <button onClick={() => hablarAleman(it.t.de)} aria-label={`Escuchar ${it.t.de}`} className="text-teal-600 dark:text-teal-400">
+                <Volume2 className="h-5 w-5" />
+              </button>
+            </li>
+          ))}
+      </ul>
+    </div>
+  );
+}
+
 export default function Imagenes() {
-  const [pestana, setPestana] = useState<Pestana>('figuras');
+  const [params] = useSearchParams();
+  const inicial = params.get('tab');
+  const [pestana, setPestana] = useState<Pestana>(inicial === 'repaso' ? 'repaso' : 'figuras');
+  const pendientes = useRepasoTerminos().filter((t) => estaPendiente(t)).length;
   const tabs: { id: Pestana; texto: string }[] = [
     { id: 'figuras', texto: 'Figuras' },
     { id: 'glosario', texto: 'Glosario' },
     { id: 'practica', texto: 'Práctica' },
+    { id: 'repaso', texto: pendientes > 0 ? `Repaso (${pendientes})` : 'Repaso' },
   ];
 
   return (
@@ -265,6 +352,7 @@ export default function Imagenes() {
       {pestana === 'figuras' && <Figuras />}
       {pestana === 'glosario' && <Glosario />}
       {pestana === 'practica' && <Practica />}
+      {pestana === 'repaso' && <Repaso />}
     </div>
   );
 }

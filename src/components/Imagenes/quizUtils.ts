@@ -7,6 +7,11 @@ export interface Item {
 }
 
 export type Modo = 'puntos' | 'vocab';
+/** 'mixto' elige por término: punto sobre la imagen si lo tiene, vocabulario si no. */
+export type ModoQuiz = Modo | 'mixto';
+
+export const modoEfectivo = (modo: ModoQuiz, t: Termino): Modo =>
+  modo === 'mixto' ? (t.x !== undefined ? 'puntos' : 'vocab') : modo;
 
 export const barajar = <T,>(a: T[]): T[] => {
   const r = [...a];
