@@ -9,18 +9,19 @@ Funciona sin servidor: el contenido es JSON estático y todo el progreso vive en
 | Sección | Para qué sirve |
 |---|---|
 | **Dashboard** | Nivel, XP, racha de días, meta diaria, últimos 7 días y logros |
-| **Lecciones** | Contenido por capítulo + preguntas (80 % para avanzar) |
+| **Lecciones** | Contenido por capítulo + preguntas (80 % para avanzar) y **modo lectura**: el texto del manual por secciones, con resumen en español, vocabulario tocable, audio y XP |
 | **Flashcards** | Términos alemanes con repetición espaciada (Leitner, 5 cajas) |
 | **Quiz** | Preguntas tipo test por capítulo |
-| **Examen** | Simulacro con tiempo y preguntas proporcionales al peso de cada capítulo |
-| **Imágenes** | 58 figuras del manual explicadas en español, con términos DE/ES, pronunciación, puntos interactivos, glosario y práctica |
+| **Examen** | Simulacro cronometrado en dos fases (examen y corrección) con formatos completo/medio/rápido/errores, sesión que sobrevive a recargas e historial |
+| **Imágenes** | 58 figuras del manual explicadas en español, con términos DE/ES, pronunciación, puntos interactivos, glosario, práctica y repaso Leitner de los términos fallados |
 
 ### Progreso y gamificación
 
 - **XP**: +10 por acierto, +2 por intentarlo, +3 por abrir una figura nueva, +5 por completar una ronda de práctica de imágenes (+20 si es perfecta).
 - **Niveles**: Neuling → Lehrling → Praktikant → Trainer → Profi → Meister.
 - **Racha**: días seguidos con alguna actividad (se rompe si pasa un día entero sin estudiar).
-- **Meta diaria**: 50 XP. **Logros**: 10, definidos en `src/stores/gamificacion.ts`.
+- **Lectura**: +5 XP por sección marcada como leída. **Simulacro**: +10 XP al terminar (+30 si llega al 80 %).
+- **Meta diaria**: 50 XP. **Logros**: definidos en `src/stores/gamificacion.ts`.
 
 ## Desarrollo
 
@@ -39,10 +40,14 @@ La app se publica en GitHub Pages con `.github/workflows/deploy.yml` en cada pus
 ```
 src/
   components/      Dashboard, Lecciones, Flashcards, Quiz, Exam, Imagenes, Leitner
+  lectura/         parser.ts (limpia el texto de las lecciones), vocabulario.ts (resaltado)
   stores/          useUserProgress, useLeitner (hooks con localStorage)
+                   repasoTerminos.ts (Leitner de términos de figuras), simulacros.ts
                    gamificacion.ts (XP, racha, logros: store a nivel de módulo)
   data/            preguntas.json, lecciones_contenido.json, capitulos.json
                    imagenes.json + imagenes_info/*.json  (ver abajo)
+                   lectura_secciones.json (títulos y resumen en español por sección)
+                   glosario_lectura.json (vocabulario extra del modo lectura)
   utils/leitner.ts algoritmo de cajas
 public/images/     figuras del manual (JPG)
 scripts/           parseMarkdown.*: genera preguntas a partir de Fragenkatalog_BLizenz.md

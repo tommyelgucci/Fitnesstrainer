@@ -28,6 +28,10 @@ No hay tests automáticos. Para verificar UI de verdad: `npm run build && npx vi
 - **No inventes contenido de examen.** Las explicaciones de figuras son redacción propia: si algo (porcentajes, rangos, nombres técnicos) no es seguro, márcalo para contrastar con el *Lehrbrief* en vez de afirmarlo. El PDF original no está en el repo; la fuente de las preguntas es `Fragenkatalog_BLizenz.md`.
 - `public/images/*.jpg` son figuras del manual: no las reemplaces sin pedirlo; si hace falta una versión mejor, crea un SVG propio y enlázalo.
 
+- **Modo lectura**: `lectura/parser.ts` convierte el volcado de PDF de `lecciones_contenido.json` en secciones (es heurístico: se prueba con `node --experimental-strip-types` sobre los datos y se mira la salida). Los títulos y resúmenes en español van en `lectura_secciones.json` con clave `"capitulo:num"`; escribe los resúmenes **a partir del texto del libro**, sin añadir cifras que no estén. El vocabulario resaltado sale de `imagenes_info` + `glosario_lectura.json`.
+- **Simulacro**: ver `docs/EXAM_ARCHITECTURE.md`. Tiempos, formatos y la meta del 80 % son de la app, no oficiales: no los presentes como criterio del examen real.
+- **Repaso de términos**: `stores/repasoTerminos.ts` guarda tarjetas Leitner de términos de figuras (clave `figura|término`), separado de `useLeitner`, que usa ids de preguntas.
+
 ## Cómo se firman los commits
 
 Todos los commits de este repo se atribuyen solo al dueño, como en el resto de sus repositorios:
@@ -48,6 +52,6 @@ No añadas `Co-Authored-By: Claude`, `Claude-Session:` ni enlaces a `claude.ai/c
 
 ## Estado y siguientes pasos
 
-Hecho: lecciones, quiz, flashcards con Leitner, examen, sección Imágenes completa (58 figuras explicadas), XP/racha/logros.
+Hecho: lecciones con modo lectura, quiz, flashcards con Leitner, simulacro en dos fases, sección Imágenes completa (58 figuras explicadas, con repaso de términos), XP/racha/logros.
 
-Pendiente de más a menos valor: lecciones de lectura con vocabulario resaltado; repaso de errores (los fallos del quiz de imágenes aún no alimentan el Leitner); simulacro de examen cronometrado más fiel; PWA/offline; revisar con el manual los porcentajes y nombres técnicos escritos en `imagenes_info/`.
+Pendiente de más a menos valor: PWA/offline; contrastar con el manual los porcentajes y nombres técnicos de `imagenes_info/` y los resúmenes de `lectura_secciones.json`; traducción completa de las lecciones (hoy solo hay resumen por sección); preguntas de comprensión al final de cada sección de lectura.

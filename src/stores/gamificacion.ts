@@ -23,6 +23,9 @@ export interface Estado {
   rondasPerfectas: number;
   /** Secciones del modo lectura marcadas como leídas: "capitulo:num". */
   seccionesLeidas: string[];
+  /** Simulacros terminados y mejor nota (%). */
+  simulacros: number;
+  mejorSimulacro: number;
   logros: string[];
 }
 
@@ -76,6 +79,8 @@ export const LOGROS: Logro[] = [
   { id: 'figuras', icono: '🔬', de: 'Alle Bilder gesehen', es: 'Todas las figuras', descripcion: 'Abre todas las figuras de Imágenes.', cumple: (e) => e.figurasVistas.length >= imagenes.length },
   { id: 'lector5', icono: '📖', de: 'Leser', es: 'Lector', descripcion: 'Lee 5 secciones en el modo lectura.', cumple: (e) => e.seccionesLeidas.length >= 5 },
   { id: 'lector25', icono: '📚', de: 'Bücherwurm', es: 'Ratón de biblioteca', descripcion: 'Lee 25 secciones en el modo lectura.', cumple: (e) => e.seccionesLeidas.length >= 25 },
+  { id: 'sim1', icono: '⏱️', de: 'Probeprüfung', es: 'Primer simulacro', descripcion: 'Termina un simulacro de examen.', cumple: (e) => e.simulacros >= 1 },
+  { id: 'sim80', icono: '🎓', de: 'Bestanden!', es: 'Simulacro superado', descripcion: 'Saca al menos un 80 % en un simulacro.', cumple: (e) => e.mejorSimulacro >= 80 },
   { id: 'perfecta', icono: '✨', de: 'Perfekte Runde', es: 'Ronda perfecta', descripcion: 'Acierta todo en una ronda de práctica de imágenes.', cumple: (e) => e.rondasPerfectas >= 1 },
 ];
 
@@ -90,6 +95,8 @@ const vacio = (): Estado => ({
   figurasVistas: [],
   rondasPerfectas: 0,
   seccionesLeidas: [],
+  simulacros: 0,
+  mejorSimulacro: 0,
   logros: [],
 });
 
@@ -199,6 +206,11 @@ export function rondaCompletada(aciertos: number, total: number) {
 export function marcarSeccionLeida(clave: string) {
   if (estado.seccionesLeidas.includes(clave)) return;
   ganarXP(5, { seccionesLeidas: [...estado.seccionesLeidas, clave] });
+}
+
+/** Al terminar un simulacro: +10 XP, y +20 más si alcanzas la meta de la app (80 %). */
+export function simulacroCompletado(pct: number, meta: number) {
+  ganarXP(pct >= meta ? 30 : 10, { simulacros: estado.simulacros + 1, mejorSimulacro: Math.max(estado.mejorSimulacro, pct) });
 }
 
 export function reiniciarGamificacion() {
