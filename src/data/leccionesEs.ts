@@ -1,5 +1,7 @@
 import type { Bloque, Seccion } from '../lectura/parser';
+import k1 from './lecciones_es/k1.json';
 import k2 from './lecciones_es/k2.json';
+import k31 from './lecciones_es/k3.1.json';
 import k32 from './lecciones_es/k3.2.json';
 import k33 from './lecciones_es/k3.3.json';
 import k34 from './lecciones_es/k3.4.json';
@@ -19,7 +21,7 @@ import k8 from './lecciones_es/k8.json';
  * cambio en el parser nunca desalinea el texto.
  */
 const TRADUCCIONES: Record<string, string[]> = {
-  ...k2, ...k32, ...k33, ...k34, ...k35, ...k36, ...k37, ...k4a, ...k4b, ...k5a, ...k5b, ...k8,
+  ...k1, ...k2, ...k31, ...k32, ...k33, ...k34, ...k35, ...k36, ...k37, ...k4a, ...k4b, ...k5a, ...k5b, ...k8,
 };
 
 export type TraduccionBloque = string | string[];
