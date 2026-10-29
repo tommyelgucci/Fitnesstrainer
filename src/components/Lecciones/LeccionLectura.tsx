@@ -13,6 +13,7 @@ import type { EntradaVocab } from '../../lectura/vocabulario';
 import { marcarSeccionLeida, useGamificacion } from '../../stores/gamificacion';
 import { responderTermino } from '../../stores/repasoTerminos';
 import { hablarAleman } from '../Imagenes/hablar';
+import { traduccionPorBloque } from '../../data/leccionesEs';
 import Comprobacion from './Comprobacion';
 
 interface MetaSeccion {
@@ -105,6 +106,7 @@ export default function LeccionLectura() {
   const [tam, setTam] = useState(1);
   const [vocab, setVocab] = useState(true);
   const [esAbierto, setEsAbierto] = useState(true);
+  const [idioma, setIdioma] = useState<'ambos' | 'de' | 'es'>('ambos');
   const [termino, setTermino] = useState<EntradaVocab | null>(null);
   const [guardado, setGuardado] = useState(false);
   const [hablando, setHablando] = useState(false);
@@ -131,6 +133,10 @@ export default function LeccionLectura() {
   const clave = (s: Seccion) => `${capitulo_id}:${s.num}`;
   const leidas = secciones.filter((s) => gam.seccionesLeidas.includes(clave(s))).length;
   const meta = META[clave(seccion)];
+  const trad = traduccionPorBloque(clave(seccion), seccion);
+  const modo = trad ? idioma : 'de';
+  const verDe = modo !== 'es';
+  const verEs = modo !== 'de';
   const leida = gam.seccionesLeidas.includes(clave(seccion));
   const vistos = new Set<string>();
   const figuras = figurasRelacionadas(capitulo_id, seccion);
@@ -212,6 +218,11 @@ export default function LeccionLectura() {
             {hablando ? <Square className="mr-1 h-4 w-4" /> : <Volume2 className="mr-1 h-4 w-4" />}
             {hablando ? 'Parar' : 'Escuchar'}
           </button>
+          {trad && (
+            <button className="btn btn-secondary" onClick={() => setIdioma((m) => (m === 'ambos' ? 'es' : m === 'es' ? 'de' : 'ambos'))}>
+              <Languages className="mr-1 h-4 w-4" /> {idioma === 'ambos' ? 'Alemán + español' : idioma === 'es' ? 'Solo español' : 'Solo alemán'}
+            </button>
+          )}
         </div>
       </div>
 
@@ -237,8 +248,14 @@ export default function LeccionLectura() {
         )}
 
         <div className="card space-y-3 leading-relaxed text-gray-900 dark:text-gray-100">
-          <p className="text-xs font-medium uppercase tracking-wide text-gray-500">Texto original (alemán)</p>
+          <p className="text-xs font-medium uppercase tracking-wide text-gray-500">
+            {verDe && verEs ? 'Texto original (alemán) y traducción' : verEs ? 'Traducción al español' : 'Texto original (alemán)'}
+          </p>
+          {!trad && <p className="rounded bg-amber-50 p-2 text-xs text-amber-900 dark:bg-amber-900/20 dark:text-amber-200">La traducción completa de esta sección está en preparación: de momento tienes el resumen «En español» de arriba.</p>}
           {seccion.bloques.map((b, i) => {
+            const t = trad?.[i];
+            const tEs = typeof t === 'string' ? t : undefined;
+            const esCls = `italic text-gray-700 dark:text-gray-300 ${cls}`;
             if (b.tipo === 'h3') {
               const fig = figuras.find((f) => norm(f.titulo_de).startsWith(norm(b.texto)) || norm(b.texto).startsWith(norm(f.titulo_de)));
               return (
@@ -248,19 +265,40 @@ export default function LeccionLectura() {
                       <img src={fig.archivo} alt="" className="h-12 w-12 rounded bg-white object-contain" />
                     </Link>
                   )}
-                  {b.texto}
+                  <span>
+                    {verDe ? b.texto : tEs}
+                    {verDe && verEs && tEs && <span className="block text-sm font-normal italic text-gray-600 dark:text-gray-400">{tEs}</span>}
+                  </span>
                 </h3>
               );
             }
-            if (b.tipo === 'etiqueta') return <p key={i} className="pt-1 text-sm font-bold uppercase tracking-wide text-teal-700 dark:text-teal-400">{b.texto}</p>;
+            if (b.tipo === 'etiqueta') {
+              return (
+                <p key={i} className="pt-1 text-sm font-bold uppercase tracking-wide text-teal-700 dark:text-teal-400">
+                  {verDe ? b.texto : tEs}
+                  {verDe && verEs && tEs && <span className="ml-2 font-normal normal-case italic">· {tEs}</span>}
+                </p>
+              );
+            }
             if (b.tipo === 'ul') {
+              const items = Array.isArray(t) ? t : [];
               return (
                 <ul key={i} className={`list-disc space-y-1 pl-5 ${cls}`}>
-                  {b.items.map((it, k) => <li key={k}>{txt(it)}</li>)}
+                  {b.items.map((it, k) => (
+                    <li key={k}>
+                      {verDe ? txt(it) : items[k]}
+                      {verDe && verEs && items[k] && <span className={`block ${esCls}`}>{items[k]}</span>}
+                    </li>
+                  ))}
                 </ul>
               );
             }
-            return <p key={i} className={cls}>{txt(b.texto)}</p>;
+            return (
+              <div key={i} className="space-y-1">
+                {verDe && <p className={cls}>{txt(b.texto)}</p>}
+                {verEs && tEs && <p className={verDe ? `border-l-2 border-teal-300 pl-3 ${esCls}` : cls}>{tEs}</p>}
+              </div>
+            );
           })}
         </div>
 

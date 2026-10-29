@@ -43,7 +43,7 @@ function limpiar(t: string): string {
     .replace(/Abbildung (\d+) ([^\d.:]{2,60}?) \d{1,2}(?= |$)/g, ' (Abb. $1: $2) ')
     .replace(/(?<=[.:!?)”]) f (?=[A-ZÄÖÜ•„])/g, ' ')
     .replace(/ f$/, '')
-    .replace(/(?:f )?\[ \d+ \] © clever fit Akademie/g, ' ')
+    .replace(/(?:f )?\[ \d+ \](?: © clever fit Akademie)?/g, ' ')
     .replace(/PLATZ FÜR ?DEINE ZUSAMMENFASSUNG(?: \. \. \.)?/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
@@ -110,12 +110,24 @@ const RE_EJERCICIO = /(?:\bBild\s+)?Tabelle \d+ (.+?) [A-ZÄÖÜ][A-ZÄÖÜ ()/-
 const RE_MUSCULO = /\b([A-ZÄÖÜ]{4,}(?: [A-ZÄÖÜ]{3,})*) \(M\. ([A-Z .]+?)(?: ET [A-Z .]+)?\)/g;
 
 /** Título de una sección numerada: se corta en el primer signo o marcador de tabla/figura. */
+const INICIO_FRASE = new Set(
+  ['Der', 'Die', 'Das', 'Dieser', 'Diese', 'Dieses', 'Ein', 'Eine', 'Es', 'Als', 'In', 'Im', 'Am', 'Bei', 'Beim', 'Durch', 'Mit', 'Zu', 'Zur', 'Zum', 'Während', 'Wird', 'Jede', 'Jeder', 'Grundsätzlich', 'Wenn', 'Um', 'Für', 'Nach'],
+);
+
 function tituloNumerado(resto: string): { titulo: string; texto: string; etiqueta?: string } {
   const corte = resto.search(/ (?:Abbildung|Tabelle) \d+| \(Abb|[.:] | (?=[A-ZÄÖÜ][a-zäöü]+ (?:ist|sind|bezeichnet|beschreibt|wird|werden|besitzt|besteht) )/);
   let t = corte > 0 ? resto.slice(0, corte) : resto;
   const palabras = t.split(' ');
   if (palabras.length > 7) t = palabras.slice(0, 5).join(' ');
   let texto = resto.slice(t.length).replace(/^[:.]\s*/, '');
+  // El título heurístico a veces se come el arranque de la primera frase ("Herz Das menschliche"):
+  // si aparece una palabra de inicio de frase (o se repite la primera palabra), lo que sigue es texto.
+  const ws = t.split(' ');
+  let k = ws.findIndex((w, i) => i > 0 && (INICIO_FRASE.has(w) || w === ws[0]));
+  if (k > 0 && /^[A-ZÄÖÜ]/.test(ws[k])) {
+    texto = `${ws.slice(k).join(' ')} ${texto}`.replace(/\s+/g, ' ').trim();
+    t = ws.slice(0, k).join(' ');
+  } else k = -1;
   // "Knochen Funktionen" / "Knorpel Funktion:" -> la última palabra es una etiqueta, no parte del título
   const m = t.match(new RegExp(`^(.+?) (${ETIQUETAS})$`));
   let etiqueta: string | undefined;
@@ -189,10 +201,12 @@ export function parsearCapitulo(chunks: string[]): Seccion[] {
       // ejercicios del cap. 8: "Tabelle 32 Bankdrücken BANKDRÜCKEN Muskulatur"
       .replace(RE_EJERCICIO, (_m, n: string) => `§§T:${n.trim()}§§`)
       .replace(RE_MUSCULO, (_m, n: string, l: string) => `§§${titulo(n)} (M. ${l.toLowerCase().trim()})§§`);
+    // restos de maquetación: números de página, letras sueltas
+    if (!limpio.includes('§§') && (limpio.length <= 3 || /^\d{1,3}(?: \d{1,3})*$/.test(limpio))) continue;
     limpio.split('§§').forEach((parte, i) => {
       const t = parte.trim().replace(/\s*Bild$/, '');
       if (!t) return;
-      if (i % 2 === 0) return procesarParte(t);
+      if (i % 2 === 0) return t.length <= 3 || /^\d{1,3}$/.test(t) ? undefined : procesarParte(t);
       cerrarLista();
       const b = actual().bloques;
       if (t.startsWith('T:')) {
