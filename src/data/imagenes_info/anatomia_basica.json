@@ -1,0 +1,994 @@
+{
+  "k2-01": {
+    "tipo": "grafico",
+    "resumen_es": "Gráfico circular sobre cómo se percibe un mensaje cuando hablas con un cliente: la mayor parte de lo que 'llega' no son las palabras, sino el lenguaje corporal y el tono de voz. Por eso un entrenador debe cuidar su postura, mirada y voz tanto como lo que dice.",
+    "claves_es": [
+      "Lenguaje corporal ≈ 55 %, voz ≈ 38 %, contenido ≈ 7 % (regla de Mehrabian).",
+      "Si el cuerpo y las palabras se contradicen, el cliente cree al cuerpo.",
+      "Úsalo en el examen para explicar por qué la comunicación no verbal es clave en la atención al cliente."
+    ],
+    "terminos": [
+      {
+        "de": "Körpersprache",
+        "es": "Lenguaje corporal",
+        "nota": "Postura, gestos, mirada, expresión facial. ≈ 55 %."
+      },
+      {
+        "de": "Stimme",
+        "es": "Voz",
+        "nota": "Tono, volumen, ritmo, pausas. ≈ 38 %."
+      },
+      {
+        "de": "Inhalt",
+        "es": "Contenido",
+        "nota": "Las palabras en sí. ≈ 7 %."
+      }
+    ],
+    "diagrama": "kommunikation"
+  },
+  "k3.2-01": {
+    "tipo": "anatomia",
+    "resumen_es": "Corte de una célula animal con sus orgánulos (las 'pequeñas piezas' que hacen cada trabajo dentro de la célula). Los números de la imagen se relacionan con la lista. Toca cada punto para ver el nombre en alemán y su función.",
+    "claves_es": [
+      "El núcleo guarda el ADN; las mitocondrias producen la energía (ATP) que usan los músculos.",
+      "Los ribosomas fabrican proteínas; el retículo endoplasmático las transporta; el Golgi las empaqueta.",
+      "Los lisosomas son el 'sistema de reciclaje' de la célula."
+    ],
+    "terminos": [
+      {
+        "de": "Endoplasmatisches Retikulum",
+        "es": "Retículo endoplasmático",
+        "nota": "Red de membranas: transporte y síntesis de proteínas y lípidos.",
+        "x": 49,
+        "y": 50
+      },
+      {
+        "de": "Ribosom",
+        "es": "Ribosoma",
+        "nota": "Fabrica proteínas.",
+        "x": 51,
+        "y": 23
+      },
+      {
+        "de": "Cytosom (Mikrobody)",
+        "es": "Citosoma (microcuerpo / peroxisoma)",
+        "nota": "Pequeña vesícula que degrada sustancias tóxicas.",
+        "x": 30,
+        "y": 25
+      },
+      {
+        "de": "Zellleib (Cytoplasma)",
+        "es": "Citoplasma",
+        "nota": "Masa gelatinosa que rellena la célula y rodea los orgánulos.",
+        "x": 26,
+        "y": 28
+      },
+      {
+        "de": "Lysosom",
+        "es": "Lisosoma",
+        "nota": "Digiere residuos y partículas: 'reciclaje' celular.",
+        "x": 23,
+        "y": 25
+      },
+      {
+        "de": "Mitochondrien",
+        "es": "Mitocondrias",
+        "nota": "'Centrales de energía': producen ATP.",
+        "x": 12,
+        "y": 38
+      },
+      {
+        "de": "Golgi-Apparat",
+        "es": "Aparato de Golgi",
+        "nota": "Modifica, empaqueta y envía proteínas.",
+        "x": 39,
+        "y": 68
+      },
+      {
+        "de": "Zentriolen",
+        "es": "Centriolos",
+        "nota": "Organizan la división celular.",
+        "x": 20,
+        "y": 36
+      },
+      {
+        "de": "Zellkern",
+        "es": "Núcleo celular",
+        "nota": "Contiene el material genético (ADN).",
+        "x": 38,
+        "y": 40
+      },
+      {
+        "de": "Nukleolus",
+        "es": "Nucléolo",
+        "nota": "Dentro del núcleo: produce las partes de los ribosomas.",
+        "x": 40,
+        "y": 27
+      }
+    ]
+  },
+  "k3.3-01": {
+    "tipo": "anatomia",
+    "resumen_es": "Esqueleto humano visto de frente con los huesos principales. Toca los puntos para ver cada nombre en alemán, su equivalente en español y el nombre técnico en latín.",
+    "claves_es": [
+      "El esqueleto adulto tiene 206 huesos aproximadamente.",
+      "Radio (Speiche) está del lado del pulgar; cúbito (Elle) del lado del meñique.",
+      "Tibia (Schienbein) es el hueso grueso y medial de la pierna; peroné (Wadenbein) es el delgado y lateral."
+    ],
+    "terminos": [
+      {
+        "de": "Stirnbein",
+        "es": "Hueso frontal",
+        "nota": "Os frontale. Parte del cráneo (frente).",
+        "x": 24.7,
+        "y": 3.6
+      },
+      {
+        "de": "Halswirbelsäule",
+        "es": "Columna cervical",
+        "nota": "7 vértebras cervicales.",
+        "x": 25.5,
+        "y": 15.6
+      },
+      {
+        "de": "Schulterblatt",
+        "es": "Omóplato (escápula)",
+        "nota": "Scapula.",
+        "x": 34.5,
+        "y": 21.4
+      },
+      {
+        "de": "Brustbein",
+        "es": "Esternón",
+        "nota": "Sternum.",
+        "x": 25.5,
+        "y": 25.7
+      },
+      {
+        "de": "Oberarmknochen",
+        "es": "Húmero",
+        "nota": "Humerus.",
+        "x": 38,
+        "y": 30
+      },
+      {
+        "de": "Rippe",
+        "es": "Costilla",
+        "nota": "Costa. 12 pares.",
+        "x": 32,
+        "y": 34.7
+      },
+      {
+        "de": "Elle",
+        "es": "Cúbito",
+        "nota": "Ulna.",
+        "x": 39.5,
+        "y": 40.9
+      },
+      {
+        "de": "Speiche",
+        "es": "Radio",
+        "nota": "Radius.",
+        "x": 42.4,
+        "y": 45.5
+      },
+      {
+        "de": "Mittelhandknochen",
+        "es": "Metacarpianos",
+        "nota": "Ossa metacarpi: 5 huesos de la palma.",
+        "x": 44.4,
+        "y": 51
+      },
+      {
+        "de": "Oberschenkelknochen",
+        "es": "Fémur",
+        "nota": "Femur. El hueso más largo y fuerte del cuerpo.",
+        "x": 31.3,
+        "y": 60.4
+      },
+      {
+        "de": "Schienbein",
+        "es": "Tibia",
+        "nota": "Tibia.",
+        "x": 28,
+        "y": 78.8
+      },
+      {
+        "de": "Wadenbein",
+        "es": "Peroné (fíbula)",
+        "nota": "Fibula.",
+        "x": 30.4,
+        "y": 83.8
+      },
+      {
+        "de": "Fußwurzel",
+        "es": "Tarso",
+        "nota": "Ossa tarsi: 7 huesos del pie posterior.",
+        "x": 26.3,
+        "y": 95.4
+      }
+    ]
+  },
+  "k3.3-02": {
+    "tipo": "anatomia",
+    "resumen_es": "Corte longitudinal de un hueso largo (por ejemplo, el fémur). Muestra las tres partes principales (dos extremos y la caña) y las capas de hueso por dentro. La imagen original trae textos muy pequeños: aquí los tienes traducidos.",
+    "claves_es": [
+      "Epífisis = extremos; diáfisis = caña. La zona de crecimiento está entre ambas (placa epifisaria).",
+      "Compacta = hueso denso, resistente; esponjosa = hueso con huecos (trabéculas) que alberga médula roja.",
+      "El periostio (Knochenhaut) nutre el hueso y permite que se repare tras una fractura."
+    ],
+    "terminos": [
+      {
+        "de": "proximale Epiphyse",
+        "es": "Epífisis proximal",
+        "nota": "Extremo del hueso más cercano al tronco."
+      },
+      {
+        "de": "distale Epiphyse",
+        "es": "Epífisis distal",
+        "nota": "Extremo más alejado del tronco."
+      },
+      {
+        "de": "Diaphyse",
+        "es": "Diáfisis",
+        "nota": "La caña del hueso largo."
+      },
+      {
+        "de": "Apophyse",
+        "es": "Apófisis",
+        "nota": "Saliente óseo donde se insertan tendones y músculos."
+      },
+      {
+        "de": "Gelenkknorpel",
+        "es": "Cartílago articular",
+        "nota": "Recubre los extremos del hueso y reduce la fricción."
+      },
+      {
+        "de": "knöcherne Epiphysenfuge",
+        "es": "Placa de crecimiento ósea (osificada)",
+        "nota": "Cuando se cierra termina el crecimiento en longitud."
+      },
+      {
+        "de": "Markhöhle mit Fettmark",
+        "es": "Cavidad medular con médula amarilla (grasa)",
+        "nota": "En la diáfisis; reserva de grasa."
+      },
+      {
+        "de": "Periost",
+        "es": "Periostio (membrana que cubre el hueso)",
+        "nota": "Knochenhaut: muy irrigada e inervada."
+      },
+      {
+        "de": "Substantia compacta (Kompakta)",
+        "es": "Sustancia compacta (hueso cortical)",
+        "nota": "Capa externa dura."
+      },
+      {
+        "de": "Substantia spongiosa (Spongiosa)",
+        "es": "Sustancia esponjosa (hueso trabecular)",
+        "nota": "Interior en red; contiene médula roja."
+      },
+      {
+        "de": "blutbildendes Knochenmark",
+        "es": "Médula ósea hematopoyética (roja)",
+        "nota": "Produce las células de la sangre."
+      }
+    ]
+  },
+  "k3.3-03": {
+    "tipo": "anatomia",
+    "resumen_es": "Tobillo visto de lado con los ligamentos que estabilizan la articulación. Los esguinces de tobillo más frecuentes (al torcer el pie hacia dentro) lesionan sobre todo los ligamentos laterales externos.",
+    "claves_es": [
+      "Ligamento = une hueso con hueso (Band). Tendón = une músculo con hueso (Sehne).",
+      "El ligamento peroneoastragalino anterior es el que más se lesiona en un esguince."
+    ],
+    "terminos": [
+      {
+        "de": "Schienbein",
+        "es": "Tibia",
+        "nota": "Tibia.",
+        "x": 29.3,
+        "y": 12.7
+      },
+      {
+        "de": "Wadenbein",
+        "es": "Peroné",
+        "nota": "Fibula.",
+        "x": 24.3,
+        "y": 18.7
+      },
+      {
+        "de": "Ligamentum tibiofibulare posterius",
+        "es": "Ligamento tibioperoneo posterior",
+        "nota": "Une tibia y peroné por detrás.",
+        "x": 18.6,
+        "y": 61.6
+      },
+      {
+        "de": "Ligamentum fibulotalare anterius",
+        "es": "Ligamento peroneoastragalino anterior",
+        "nota": "El más afectado en los esguinces.",
+        "x": 32.1,
+        "y": 63.4
+      },
+      {
+        "de": "Ligamentum fibulocalcaneare",
+        "es": "Ligamento peroneocalcáneo",
+        "nota": "Une peroné y calcáneo (talón).",
+        "x": 21.4,
+        "y": 72.5
+      }
+    ]
+  },
+  "k3.3-04": {
+    "tipo": "anatomia",
+    "resumen_es": "Corte esquemático de una articulación verdadera (diartrosis), por ejemplo la rodilla. Muestra de qué está hecha y qué la protege. Toca los números para ver cada parte.",
+    "claves_es": [
+      "Los extremos óseos están cubiertos de cartílago y separados por una hendidura llena de líquido sinovial.",
+      "La cápsula articular encierra todo y produce el líquido sinovial ('aceite' de la articulación).",
+      "Ligamentos estabilizan (hueso–hueso); tendones y músculos mueven (músculo–hueso)."
+    ],
+    "terminos": [
+      {
+        "de": "Spongiosa",
+        "es": "Hueso esponjoso",
+        "nota": "Interior del hueso en red.",
+        "x": 27.4,
+        "y": 32.6
+      },
+      {
+        "de": "Kompakta",
+        "es": "Hueso compacto",
+        "nota": "Capa dura externa del hueso.",
+        "x": 26.9,
+        "y": 49.4
+      },
+      {
+        "de": "Gelenkknorpel",
+        "es": "Cartílago articular",
+        "nota": "Superficie lisa que amortigua.",
+        "x": 26.9,
+        "y": 55.7
+      },
+      {
+        "de": "Gelenkspalt",
+        "es": "Espacio articular",
+        "nota": "Hendidura con líquido sinovial.",
+        "x": 18.1,
+        "y": 52.8
+      },
+      {
+        "de": "Gelenkkapsel",
+        "es": "Cápsula articular",
+        "nota": "Envoltura que sella la articulación.",
+        "x": 5.7,
+        "y": 41.9
+      },
+      {
+        "de": "Band",
+        "es": "Ligamento",
+        "nota": "Une hueso con hueso; estabiliza.",
+        "x": 46.6,
+        "y": 54.3
+      },
+      {
+        "de": "Sehne",
+        "es": "Tendón",
+        "nota": "Une el músculo con el hueso.",
+        "x": 51.4,
+        "y": 54.5
+      },
+      {
+        "de": "Muskel",
+        "es": "Músculo",
+        "nota": "Produce el movimiento.",
+        "x": 55,
+        "y": 8.5
+      }
+    ]
+  },
+  "k3.3-05": {
+    "tipo": "anatomia",
+    "resumen_es": "Articulación esferoidea (enartrosis): una cabeza redonda encaja en una cavidad como una bola en una cuenca. A la izquierda el modelo, a la derecha un dibujo de su ubicación (cadera). Es la articulación con más libertad de movimiento.",
+    "claves_es": [
+      "3 ejes = 3 grados de libertad: flexión/extensión, abducción/aducción, rotación interna/externa.",
+      "Ejemplos: cadera (Hüftgelenk) y hombro (Schultergelenk)."
+    ],
+    "terminos": [
+      {
+        "de": "Kugelgelenk",
+        "es": "Articulación esferoidea (enartrosis)",
+        "nota": "3 ejes de movimiento."
+      },
+      {
+        "de": "Gelenkkopf",
+        "es": "Cabeza articular",
+        "nota": "La parte redonda (convexa)."
+      },
+      {
+        "de": "Gelenkpfanne",
+        "es": "Cavidad glenoidea / acetábulo",
+        "nota": "La cuenca en la que encaja la cabeza."
+      },
+      {
+        "de": "Hüftgelenk",
+        "es": "Articulación de la cadera",
+        "nota": "Ejemplo principal."
+      },
+      {
+        "de": "Schultergelenk",
+        "es": "Articulación del hombro",
+        "nota": "Otro ejemplo; muy móvil pero menos estable."
+      }
+    ]
+  },
+  "k3.3-06": {
+    "tipo": "anatomia",
+    "resumen_es": "Articulación elipsoidea (condílea): una cabeza ovalada en una cavidad ovalada. Permite movimientos en dos direcciones, pero no gira sobre su eje. El ejemplo típico es la muñeca.",
+    "claves_es": [
+      "2 ejes: flexión/extensión y desviación radial/cubital.",
+      "No permite rotación axial (la rotación del antebrazo ocurre en otra articulación)."
+    ],
+    "terminos": [
+      {
+        "de": "Eigelenk",
+        "es": "Articulación elipsoidea (condílea)",
+        "nota": "2 ejes."
+      },
+      {
+        "de": "Handgelenk",
+        "es": "Articulación de la muñeca",
+        "nota": "Entre antebrazo (radio) y huesos del carpo."
+      },
+      {
+        "de": "Gelenkkopf (oval)",
+        "es": "Cabeza articular ovalada"
+      },
+      {
+        "de": "Gelenkpfanne (oval)",
+        "es": "Cavidad articular ovalada"
+      }
+    ]
+  },
+  "k3.3-07": {
+    "tipo": "anatomia",
+    "resumen_es": "Articulación en silla de montar: las dos superficies tienen forma de silla, una montada sobre la otra. Permite movimientos en dos ejes con gran amplitud. El ejemplo clásico es la base del pulgar.",
+    "claves_es": [
+      "2 ejes, pero con más amplitud que la elipsoidea: por eso el pulgar puede oponerse a los otros dedos.",
+      "Ejemplo: articulación carpometacarpiana del pulgar (Daumensattelgelenk)."
+    ],
+    "terminos": [
+      {
+        "de": "Sattelgelenk",
+        "es": "Articulación en silla de montar",
+        "nota": "2 ejes."
+      },
+      {
+        "de": "Daumenwurzelgelenk",
+        "es": "Articulación de la base del pulgar",
+        "nota": "Permite la oposición del pulgar."
+      },
+      {
+        "de": "Opposition",
+        "es": "Oposición",
+        "nota": "Mover el pulgar frente a los demás dedos para agarrar."
+      }
+    ]
+  },
+  "k3.3-08": {
+    "tipo": "anatomia",
+    "resumen_es": "Articulación en bisagra (gínglimo): funciona como la bisagra de una puerta, solo permite doblar y estirar en un eje. En el modelo, el cilindro encaja en una polea. El ejemplo es el codo (unión húmero–cúbito).",
+    "claves_es": [
+      "1 eje: flexión y extensión.",
+      "Ejemplos: codo (húmero–cúbito), articulaciones de los dedos, y de forma parecida la rodilla."
+    ],
+    "terminos": [
+      {
+        "de": "Scharniergelenk",
+        "es": "Articulación en bisagra (gínglimo)",
+        "nota": "1 eje."
+      },
+      {
+        "de": "Ellenbogengelenk",
+        "es": "Articulación del codo",
+        "nota": "Húmero + cúbito (+ radio)."
+      },
+      {
+        "de": "Beugung (Flexion)",
+        "es": "Flexión",
+        "nota": "Doblar la articulación."
+      },
+      {
+        "de": "Streckung (Extension)",
+        "es": "Extensión",
+        "nota": "Estirar la articulación."
+      }
+    ]
+  },
+  "k3.3-09": {
+    "tipo": "anatomia",
+    "resumen_es": "Articulación de pivote (trocoide): un cilindro gira dentro de un anillo, como una puerta sobre su eje. Solo permite rotación. El ejemplo es la unión entre radio y cúbito en el antebrazo, que permite girar la palma hacia arriba o hacia abajo.",
+    "claves_es": [
+      "1 eje: rotación.",
+      "Pronación = palma hacia abajo; supinación = palma hacia arriba.",
+      "Otro ejemplo: atlas–axis (decir 'no' con la cabeza)."
+    ],
+    "terminos": [
+      {
+        "de": "Zapfengelenk",
+        "es": "Articulación de pivote (trocoide)",
+        "nota": "1 eje: rotación."
+      },
+      {
+        "de": "Ellen-Speichen-Gelenk",
+        "es": "Articulación radiocubital",
+        "nota": "Entre cúbito (Elle) y radio (Speiche)."
+      },
+      {
+        "de": "Pronation",
+        "es": "Pronación",
+        "nota": "Palma hacia abajo."
+      },
+      {
+        "de": "Supination",
+        "es": "Supinación",
+        "nota": "Palma hacia arriba."
+      }
+    ]
+  },
+  "k3.3-10": {
+    "tipo": "anatomia",
+    "resumen_es": "Articulación plana (artrodia): las superficies son casi planas y solo se deslizan un poco una sobre otra. Aparece entre los huesos del carpo (muñeca) y del tarso (pie). Los ligamentos las mantienen muy firmes.",
+    "claves_es": [
+      "Movimiento mínimo de deslizamiento; muy poca amplitud.",
+      "Se agrupan con las 'articulaciones rígidas' (straffe Gelenke / Amphiarthrosen)."
+    ],
+    "terminos": [
+      {
+        "de": "Planes Gelenk",
+        "es": "Articulación plana (artrodia)",
+        "nota": "Deslizamiento limitado."
+      },
+      {
+        "de": "Handwurzel",
+        "es": "Carpo",
+        "nota": "8 huesos de la muñeca."
+      },
+      {
+        "de": "Fußwurzel",
+        "es": "Tarso",
+        "nota": "7 huesos del pie."
+      },
+      {
+        "de": "straffes Gelenk (Amphiarthrose)",
+        "es": "Articulación rígida (anfiartrosis)",
+        "nota": "Casi sin movimiento por ligamentos muy tensos."
+      }
+    ]
+  },
+  "k3.3-11": {
+    "tipo": "anatomia",
+    "resumen_es": "Articulaciones falsas (sinartrosis): los huesos se unen mediante tejido (ligamento, cartílago o hueso) y no hay cavidad articular. Se mueven poco o nada. La imagen muestra ejemplos en el sacro, la columna, el cráneo y la muñeca.",
+    "claves_es": [
+      "Bandhaft (sindesmosis): unión por tejido conectivo, p. ej. suturas del cráneo.",
+      "Knorpelhaft (sincondrosis/sínfisis): unión por cartílago, p. ej. discos intervertebrales.",
+      "Knochenhaft (sinostosis): unión por hueso, p. ej. sacro y cóccix."
+    ],
+    "terminos": [
+      {
+        "de": "Unechte Gelenke (Synarthrosen)",
+        "es": "Articulaciones falsas (sinartrosis)",
+        "nota": "Sin cavidad articular."
+      },
+      {
+        "de": "Kreuzbein",
+        "es": "Sacro",
+        "nota": "Os sacrum: 5 vértebras fusionadas (unión ósea)."
+      },
+      {
+        "de": "Steißbein",
+        "es": "Cóccix",
+        "nota": "Os coccygis: restos de cola, 3–5 vértebras fusionadas."
+      },
+      {
+        "de": "Wirbelkörper",
+        "es": "Cuerpo vertebral"
+      },
+      {
+        "de": "Bandscheiben",
+        "es": "Discos intervertebrales",
+        "nota": "Unión por cartílago (Knorpelhaft); amortiguan."
+      },
+      {
+        "de": "Schädelnähte",
+        "es": "Suturas craneales",
+        "nota": "Unión por tejido conectivo (Bandhaft)."
+      },
+      {
+        "de": "Handwurzelknochen",
+        "es": "Huesos del carpo",
+        "nota": "Articulaciones planas y rígidas."
+      },
+      {
+        "de": "Bandhaft",
+        "es": "Unión por ligamento (sindesmosis)"
+      },
+      {
+        "de": "Knorpelhaft",
+        "es": "Unión por cartílago (sincondrosis)"
+      },
+      {
+        "de": "Knochenhaft",
+        "es": "Unión por hueso (sinostosis)"
+      }
+    ]
+  },
+  "k3.3-12": {
+    "tipo": "anatomia",
+    "resumen_es": "Rodilla vista de lado con hueso, cartílago, meniscos y ligamentos. La rodilla es una articulación en bisagra con algo de rotación, muy cargada en el deporte y propensa a lesiones de ligamentos y menisco.",
+    "claves_es": [
+      "Los ligamentos cruzados (Kreuzbänder) evitan que la tibia se deslice hacia delante/atrás.",
+      "Los ligamentos colaterales (Innen- y Außenband) estabilizan hacia los lados.",
+      "Los meniscos amortiguan y reparten la carga entre fémur y tibia."
+    ],
+    "terminos": [
+      {
+        "de": "Oberschenkelmuskulatur",
+        "es": "Musculatura del muslo (cuádriceps)",
+        "x": 32.6,
+        "y": 8.6
+      },
+      {
+        "de": "Oberschenkelknochen (Femur)",
+        "es": "Fémur",
+        "x": 41.1,
+        "y": 41.4
+      },
+      {
+        "de": "Kniescheibe (Patella)",
+        "es": "Rótula (patela)",
+        "nota": "Hueso sesamoideo que protege la rodilla y mejora la palanca del cuádriceps.",
+        "x": 72.1,
+        "y": 34.1
+      },
+      {
+        "de": "Kniegelenkknorpel",
+        "es": "Cartílago articular de la rodilla",
+        "x": 42.9,
+        "y": 50.8
+      },
+      {
+        "de": "Kreuzband",
+        "es": "Ligamento cruzado",
+        "nota": "Lig. cruciatum: anterior y posterior.",
+        "x": 62.1,
+        "y": 51.2
+      },
+      {
+        "de": "Meniskus",
+        "es": "Menisco",
+        "nota": "Disco de fibrocartílago amortiguador.",
+        "x": 43.9,
+        "y": 56.3
+      },
+      {
+        "de": "Kniescheibenband",
+        "es": "Ligamento rotuliano",
+        "nota": "Une la rótula con la tibia.",
+        "x": 75,
+        "y": 56.3
+      },
+      {
+        "de": "Außenband",
+        "es": "Ligamento colateral externo (lateral)",
+        "x": 50,
+        "y": 62.3
+      },
+      {
+        "de": "Unterschenkelknochen (Tibia)",
+        "es": "Tibia",
+        "x": 66,
+        "y": 73.4
+      },
+      {
+        "de": "Wadenbein (Fibula)",
+        "es": "Peroné (fíbula)",
+        "x": 48.6,
+        "y": 86
+      }
+    ]
+  },
+  "k3.3-13": {
+    "tipo": "anatomia",
+    "resumen_es": "Vista desde arriba de la meseta tibial con los dos meniscos (en rosa) y los ligamentos cruzados. Los meniscos tienen forma de 'C' y funcionan como amortiguadores entre el fémur y la tibia.",
+    "claves_es": [
+      "Menisco interno (Innenmeniskus) y externo (Außenmeniskus). El interno se lesiona más a menudo.",
+      "Los dos ligamentos cruzados se cruzan en el centro de la rodilla.",
+      "'Vorderes Kreuzband' = ligamento cruzado anterior (LCA)."
+    ],
+    "terminos": [
+      {
+        "de": "Außenband",
+        "es": "Ligamento colateral externo",
+        "x": 17.1,
+        "y": 33.5
+      },
+      {
+        "de": "Wadenbein",
+        "es": "Peroné",
+        "x": 18.6,
+        "y": 38.5
+      },
+      {
+        "de": "Außenmeniskus",
+        "es": "Menisco externo (lateral)",
+        "x": 28.1,
+        "y": 39
+      },
+      {
+        "de": "Hinteres Kreuzband",
+        "es": "Ligamento cruzado posterior (LCP)",
+        "x": 54.3,
+        "y": 29.8
+      },
+      {
+        "de": "Vorderes Kreuzband",
+        "es": "Ligamento cruzado anterior (LCA)",
+        "x": 57.1,
+        "y": 58.9
+      },
+      {
+        "de": "Innenmeniskus",
+        "es": "Menisco interno (medial)",
+        "x": 80.7,
+        "y": 39
+      },
+      {
+        "de": "Innenband",
+        "es": "Ligamento colateral interno",
+        "x": 89.3,
+        "y": 49.2
+      },
+      {
+        "de": "Gelenkfläche",
+        "es": "Superficie articular",
+        "nota": "Cartílago azul de la meseta tibial.",
+        "x": 37.9,
+        "y": 54.4
+      },
+      {
+        "de": "Schienbein",
+        "es": "Tibia",
+        "x": 38.6,
+        "y": 74.5
+      },
+      {
+        "de": "Kniescheibensehne",
+        "es": "Tendón rotuliano",
+        "x": 41.9,
+        "y": 80.5
+      }
+    ]
+  },
+  "k3.3-14": {
+    "tipo": "anatomia",
+    "resumen_es": "Columna vertebral de lado con sus cinco regiones y la nomenclatura de las vértebras (C = cervical, Th = torácica, L = lumbar, S = sacra). La imagen original usa abreviaturas; aquí tienes qué significa cada una.",
+    "claves_es": [
+      "7 cervicales (C1–C7) + 12 torácicas (Th1–Th12) + 5 lumbares (L1–L5) + sacro + cóccix.",
+      "Forma de doble S: lordosis cervical, cifosis torácica, lordosis lumbar, cifosis sacra.",
+      "Esa forma amortigua los impactos."
+    ],
+    "terminos": [
+      {
+        "de": "Halswirbelsäule (HWS)",
+        "es": "Columna cervical",
+        "nota": "7 vértebras: C1–C7. Lordosis (curva hacia delante)."
+      },
+      {
+        "de": "Brustwirbelsäule (BWS)",
+        "es": "Columna torácica (dorsal)",
+        "nota": "12 vértebras: Th1–Th12. Cifosis; articula con las costillas."
+      },
+      {
+        "de": "Lendenwirbelsäule (LWS)",
+        "es": "Columna lumbar",
+        "nota": "5 vértebras: L1–L5. Lordosis; soporta más carga."
+      },
+      {
+        "de": "Kreuzbein",
+        "es": "Sacro",
+        "nota": "5 vértebras fusionadas (S1–S5)."
+      },
+      {
+        "de": "Steißbein",
+        "es": "Cóccix",
+        "nota": "3–5 vértebras fusionadas."
+      },
+      {
+        "de": "Lordose",
+        "es": "Lordosis",
+        "nota": "Curva con la convexidad hacia delante."
+      },
+      {
+        "de": "Kyphose",
+        "es": "Cifosis",
+        "nota": "Curva con la convexidad hacia atrás."
+      }
+    ]
+  },
+  "k3.3-15": {
+    "tipo": "anatomia",
+    "resumen_es": "Comparación de una vértebra cervical, una torácica y una lumbar vistas desde arriba. Todas comparten el mismo plan (cuerpo, arco, apófisis) pero cada región tiene rasgos propios: las cervicales tienen un orificio para las arterias; las torácicas, carillas para las costillas; las lumbares son las más grandes.",
+    "claves_es": [
+      "El conducto vertebral (Wirbelkanal) protege la médula espinal.",
+      "Cervical: agujero transverso para las arterias vertebrales.",
+      "Torácica: carillas costales para articular con las costillas.",
+      "Lumbar: cuerpo grande y robusto, soporta más peso."
+    ],
+    "terminos": [
+      {
+        "de": "Wirbelkörper",
+        "es": "Cuerpo vertebral",
+        "nota": "Parte anterior, soporta la carga."
+      },
+      {
+        "de": "Wirbelbogen",
+        "es": "Arco vertebral",
+        "nota": "Rodea la médula por detrás."
+      },
+      {
+        "de": "Wirbelkanal",
+        "es": "Conducto vertebral",
+        "nota": "Por aquí pasa la médula espinal."
+      },
+      {
+        "de": "Dornfortsatz",
+        "es": "Apófisis espinosa",
+        "nota": "La que se nota al palpar la espalda."
+      },
+      {
+        "de": "Querfortsatz",
+        "es": "Apófisis transversa",
+        "nota": "Punto de inserción de músculos y ligamentos."
+      },
+      {
+        "de": "Gelenkfläche",
+        "es": "Carilla articular",
+        "nota": "Articula con la vértebra vecina."
+      },
+      {
+        "de": "Öffnung für die Wirbelarterien",
+        "es": "Agujero transverso (para las arterias vertebrales)",
+        "nota": "Solo en las cervicales."
+      },
+      {
+        "de": "Rippengelenkfläche oben/unten",
+        "es": "Carilla costal superior/inferior",
+        "nota": "Solo en las torácicas, para las costillas."
+      },
+      {
+        "de": "Halswirbel",
+        "es": "Vértebra cervical"
+      },
+      {
+        "de": "Brustwirbel",
+        "es": "Vértebra torácica"
+      },
+      {
+        "de": "Lendenwirbel",
+        "es": "Vértebra lumbar"
+      }
+    ]
+  },
+  "k3.3-16": {
+    "tipo": "anatomia",
+    "resumen_es": "Las dos primeras vértebras cervicales: el atlas (C1, arriba) y el axis (C2, abajo). El atlas es un anillo que sostiene el cráneo; el axis tiene una 'clavija' (apófisis odontoides) que encaja en el atlas. Así la cabeza puede asentir y girar.",
+    "claves_es": [
+      "Atlas–occipital: movimiento de 'sí' (flexión/extensión de la cabeza).",
+      "Atlas–axis: movimiento de 'no' (rotación de la cabeza).",
+      "El ligamento transverso mantiene el diente del axis contra el atlas; si falla, la médula corre peligro."
+    ],
+    "terminos": [
+      {
+        "de": "Atlas",
+        "es": "Atlas (C1)",
+        "nota": "Primera vértebra cervical, sin cuerpo; sostiene el cráneo."
+      },
+      {
+        "de": "Axis",
+        "es": "Axis (C2)",
+        "nota": "Segunda vértebra cervical; permite girar la cabeza."
+      },
+      {
+        "de": "Zahnfortsatz der Axis",
+        "es": "Apófisis odontoides (diente) del axis",
+        "nota": "Dens axis: eje de giro."
+      },
+      {
+        "de": "Querband des Atlas",
+        "es": "Ligamento transverso del atlas",
+        "nota": "Sujeta el diente contra el atlas."
+      },
+      {
+        "de": "Wirbelloch",
+        "es": "Agujero vertebral",
+        "nota": "Por donde pasa la médula."
+      },
+      {
+        "de": "Querfortsatz der Axis",
+        "es": "Apófisis transversa del axis"
+      },
+      {
+        "de": "Wirbelkörper der Axis",
+        "es": "Cuerpo del axis"
+      },
+      {
+        "de": "Dornfortsatz der Axis",
+        "es": "Apófisis espinosa del axis"
+      }
+    ]
+  },
+  "k3.3-17": {
+    "tipo": "anatomia",
+    "resumen_es": "Corte de dos vértebras con el disco intervertebral (Bandscheibe) entre ellas. El disco tiene un anillo fibroso exterior y un núcleo gelatinoso interior que actúan como amortiguador. Si el anillo se rompe y el núcleo sale, se produce una hernia discal que puede comprimir un nervio.",
+    "claves_es": [
+      "Disco = anillo fibroso (Anulus fibrosus) + núcleo pulposo (Nucleus pulposus).",
+      "Hernia discal: el núcleo sale y presiona sobre el nervio espinal.",
+      "Los discos se nutren por difusión con el movimiento: moverse es bueno para la columna."
+    ],
+    "terminos": [
+      {
+        "de": "Rückenmark",
+        "es": "Médula espinal",
+        "x": 50.7,
+        "y": 19
+      },
+      {
+        "de": "ausgetretener gallertartiger Kern",
+        "es": "Núcleo gelatinoso herniado",
+        "nota": "Hernia discal.",
+        "x": 59.7,
+        "y": 27.9
+      },
+      {
+        "de": "Spinalnerv (Rückenmarksnerv)",
+        "es": "Nervio espinal",
+        "nota": "Sale entre dos vértebras.",
+        "x": 67,
+        "y": 26.8
+      },
+      {
+        "de": "Faserring (Anulus fibrosus)",
+        "es": "Anillo fibroso",
+        "nota": "Envoltura resistente del disco.",
+        "x": 42.6,
+        "y": 33
+      },
+      {
+        "de": "gallertartiger Kern (Nucleus pulposus)",
+        "es": "Núcleo pulposo",
+        "nota": "Centro gelatinoso que amortigua.",
+        "x": 50.7,
+        "y": 35.7
+      },
+      {
+        "de": "Wirbelkörper",
+        "es": "Cuerpo vertebral",
+        "x": 44.3,
+        "y": 51.3
+      },
+      {
+        "de": "Bandscheibe",
+        "es": "Disco intervertebral",
+        "x": 51.4,
+        "y": 63.6
+      },
+      {
+        "de": "Wirbelkörperfortsatz",
+        "es": "Apófisis vertebral",
+        "x": 72.9,
+        "y": 71
+      }
+    ]
+  }
+}

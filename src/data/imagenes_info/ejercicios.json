@@ -1,0 +1,974 @@
+{
+  "k8-01": {
+    "tipo": "ejercicio",
+    "resumen_es": "Press de banca: empujas una barra (o mancuernas) desde el pecho hacia arriba tumbado en un banco. Es el ejercicio básico de empuje para pecho, hombro anterior y tríceps. La imagen muestra dos variantes: en máquina Smith (barra guiada, izquierda) y en banco inclinado con barra libre (derecha).",
+    "ejecucion_es": [
+      "Tumbado en el banco, pies firmes en el suelo, omóplatos juntos y apoyados.",
+      "Agarre algo más ancho que los hombros. Baja la barra controlada hasta rozar el pecho.",
+      "Empuja hacia arriba en vertical hasta estirar los brazos sin bloquear los codos de forma brusca.",
+      "Exhala al empujar, inhala al bajar."
+    ],
+    "musculos": [
+      {
+        "de": "Großer Brustmuskel (M. pectoralis major)",
+        "es": "Pectoral mayor",
+        "rol": "principal"
+      },
+      {
+        "de": "Vorderer Anteil des Deltamuskels",
+        "es": "Deltoides anterior",
+        "rol": "ayuda"
+      },
+      {
+        "de": "Trizeps (M. triceps brachii)",
+        "es": "Tríceps braquial",
+        "rol": "ayuda"
+      }
+    ],
+    "errores_es": [
+      "Despegar glúteos o espalda del banco (riesgo para la zona lumbar).",
+      "Rebotar la barra en el pecho.",
+      "Abrir los codos a 90° respecto al tronco (carga excesiva en el hombro): mantenlos a unos 45–75°."
+    ],
+    "terminos": [
+      {
+        "de": "Bankdrücken",
+        "es": "Press de banca"
+      },
+      {
+        "de": "Flachbankdrücken (Multipresse)",
+        "es": "Press de banca plano (máquina Smith)",
+        "nota": "Barra guiada: más estable."
+      },
+      {
+        "de": "Schrägbankdrücken (Langhantel)",
+        "es": "Press inclinado con barra",
+        "nota": "Enfatiza la parte superior del pecho."
+      },
+      {
+        "de": "Langhantel",
+        "es": "Barra libre"
+      },
+      {
+        "de": "Multipresse",
+        "es": "Máquina Smith (barra guiada)"
+      },
+      {
+        "de": "Kurzhantel",
+        "es": "Mancuerna"
+      }
+    ]
+  },
+  "k8-02": {
+    "tipo": "ejercicio",
+    "resumen_es": "Aperturas / vuelos: ejercicio de aislamiento del pecho. Los brazos se abren hacia los lados y se vuelven a juntar como un abrazo. A la izquierda con mancuernas tumbado en banco; a la derecha en polea (cables) de pie.",
+    "ejecucion_es": [
+      "Tumbado en el banco, mancuernas arriba con los codos ligeramente flexionados.",
+      "Abre los brazos en arco hacia los lados hasta sentir un estiramiento en el pecho.",
+      "Vuelve al punto de partida juntando las mancuernas como si abrazaras un árbol.",
+      "El ángulo del codo se mantiene constante durante todo el movimiento."
+    ],
+    "musculos": [
+      {
+        "de": "Großer Brustmuskel (M. pectoralis major)",
+        "es": "Pectoral mayor",
+        "rol": "principal"
+      },
+      {
+        "de": "Vorderer Anteil des Deltamuskels",
+        "es": "Deltoides anterior",
+        "rol": "ayuda"
+      }
+    ],
+    "errores_es": [
+      "Estirar completamente los brazos o doblarlos demasiado (se convierte en un press).",
+      "Bajar demasiado: exceso de estiramiento del hombro.",
+      "Usar demasiado peso y perder el control."
+    ],
+    "terminos": [
+      {
+        "de": "Fliegende",
+        "es": "Aperturas (vuelos)"
+      },
+      {
+        "de": "Butterfly",
+        "es": "Mariposa (máquina de aperturas)"
+      },
+      {
+        "de": "Kabelzug",
+        "es": "Polea (cable)"
+      },
+      {
+        "de": "Kurzhantel",
+        "es": "Mancuerna"
+      }
+    ]
+  },
+  "k8-03": {
+    "tipo": "ejercicio",
+    "resumen_es": "Flexiones de brazos: ejercicio con el peso del propio cuerpo para pecho, hombros y tríceps, con el tronco como un tablón rígido. No necesita material.",
+    "ejecucion_es": [
+      "Manos algo más anchas que los hombros, cuerpo en línea recta de cabeza a talones.",
+      "Baja el pecho controlado hasta casi tocar el suelo (codos ~45° del tronco).",
+      "Empuja hasta estirar los brazos manteniendo el abdomen y los glúteos tensos.",
+      "Variante más fácil: apoyar las rodillas o las manos en un banco elevado."
+    ],
+    "musculos": [
+      {
+        "de": "Großer Brustmuskel (M. pectoralis major)",
+        "es": "Pectoral mayor",
+        "rol": "principal"
+      },
+      {
+        "de": "Trizeps (M. triceps brachii)",
+        "es": "Tríceps braquial",
+        "rol": "ayuda"
+      },
+      {
+        "de": "Vorderer Anteil des Deltamuskels",
+        "es": "Deltoides anterior",
+        "rol": "ayuda"
+      },
+      {
+        "de": "Gerade Bauchmuskulatur",
+        "es": "Recto abdominal (estabiliza)",
+        "rol": "estabilizador"
+      }
+    ],
+    "errores_es": [
+      "Dejar caer la cadera (hiperlordosis lumbar) o subirla demasiado.",
+      "Adelantar la cabeza.",
+      "No bajar lo suficiente (recorrido incompleto)."
+    ],
+    "terminos": [
+      {
+        "de": "Liegestütze",
+        "es": "Flexiones de brazos"
+      },
+      {
+        "de": "Körpergewicht",
+        "es": "Peso corporal"
+      },
+      {
+        "de": "Rumpfspannung",
+        "es": "Tensión del tronco (core)"
+      }
+    ]
+  },
+  "k8-04": {
+    "tipo": "ejercicio",
+    "resumen_es": "Remo: ejercicio de tracción para la espalda. Se tira de un peso hacia el abdomen con el tronco inclinado. La imagen muestra remo con barra (izquierda) y remo con una mancuerna apoyado en un banco (derecha).",
+    "ejecucion_es": [
+      "Tronco inclinado hacia delante con la espalda recta, rodillas ligeramente flexionadas.",
+      "Tira del peso hacia el abdomen/cadera juntando los omóplatos.",
+      "Baja el peso controlado hasta estirar los brazos.",
+      "Mantén la mirada ligeramente hacia delante, no hacia arriba."
+    ],
+    "musculos": [
+      {
+        "de": "Breiter Rückenmuskel (M. latissimus dorsi)",
+        "es": "Dorsal ancho",
+        "rol": "principal"
+      },
+      {
+        "de": "Rautenmuskeln (Mm. rhomboidei)",
+        "es": "Romboides",
+        "rol": "ayuda"
+      },
+      {
+        "de": "Trapezmuskel (M. trapezius)",
+        "es": "Trapecio",
+        "rol": "ayuda"
+      },
+      {
+        "de": "Bizeps (M. biceps brachii)",
+        "es": "Bíceps braquial",
+        "rol": "ayuda"
+      }
+    ],
+    "errores_es": [
+      "Redondear la espalda (riesgo para los discos lumbares).",
+      "Balancearse y tirar con impulso del tronco.",
+      "Subir los hombros hacia las orejas."
+    ],
+    "terminos": [
+      {
+        "de": "Rudern",
+        "es": "Remo"
+      },
+      {
+        "de": "Vorgebeugtes Rudern (Langhantel)",
+        "es": "Remo inclinado con barra"
+      },
+      {
+        "de": "Einarmiges Rudern (Kurzhantel)",
+        "es": "Remo a una mano con mancuerna"
+      },
+      {
+        "de": "gerader Rücken",
+        "es": "Espalda recta",
+        "nota": "Posición neutra de la columna."
+      }
+    ]
+  },
+  "k8-05": {
+    "tipo": "ejercicio",
+    "resumen_es": "Jalón al pecho: sentado en una máquina de polea alta, bajas la barra hasta la parte superior del pecho tirando con la espalda. Es la alternativa guiada a las dominadas.",
+    "ejecucion_es": [
+      "Sentado, muslos fijados bajo el rodillo, agarre algo más ancho que los hombros.",
+      "Saca el pecho, tira de la barra hacia la clavícula llevando los codos hacia abajo y atrás.",
+      "Vuelve despacio hasta estirar los brazos controlando el peso.",
+      "No tires de la barra por detrás de la nuca (riesgo para hombros y cervicales)."
+    ],
+    "musculos": [
+      {
+        "de": "Breiter Rückenmuskel (M. latissimus dorsi)",
+        "es": "Dorsal ancho",
+        "rol": "principal"
+      },
+      {
+        "de": "Großer Rundmuskel (M. teres major)",
+        "es": "Redondo mayor",
+        "rol": "ayuda"
+      },
+      {
+        "de": "Bizeps (M. biceps brachii)",
+        "es": "Bíceps braquial",
+        "rol": "ayuda"
+      },
+      {
+        "de": "Rautenmuskeln",
+        "es": "Romboides",
+        "rol": "ayuda"
+      }
+    ],
+    "errores_es": [
+      "Inclinarse demasiado hacia atrás y balancear el tronco.",
+      "Tirar de la barra tras la nuca.",
+      "Encoger los hombros hacia las orejas."
+    ],
+    "terminos": [
+      {
+        "de": "Latzug",
+        "es": "Jalón al pecho (polea alta)"
+      },
+      {
+        "de": "Obergriff",
+        "es": "Agarre prono (palmas hacia delante)"
+      },
+      {
+        "de": "Untergriff",
+        "es": "Agarre supino (palmas hacia ti)"
+      },
+      {
+        "de": "Kabelzug",
+        "es": "Polea"
+      }
+    ]
+  },
+  "k8-06": {
+    "tipo": "ejercicio",
+    "resumen_es": "Dominadas: te cuelgas de una barra y subes el cuerpo hasta pasar la barbilla de la barra. Es un ejercicio exigente de espalda y bíceps. La imagen muestra la versión en máquina (asistida/guiada), que permite ajustar la carga para quienes aún no pueden con su peso completo.",
+    "ejecucion_es": [
+      "Agarre algo más ancho que los hombros, brazos estirados.",
+      "Tira de los codos hacia abajo hasta que la barbilla supere la barra.",
+      "Baja controlado hasta casi estirar los brazos.",
+      "Mantén el tronco estable, sin balanceo."
+    ],
+    "musculos": [
+      {
+        "de": "Breiter Rückenmuskel (M. latissimus dorsi)",
+        "es": "Dorsal ancho",
+        "rol": "principal"
+      },
+      {
+        "de": "Bizeps (M. biceps brachii)",
+        "es": "Bíceps braquial",
+        "rol": "ayuda"
+      },
+      {
+        "de": "Rautenmuskeln / Trapezmuskel",
+        "es": "Romboides / trapecio",
+        "rol": "ayuda"
+      }
+    ],
+    "errores_es": [
+      "Balancearse (kipping) para ganar impulso.",
+      "Recorrido incompleto (no extender del todo abajo).",
+      "Encoger los hombros hacia las orejas."
+    ],
+    "terminos": [
+      {
+        "de": "Klimmzüge",
+        "es": "Dominadas"
+      },
+      {
+        "de": "Klimmzugmaschine",
+        "es": "Máquina de dominadas asistidas"
+      },
+      {
+        "de": "Schulterbreit",
+        "es": "A la anchura de los hombros"
+      }
+    ]
+  },
+  "k8-07": {
+    "tipo": "ejercicio",
+    "resumen_es": "Press de hombros: empujas el peso por encima de la cabeza. Trabaja principalmente el deltoides. Aparece con mancuernas en banco con respaldo, en máquina Smith y en máquina guiada (de izquierda a derecha).",
+    "ejecucion_es": [
+      "Sentado con la espalda apoyada, el peso a la altura de los hombros.",
+      "Empuja hacia arriba hasta casi extender los brazos.",
+      "Baja controlado hasta la altura de las orejas.",
+      "Mantén el abdomen activo para no arquear la zona lumbar."
+    ],
+    "musculos": [
+      {
+        "de": "Deltamuskel (M. deltoideus)",
+        "es": "Deltoides",
+        "rol": "principal"
+      },
+      {
+        "de": "Trizeps (M. triceps brachii)",
+        "es": "Tríceps braquial",
+        "rol": "ayuda"
+      },
+      {
+        "de": "Trapezmuskel (M. trapezius)",
+        "es": "Trapecio (parte superior)",
+        "rol": "ayuda"
+      }
+    ],
+    "errores_es": [
+      "Arquear excesivamente la espalda baja.",
+      "Bajar el peso detrás de la nuca con barra (riesgo para el hombro).",
+      "Bloquear los codos de golpe en la parte alta."
+    ],
+    "terminos": [
+      {
+        "de": "Schulterdrücken",
+        "es": "Press de hombros"
+      },
+      {
+        "de": "Schulterdrücken (Kurzhantel)",
+        "es": "Press de hombros con mancuernas"
+      },
+      {
+        "de": "Schulterdrücken (Multipresse)",
+        "es": "Press de hombros en máquina Smith"
+      },
+      {
+        "de": "Schulterpresse (Maschine)",
+        "es": "Máquina de press de hombros"
+      }
+    ]
+  },
+  "k8-08": {
+    "tipo": "ejercicio",
+    "resumen_es": "Butterfly inverso (aperturas posteriores): en la máquina de aperturas, pero mirando hacia el respaldo para trabajar la parte posterior del hombro y la espalda alta. Ayuda a equilibrar la postura (contra los hombros adelantados).",
+    "ejecucion_es": [
+      "Sentado de cara al respaldo con el pecho apoyado, brazos casi estirados.",
+      "Abre los brazos hacia atrás juntando los omóplatos.",
+      "Pausa un instante y vuelve controlado.",
+      "Los codos quedan ligeramente flexionados."
+    ],
+    "musculos": [
+      {
+        "de": "Hinterer Anteil des Deltamuskels",
+        "es": "Deltoides posterior",
+        "rol": "principal"
+      },
+      {
+        "de": "Rautenmuskeln (Mm. rhomboidei)",
+        "es": "Romboides",
+        "rol": "ayuda"
+      },
+      {
+        "de": "Trapezmuskel (mittlerer Teil)",
+        "es": "Trapecio medio",
+        "rol": "ayuda"
+      }
+    ],
+    "errores_es": [
+      "Usar demasiado peso y compensar con el tronco.",
+      "Encoger los hombros.",
+      "Hacerlo con impulso."
+    ],
+    "terminos": [
+      {
+        "de": "Butterfly reverse",
+        "es": "Butterfly inverso (aperturas posteriores)"
+      },
+      {
+        "de": "hintere Schultermuskulatur",
+        "es": "Musculatura posterior del hombro"
+      }
+    ]
+  },
+  "k8-09": {
+    "tipo": "ejercicio",
+    "resumen_es": "Elevaciones laterales: se levantan los brazos hacia los lados hasta la altura de los hombros. Aísla el deltoides lateral (da el aspecto 'ancho' del hombro). Se muestra con mancuernas de pie, con cables inclinado hacia delante y con polea a un brazo.",
+    "ejecucion_es": [
+      "De pie, mancuernas a los lados, codos ligeramente flexionados.",
+      "Sube los brazos hacia los lados hasta la altura de los hombros (no más).",
+      "Baja despacio sin dejar caer el peso.",
+      "Tronco quieto, sin balanceo."
+    ],
+    "musculos": [
+      {
+        "de": "Deltamuskel, seitlicher Anteil",
+        "es": "Deltoides lateral",
+        "rol": "principal"
+      },
+      {
+        "de": "Obergrätenmuskel (M. supraspinatus)",
+        "es": "Supraespinoso",
+        "rol": "ayuda"
+      },
+      {
+        "de": "Trapezmuskel",
+        "es": "Trapecio",
+        "rol": "ayuda"
+      }
+    ],
+    "errores_es": [
+      "Subir por encima de la altura del hombro (pinzamiento).",
+      "Usar impulso del tronco.",
+      "Encoger los hombros."
+    ],
+    "terminos": [
+      {
+        "de": "Seitheben",
+        "es": "Elevaciones laterales"
+      },
+      {
+        "de": "Seitheben (Kurzhantel)",
+        "es": "Elevaciones laterales con mancuernas"
+      },
+      {
+        "de": "Seitheben am Kabelzug",
+        "es": "Elevaciones laterales en polea"
+      },
+      {
+        "de": "Vorgebeugtes Seitheben",
+        "es": "Elevaciones laterales inclinado (deltoides posterior)"
+      }
+    ]
+  },
+  "k8-10": {
+    "tipo": "ejercicio",
+    "resumen_es": "Curl de bíceps: flexionar el codo levantando el peso hacia el hombro. Es el ejercicio básico de aislamiento para el bíceps. Se ve con mancuernas (a dos manos y alternado) y con polea baja.",
+    "ejecucion_es": [
+      "De pie, codos pegados al cuerpo, palmas hacia delante.",
+      "Flexiona el codo subiendo el peso hacia el hombro sin mover el brazo.",
+      "Baja despacio hasta casi estirar el brazo.",
+      "No balancear el tronco."
+    ],
+    "musculos": [
+      {
+        "de": "Zweiköpfiger Armmuskel (M. biceps brachii)",
+        "es": "Bíceps braquial",
+        "rol": "principal"
+      },
+      {
+        "de": "Oberarmmuskel (M. brachialis)",
+        "es": "Braquial anterior",
+        "rol": "ayuda"
+      },
+      {
+        "de": "Oberarmspeichenmuskel (M. brachioradialis)",
+        "es": "Braquiorradial",
+        "rol": "ayuda"
+      }
+    ],
+    "errores_es": [
+      "Balancear el cuerpo para subir el peso (trampa).",
+      "Subir los codos hacia delante.",
+      "Bajar sin control (se pierde la mitad del ejercicio)."
+    ],
+    "terminos": [
+      {
+        "de": "Bizeps-Curl",
+        "es": "Curl de bíceps"
+      },
+      {
+        "de": "Kurzhantel-Curl",
+        "es": "Curl con mancuernas"
+      },
+      {
+        "de": "Curl am Kabelzug",
+        "es": "Curl en polea baja"
+      },
+      {
+        "de": "Armbeuger",
+        "es": "Flexores del brazo"
+      }
+    ]
+  },
+  "k8-11": {
+    "tipo": "ejercicio",
+    "resumen_es": "Ejercicios de tríceps: extensión del codo contra resistencia. La imagen muestra tres formas: empuje en polea (pushdown), máquina de fondos sentado y patada con mancuerna inclinado sobre el banco (kickback).",
+    "ejecucion_es": [
+      "Codos pegados al tronco; solo se mueve el antebrazo.",
+      "Extiende el codo hasta estirar el brazo.",
+      "Vuelve despacio hasta unos 90° de flexión.",
+      "Mantén las muñecas rectas."
+    ],
+    "musculos": [
+      {
+        "de": "Dreiköpfiger Armmuskel (M. triceps brachii)",
+        "es": "Tríceps braquial",
+        "rol": "principal"
+      }
+    ],
+    "errores_es": [
+      "Separar los codos del cuerpo.",
+      "Balancear el tronco.",
+      "No extender del todo el brazo."
+    ],
+    "terminos": [
+      {
+        "de": "Trizepsdrücken",
+        "es": "Extensión de tríceps (press de tríceps)"
+      },
+      {
+        "de": "Trizepsdrücken am Kabelzug",
+        "es": "Pushdown de tríceps en polea"
+      },
+      {
+        "de": "Trizeps-Maschine",
+        "es": "Máquina de tríceps"
+      },
+      {
+        "de": "Kickback",
+        "es": "Patada de tríceps (con mancuerna)"
+      },
+      {
+        "de": "Armstrecker",
+        "es": "Extensores del brazo"
+      }
+    ]
+  },
+  "k8-12": {
+    "tipo": "ejercicio",
+    "resumen_es": "Crunches: abdominales cortos con elevación de hombros del suelo. Trabajan el recto abdominal ('six-pack'). Se ven en suelo (izquierda) y sobre fitball (derecha), que añade inestabilidad y más recorrido.",
+    "ejecucion_es": [
+      "Tumbado boca arriba, rodillas flexionadas, manos junto a la cabeza (sin tirar del cuello).",
+      "Eleva los hombros y la parte alta de la espalda enrollando el tronco.",
+      "Mantén la zona lumbar apoyada y baja controlado.",
+      "Exhala al subir."
+    ],
+    "musculos": [
+      {
+        "de": "Gerader Bauchmuskel (M. rectus abdominis)",
+        "es": "Recto abdominal",
+        "rol": "principal"
+      },
+      {
+        "de": "Schräge Bauchmuskeln (Mm. obliqui)",
+        "es": "Oblicuos",
+        "rol": "ayuda"
+      }
+    ],
+    "errores_es": [
+      "Tirar del cuello con las manos.",
+      "Levantar toda la espalda (se convierte en un 'sit-up', activa el psoas).",
+      "Hacerlo muy rápido, con impulso."
+    ],
+    "terminos": [
+      {
+        "de": "Crunches",
+        "es": "Abdominales cortos (crunch)"
+      },
+      {
+        "de": "Rumpfaufrichten",
+        "es": "Elevación del tronco"
+      },
+      {
+        "de": "Gymnastikball",
+        "es": "Pelota de gimnasia (fitball)"
+      }
+    ]
+  },
+  "k8-13": {
+    "tipo": "ejercicio",
+    "resumen_es": "Extensión de espalda (backextension) en banco romano a 45°: fortalece la zona lumbar y los glúteos. Se muestra la extensión recta (izquierda) y con rotación del tronco (derecha), que trabaja más los músculos oblicuos y rotadores.",
+    "ejecucion_es": [
+      "Caderas apoyadas en el cojín, pies fijados bajo los rodillos.",
+      "Baja el tronco con la espalda recta hasta unos 45–90° de flexión de cadera.",
+      "Sube hasta que el cuerpo forme una línea recta (sin hiperextender).",
+      "Manos cruzadas sobre el pecho o detrás de la cabeza."
+    ],
+    "musculos": [
+      {
+        "de": "Rückenstrecker (M. erector spinae)",
+        "es": "Erector de la columna",
+        "rol": "principal"
+      },
+      {
+        "de": "Großer Gesäßmuskel (M. gluteus maximus)",
+        "es": "Glúteo mayor",
+        "rol": "ayuda"
+      },
+      {
+        "de": "Beinbeuger (ischiocrurale Muskulatur)",
+        "es": "Isquiotibiales",
+        "rol": "ayuda"
+      }
+    ],
+    "errores_es": [
+      "Hiperextender la columna al subir.",
+      "Subir con impulso.",
+      "Redondear la espalda al bajar."
+    ],
+    "terminos": [
+      {
+        "de": "Rückenstrecken (Backextension)",
+        "es": "Extensión de espalda (backextension)"
+      },
+      {
+        "de": "Hyperextension",
+        "es": "Hiperextensión"
+      },
+      {
+        "de": "Rückenstrecker",
+        "es": "Erectores de la columna"
+      }
+    ]
+  },
+  "k8-14": {
+    "tipo": "ejercicio",
+    "resumen_es": "Plancha: ejercicio isométrico de estabilización del tronco. La versión frontal (apoyo en antebrazos) trabaja todo el 'core'; la lateral trabaja sobre todo los oblicuos y los estabilizadores laterales.",
+    "ejecucion_es": [
+      "Apoya antebrazos y puntas de los pies, codos bajo los hombros.",
+      "Cuerpo en una línea recta de cabeza a talones.",
+      "Abdomen y glúteos tensos; respira con normalidad.",
+      "Mantén la posición (p. ej. 20–60 s) y descansa."
+    ],
+    "musculos": [
+      {
+        "de": "Gerader Bauchmuskel",
+        "es": "Recto abdominal",
+        "rol": "principal"
+      },
+      {
+        "de": "Quere Bauchmuskulatur (M. transversus abdominis)",
+        "es": "Transverso del abdomen",
+        "rol": "principal"
+      },
+      {
+        "de": "Schräge Bauchmuskeln",
+        "es": "Oblicuos (sobre todo en plancha lateral)",
+        "rol": "principal"
+      },
+      {
+        "de": "Rückenstrecker / Gesäßmuskulatur",
+        "es": "Erectores y glúteos",
+        "rol": "estabilizador"
+      }
+    ],
+    "errores_es": [
+      "Dejar caer la cadera (espalda baja hundida).",
+      "Subir demasiado el glúteo.",
+      "Aguantar la respiración."
+    ],
+    "terminos": [
+      {
+        "de": "Unterarmstütz (Plank)",
+        "es": "Plancha sobre antebrazos"
+      },
+      {
+        "de": "Seitstütz",
+        "es": "Plancha lateral"
+      },
+      {
+        "de": "isometrisch",
+        "es": "Isométrico",
+        "nota": "El músculo se tensa sin cambiar de longitud."
+      },
+      {
+        "de": "Rumpfstabilität",
+        "es": "Estabilidad del tronco (core)"
+      }
+    ]
+  },
+  "k8-15": {
+    "tipo": "ejercicio",
+    "resumen_es": "Sentadilla: el rey de los ejercicios de pierna. Se muestran la sentadilla frontal (barra delante), la sentadilla trasera (barra en la espalda alta) y la sentadilla con mancuernas. Trabaja cuádriceps, glúteos y, en parte, isquiotibiales y lumbares.",
+    "ejecucion_es": [
+      "Pies a la anchura de los hombros, puntas ligeramente hacia fuera.",
+      "Baja llevando la cadera hacia atrás y abajo, rodillas en la dirección de los pies.",
+      "Espalda recta, pecho alto; baja hasta que los muslos queden paralelos al suelo o algo más.",
+      "Sube empujando el suelo con todo el pie."
+    ],
+    "musculos": [
+      {
+        "de": "Vierköpfiger Oberschenkelstrecker (M. quadriceps femoris)",
+        "es": "Cuádriceps",
+        "rol": "principal"
+      },
+      {
+        "de": "Großer Gesäßmuskel (M. gluteus maximus)",
+        "es": "Glúteo mayor",
+        "rol": "principal"
+      },
+      {
+        "de": "Beinbeuger (ischiocrurale Muskulatur)",
+        "es": "Isquiotibiales",
+        "rol": "ayuda"
+      },
+      {
+        "de": "Rückenstrecker",
+        "es": "Erectores de la columna (estabilizan)",
+        "rol": "estabilizador"
+      }
+    ],
+    "errores_es": [
+      "Rodillas hacia dentro (valgo).",
+      "Redondear la espalda baja al bajar demasiado.",
+      "Levantar los talones del suelo."
+    ],
+    "terminos": [
+      {
+        "de": "Kniebeuge",
+        "es": "Sentadilla"
+      },
+      {
+        "de": "Frontkniebeuge",
+        "es": "Sentadilla frontal",
+        "nota": "Barra delante, sobre los hombros."
+      },
+      {
+        "de": "Nackenkniebeuge",
+        "es": "Sentadilla trasera",
+        "nota": "Barra sobre la espalda alta."
+      },
+      {
+        "de": "Kniebeuge mit Kurzhanteln",
+        "es": "Sentadilla con mancuernas"
+      },
+      {
+        "de": "Kniegelenk",
+        "es": "Articulación de la rodilla"
+      }
+    ]
+  },
+  "k8-16": {
+    "tipo": "ejercicio",
+    "resumen_es": "Prensa de piernas: empujas una plataforma con los pies. Es una alternativa guiada a la sentadilla con menos exigencia para la espalda. Se ve la prensa inclinada a 45° (izquierda) y la prensa horizontal sentado (derecha).",
+    "ejecucion_es": [
+      "Espalda y cabeza apoyadas, pies a la anchura de los hombros en la plataforma.",
+      "Baja la plataforma flexionando rodillas hasta unos 90°.",
+      "Empuja hasta casi estirar las piernas sin bloquear las rodillas.",
+      "Los talones siempre apoyados."
+    ],
+    "musculos": [
+      {
+        "de": "Vierköpfiger Oberschenkelstrecker (M. quadriceps femoris)",
+        "es": "Cuádriceps",
+        "rol": "principal"
+      },
+      {
+        "de": "Großer Gesäßmuskel",
+        "es": "Glúteo mayor",
+        "rol": "principal"
+      },
+      {
+        "de": "Beinbeuger",
+        "es": "Isquiotibiales",
+        "rol": "ayuda"
+      }
+    ],
+    "errores_es": [
+      "Despegar la zona lumbar del respaldo al bajar mucho.",
+      "Bloquear las rodillas en la parte alta.",
+      "Rodillas hacia dentro."
+    ],
+    "terminos": [
+      {
+        "de": "Beinpresse",
+        "es": "Prensa de piernas"
+      },
+      {
+        "de": "Fußplatte",
+        "es": "Plataforma para los pies"
+      },
+      {
+        "de": "Kniegelenk nicht durchstrecken",
+        "es": "No bloquear completamente las rodillas"
+      }
+    ]
+  },
+  "k8-17": {
+    "tipo": "ejercicio",
+    "resumen_es": "Flexión de pierna (curl femoral): flexionas la rodilla contra resistencia para trabajar la parte posterior del muslo. Se muestra con polea de pie, en máquina tumbado (boca abajo) y en máquina sentado.",
+    "ejecucion_es": [
+      "Ajusta la máquina para que el eje coincida con tu rodilla.",
+      "Flexiona la rodilla llevando el talón hacia el glúteo.",
+      "Vuelve despacio sin dejar caer el peso.",
+      "Caderas fijas, sin arquear la espalda."
+    ],
+    "musculos": [
+      {
+        "de": "Beinbeuger (ischiocrurale Muskulatur)",
+        "es": "Isquiotibiales (bíceps femoral, semitendinoso, semimembranoso)",
+        "rol": "principal"
+      },
+      {
+        "de": "Wadenmuskel (M. gastrocnemius)",
+        "es": "Gemelo",
+        "rol": "ayuda"
+      }
+    ],
+    "errores_es": [
+      "Levantar la cadera del banco al flexionar.",
+      "Usar impulso.",
+      "No bajar el peso del todo."
+    ],
+    "terminos": [
+      {
+        "de": "Beinbeugen",
+        "es": "Flexión de rodilla (curl femoral)"
+      },
+      {
+        "de": "Beinbeugen liegend",
+        "es": "Curl femoral tumbado"
+      },
+      {
+        "de": "Beinbeugen sitzend",
+        "es": "Curl femoral sentado"
+      },
+      {
+        "de": "Beinbeuger",
+        "es": "Flexores de la rodilla (isquiotibiales)"
+      }
+    ]
+  },
+  "k8-18": {
+    "tipo": "ejercicio",
+    "resumen_es": "Extensión de piernas: estiras la rodilla contra resistencia en una máquina. Es un ejercicio de aislamiento del cuádriceps.",
+    "ejecucion_es": [
+      "Ajusta el respaldo y el rodillo (sobre los tobillos).",
+      "Estira las rodillas hasta casi extender las piernas.",
+      "Mantén un instante y baja con control.",
+      "Espalda apoyada y caderas fijas."
+    ],
+    "musculos": [
+      {
+        "de": "Vierköpfiger Oberschenkelstrecker (M. quadriceps femoris)",
+        "es": "Cuádriceps",
+        "rol": "principal"
+      }
+    ],
+    "errores_es": [
+      "Soltar el peso de golpe al bajar.",
+      "Elevar la cadera.",
+      "Cargas muy altas con mala técnica (tensión en la rodilla)."
+    ],
+    "terminos": [
+      {
+        "de": "Beinstrecken",
+        "es": "Extensión de piernas"
+      },
+      {
+        "de": "Beinstrecker",
+        "es": "Extensores de la pierna (cuádriceps)"
+      },
+      {
+        "de": "Kniestreckung",
+        "es": "Extensión de rodilla"
+      }
+    ]
+  },
+  "k8-19": {
+    "tipo": "ejercicio",
+    "resumen_es": "Zancadas (lunges): das un paso largo y bajas la rodilla trasera hacia el suelo. Trabaja piernas y glúteos, con un componente de equilibrio. Se muestra con mancuernas y con barra.",
+    "ejecucion_es": [
+      "De pie, da un paso largo hacia delante.",
+      "Baja la rodilla trasera hacia el suelo, el tronco recto.",
+      "La rodilla delantera no sobrepasa claramente la punta del pie y apunta en su dirección.",
+      "Empuja con el pie delantero para volver."
+    ],
+    "musculos": [
+      {
+        "de": "Vierköpfiger Oberschenkelstrecker (M. quadriceps femoris)",
+        "es": "Cuádriceps",
+        "rol": "principal"
+      },
+      {
+        "de": "Großer Gesäßmuskel (M. gluteus maximus)",
+        "es": "Glúteo mayor",
+        "rol": "principal"
+      },
+      {
+        "de": "Beinbeuger",
+        "es": "Isquiotibiales",
+        "rol": "ayuda"
+      }
+    ],
+    "errores_es": [
+      "Paso demasiado corto (toda la carga en la rodilla).",
+      "Rodilla delantera hacia dentro.",
+      "Inclinar el tronco hacia delante."
+    ],
+    "terminos": [
+      {
+        "de": "Ausfallschritte (Lunges)",
+        "es": "Zancadas"
+      },
+      {
+        "de": "Ausfallschritt vorwärts",
+        "es": "Zancada hacia delante"
+      },
+      {
+        "de": "Standbein",
+        "es": "Pierna de apoyo"
+      }
+    ]
+  },
+  "k8-20": {
+    "tipo": "ejercicio",
+    "resumen_es": "Elevación de talones: se empuja con la punta del pie para elevar los talones. Aísla la musculatura de la pantorrilla. En la imagen se hace en la prensa de piernas, con las puntas de los pies en el borde de la plataforma.",
+    "ejecucion_es": [
+      "Sentado en la prensa con las piernas casi estiradas y las puntas en el borde de la plataforma.",
+      "Empuja con las puntas de los pies para extender los tobillos.",
+      "Mantén arriba un instante y baja los talones lentamente (estiramiento).",
+      "Recorrido completo, sin rebotar."
+    ],
+    "musculos": [
+      {
+        "de": "Zweiköpfiger Wadenmuskel (M. gastrocnemius)",
+        "es": "Gastrocnemio (gemelo)",
+        "rol": "principal"
+      },
+      {
+        "de": "Schollenmuskel (M. soleus)",
+        "es": "Sóleo",
+        "rol": "principal"
+      }
+    ],
+    "errores_es": [
+      "Rebotar sin completar el recorrido.",
+      "Usar demasiado peso con recorrido muy corto.",
+      "Bloquear las rodillas de forma brusca."
+    ],
+    "terminos": [
+      {
+        "de": "Wadenheben",
+        "es": "Elevación de talones (gemelos)"
+      },
+      {
+        "de": "Fußspitze",
+        "es": "Punta del pie"
+      },
+      {
+        "de": "Plantarflexion",
+        "es": "Flexión plantar",
+        "nota": "Extender el tobillo (apuntar con la punta)."
+      },
+      {
+        "de": "Wadenmuskulatur",
+        "es": "Musculatura de la pantorrilla"
+      }
+    ]
+  }
+}
