@@ -1,6 +1,20 @@
 {
   "capitulos": [
     {
+      "id": "k1",
+      "numero": 1,
+      "titulo_de": "Einführung",
+      "titulo_es": "Introducción",
+      "peso": 0.04,
+      "subcapitulos": [
+        {
+          "id": "k1_intro",
+          "titulo_de": "Einführung",
+          "titulo_es": "Introducción"
+        }
+      ]
+    },
+    {
       "id": "k2",
       "numero": 2,
       "titulo_de": "Grundsätze Trainerverhalten",
@@ -15,12 +29,27 @@
       ]
     },
     {
+      "id": "k3.1",
+      "numero": 3,
+      "subtitulo": "3.1",
+      "titulo_de": "Einführung",
+      "titulo_es": "Introducción",
+      "peso": 0.03,
+      "subcapitulos": [
+        {
+          "id": "k3.1_intro",
+          "titulo_de": "Einführung",
+          "titulo_es": "Introducción"
+        }
+      ]
+    },
+    {
       "id": "k3.2",
       "numero": 3,
       "subtitulo": "3.2",
       "titulo_de": "Der Zellaufbau",
       "titulo_es": "La estructura celular",
-      "peso": 0.10,
+      "peso": 0.1,
       "subcapitulos": [
         {
           "id": "k3.2_intro",
