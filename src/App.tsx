@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './styles/globals.css';
 import Navigation from './components/Navigation';
 import Avisos from './components/Avisos';
+import EstadoPWA from './components/EstadoPWA';
 import Dashboard from './components/Dashboard/Dashboard';
 import LeitnerDemo from './components/Leitner/LeitnerDemo';
 import LeccionesIndex from './components/Lecciones/LeccionesIndex';
@@ -34,6 +35,7 @@ function App() {
     <Router basename="/Fitnesstrainer">
       <div className={darkMode ? 'dark' : ''}>
         <div className="flex min-h-screen flex-col bg-white dark:bg-gray-900">
+          <EstadoPWA />
           <Navigation darkMode={darkMode} setDarkMode={setDarkMode} />
 
           <main className="flex-1 p-4 md:p-6">

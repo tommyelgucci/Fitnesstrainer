@@ -32,6 +32,8 @@ No hay tests automáticos. Para verificar UI de verdad: `npm run build && npx vi
 - **Simulacro**: ver `docs/EXAM_ARCHITECTURE.md`. Tiempos, formatos y la meta del 80 % son de la app, no oficiales: no los presentes como criterio del examen real.
 - **Repaso de términos**: `stores/repasoTerminos.ts` guarda tarjetas Leitner de términos de figuras (clave `figura|término`), separado de `useLeitner`, que usa ids de preguntas.
 
+- **PWA / sin conexión**: `public/sw.js` es una plantilla; el plugin `swPrecache` (`vite.config.ts`) rellena `VERSION` y `PRECACHE` al construir. No pongas esos marcadores en comentarios del SW (el reemplazo busca el literal). Todo recurso nuevo en `public/` entra solo en el precaché; si añades datos cargados por `fetch`, usa rutas dentro del scope `/Fitnesstrainer/`. Se comprueba con Playwright: cargar, esperar al SW, `context.setOffline(true)` y navegar a una ruta anidada.
+
 ## Cómo se firman los commits
 
 Todos los commits de este repo se atribuyen solo al dueño, como en el resto de sus repositorios:
@@ -52,6 +54,6 @@ No añadas `Co-Authored-By: Claude`, `Claude-Session:` ni enlaces a `claude.ai/c
 
 ## Estado y siguientes pasos
 
-Hecho: lecciones con modo lectura, quiz, flashcards con Leitner, simulacro en dos fases, sección Imágenes completa (58 figuras explicadas, con repaso de términos), XP/racha/logros.
+Hecho: lecciones con modo lectura, quiz, flashcards con Leitner, simulacro en dos fases, sección Imágenes completa (58 figuras explicadas, con repaso de términos), XP/racha/logros, PWA instalable con modo sin conexión.
 
-Pendiente de más a menos valor: PWA/offline; contrastar con el manual los porcentajes y nombres técnicos de `imagenes_info/` y los resúmenes de `lectura_secciones.json`; traducción completa de las lecciones (hoy solo hay resumen por sección); preguntas de comprensión al final de cada sección de lectura.
+Pendiente de más a menos valor: contrastar con el manual los porcentajes y nombres técnicos de `imagenes_info/` y los resúmenes de `lectura_secciones.json`; traducción completa de las lecciones (hoy solo hay resumen por sección); preguntas de comprensión al final de cada sección de lectura.

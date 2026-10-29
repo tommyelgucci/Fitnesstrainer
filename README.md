@@ -2,7 +2,7 @@
 
 App web para preparar el examen **B-Lizenz de Fitnesstrainer** (clever fit Akademie, *Lehrbrief B-Lizenz*, 3. Auflage). Está pensada para estudiar en alemán con apoyo en español: cada pregunta, término y figura aparece en los dos idiomas.
 
-Funciona sin servidor: el contenido es JSON estático y todo el progreso vive en `localStorage` del navegador.
+**Se puede instalar y usar sin conexión** (PWA). Funciona sin servidor: el contenido es JSON estático y todo el progreso vive en `localStorage` del navegador.
 
 ## Qué incluye
 
@@ -33,7 +33,11 @@ npm run lint      # oxlint
 npm run preview   # sirve el build (base /Fitnesstrainer/)
 ```
 
-La app se publica en GitHub Pages con `.github/workflows/deploy.yml` en cada push a `main`. Como vive bajo `/Fitnesstrainer/`, el `base` de Vite y el `basename` del router están configurados con ese prefijo; las rutas a `public/` deben usar `import.meta.env.BASE_URL`.
+La app se publica en GitHub Pages con `.github/workflows/deploy.yml` en cada push a `main` (`ci.yml` compila los PR). Los cambios llegan a Pages al fusionarse en `main`; el workflow ya está activado en el repositorio.
+
+### Modo sin conexión (PWA)
+
+`public/sw.js` precachea todo el build; el plugin `swPrecache` de `vite.config.ts` le inyecta la lista de archivos y una versión derivada de su contenido, así que cada despliegue crea una caché nueva y borra las antiguas. Navegación: red primero (3 s) y, si falla, el `index.html` guardado. El estado (sin conexión, lista offline, versión nueva, instalar) vive en `src/stores/pwa.ts`. Solo se registra en producción; para probarlo: `npm run build && npx vite preview`. El audio en alemán usa las voces del dispositivo, así que sin conexión depende de las que tenga instaladas. Como vive bajo `/Fitnesstrainer/`, el `base` de Vite y el `basename` del router están configurados con ese prefijo; las rutas a `public/` deben usar `import.meta.env.BASE_URL`.
 
 ## Estructura
 

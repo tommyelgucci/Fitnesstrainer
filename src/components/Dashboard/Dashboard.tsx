@@ -1,12 +1,15 @@
 import { Link } from 'react-router-dom';
-import { BookOpen, Layers, Flame, Target, TrendingUp, Image as ImageIcon } from 'lucide-react';
+import { BookOpen, Download, Layers, Flame, WifiOff, Target, TrendingUp, Image as ImageIcon } from 'lucide-react';
 import { useUserProgress } from '../../stores/useUserProgress';
 import { estaPendiente, useRepasoTerminos } from '../../stores/repasoTerminos';
+import { instalarApp, usePWA } from '../../stores/pwa';
 import { LOGROS, META_DIARIA_XP, claveDia, nivelDe, rachaVigente, useGamificacion, xpDeHoy } from '../../stores/gamificacion';
 
 export default function Dashboard() {
   const e = useGamificacion();
   const { progress, obtenerTasaExito } = useUserProgress();
+  const pwa = usePWA();
+  const esIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
   const repaso = useRepasoTerminos().filter((t) => estaPendiente(t)).length;
   const hoy = claveDia();
   const racha = rachaVigente(e, hoy);
@@ -92,6 +95,29 @@ export default function Dashboard() {
             <p className="text-sm text-gray-600 dark:text-gray-400">Los que fallaste vuelven en el momento justo (Leitner). Toca para repasar.</p>
           </div>
         </Link>
+      )}
+
+      {!pwa.instalada && (pwa.puedeInstalar || esIOS || pwa.listoOffline) && (
+        <div className="card mb-4 flex flex-wrap items-center gap-3">
+          <WifiOff className="h-8 w-8 flex-shrink-0 text-teal-600 dark:text-teal-400" />
+          <div className="min-w-0 flex-1">
+            <p className="font-semibold text-gray-900 dark:text-white">
+              {pwa.listoOffline ? 'Lista para usar sin conexión' : 'Úsala sin conexión'}
+            </p>
+            <p className="text-sm text-gray-600 dark:text-gray-400">
+              {pwa.puedeInstalar
+                ? 'Instálala como app: se abre a pantalla completa y funciona sin internet.'
+                : esIOS
+                  ? 'En iPhone/iPad: Compartir → «Añadir a pantalla de inicio».'
+                  : 'Todo el contenido ya está guardado en este dispositivo. El audio en alemán depende de las voces instaladas.'}
+            </p>
+          </div>
+          {pwa.puedeInstalar && (
+            <button className="btn btn-primary" onClick={instalarApp}>
+              <Download className="mr-1 h-4 w-4" /> Instalar
+            </button>
+          )}
+        </div>
       )}
 
       {/* Quick Stats */}
