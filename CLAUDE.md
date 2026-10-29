@@ -56,6 +56,6 @@ No añadas `Co-Authored-By: Claude`, `Claude-Session:` ni enlaces a `claude.ai/c
 
 ## Estado y siguientes pasos
 
-Hecho: lecciones con modo lectura, quiz, flashcards con Leitner, simulacro en dos fases, sección Imágenes completa (58 figuras explicadas, con repaso de términos), XP/racha/logros, PWA instalable con modo sin conexión.
+Hecho: lecciones con modo lectura y traducción completa, quiz, flashcards con Leitner, simulacro en dos fases, sección Imágenes completa (58 figuras explicadas, con repaso de términos), XP/racha/logros, PWA instalable con modo sin conexión.
 
-Pendiente de más a menos valor: contrastar con el manual los porcentajes y nombres técnicos de `imagenes_info/` y los resúmenes de `lectura_secciones.json`; terminar la traducción completa de las lecciones (hechos los capítulos 2, 3.2–3.7 y 4; faltan 5–7 y 8, que hoy solo tienen resumen por sección); preguntas de comprensión para las secciones que aún no tienen (hay 80 en 59 secciones).
+Pendiente de más a menos valor: contrastar con el manual los porcentajes y nombres técnicos de `imagenes_info/` y los resúmenes de `lectura_secciones.json`; revisar con el *Lehrbrief* la traducción de las lecciones (ya están traducidos todos los capítulos, redacción propia); preguntas de comprensión para las secciones que aún no tienen (hay 80 en 59 secciones).

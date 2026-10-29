@@ -8,6 +8,9 @@ import k36 from './lecciones_es/k3.6.json';
 import k37 from './lecciones_es/k3.7.json';
 import k4a from './lecciones_es/k4a.json';
 import k4b from './lecciones_es/k4b.json';
+import k5a from './lecciones_es/k5a.json';
+import k5b from './lecciones_es/k5b.json';
+import k8 from './lecciones_es/k8.json';
 
 /**
  * Traducción al español de las lecciones, por sección ("capitulo:num"), una cadena por
@@ -16,7 +19,7 @@ import k4b from './lecciones_es/k4b.json';
  * cambio en el parser nunca desalinea el texto.
  */
 const TRADUCCIONES: Record<string, string[]> = {
-  ...k2, ...k32, ...k33, ...k34, ...k35, ...k36, ...k37, ...k4a, ...k4b,
+  ...k2, ...k32, ...k33, ...k34, ...k35, ...k36, ...k37, ...k4a, ...k4b, ...k5a, ...k5b, ...k8,
 };
 
 export type TraduccionBloque = string | string[];
