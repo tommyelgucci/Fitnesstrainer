@@ -2,12 +2,12 @@
   "k4-01": {
     "tipo": "grafico",
     "diagrama": "supercompensacion",
-    "resumen_es": "Así se adapta el cuerpo al entrenamiento (ley de la homeostasis y supercompensación). Un estímulo de entrenamiento cansa al cuerpo y baja el rendimiento; durante la recuperación el cuerpo no solo vuelve al nivel inicial, sino que lo supera un poco. Si entrenas de nuevo en ese momento, mejoras. Si esperas demasiado, la ventaja se pierde.",
+    "resumen_es": "Así se adapta el cuerpo al entrenamiento (ley de la homeostasis). La carga cansa al cuerpo y baja el rendimiento; en la recuperación el cuerpo no solo vuelve al nivel inicial, sino que lo supera un poco (supercompensación). Si entrenas de nuevo en ese momento, mejoras; si esperas demasiado, el nivel vuelve al de partida.",
     "claves_es": [
-      "Fase 1: carga (el rendimiento baja, hay fatiga).",
-      "Fase 2: recuperación (el rendimiento vuelve al nivel inicial).",
-      "Fase 3: supercompensación (rendimiento por encima del inicial).",
-      "Entrenar demasiado pronto (sin recuperar) provoca sobrecarga; demasiado tarde, no hay progreso.",
+      "Fase 1: duración de la carga, con descenso del nivel de rendimiento (fatiga).",
+      "Fase 2: recuperación de la disposición energética (regeneración) + aumento del nivel inicial = supercompensación.",
+      "Fase 3: reducción del nivel de rendimiento hasta el nivel inicial.",
+      "Para una adaptación óptima la carga debe repetirse varias veces.",
       "Los estímulos decisivos para la adaptación ocurren durante la carga."
     ],
     "terminos": [
@@ -108,10 +108,9 @@
     "resumen_es": "Relación entre el número de repeticiones que puedes hacer con un peso y el porcentaje de tu fuerza máxima de una repetición (1RM). Cuantas más repeticiones, menor es el porcentaje del peso respecto a tu máximo. Sirve para calcular qué peso usar según el objetivo.",
     "claves_es": [
       "1 repetición = 100 % del 1RM (peso máximo).",
-      "Fuerza máxima: 1–3 repeticiones (90–100 %).",
-      "Hipertrofia: aprox. 6–12 repeticiones (70–85 %).",
-      "Resistencia a la fuerza: 15–25 repeticiones (30–60 %).",
-      "Ejemplo: si tu 1RM es 100 kg, puedes hacer unas 6 repeticiones con 80 kg."
+      "Según el manual: fuerza máxima 90–100 % de la fuerza máxima (1–6 repeticiones); hipertrofia 70–90 % (6–15 rep.); resistencia a la fuerza 50–70 % (15–25 rep.).",
+      "Ejemplo: si tu 1RM es 100 kg, puedes hacer unas 6 repeticiones con 80 kg.",
+      "Requisito: ejecución técnica limpia."
     ],
     "terminos": [
       {

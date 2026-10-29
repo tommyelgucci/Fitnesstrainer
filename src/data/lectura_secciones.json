@@ -1,0 +1,716 @@
+{
+  "k2:2.1": {
+    "de": "Der Trainer / die Trainerin",
+    "es": "El entrenador / la entrenadora",
+    "resumen_es": [
+      "El entrenador es responsable de entusiasmar a los socios y de garantizar, con una buena atención, que alcancen sus metas.",
+      "Debe ser socialmente competente, orientado al servicio y deportivamente activo. Sabe escuchar, muestra pasión, tiene humor, valora a las personas, inspira (crea imágenes mentales) y da ejemplo entrenando él mismo.",
+      "Regla de oro aplicada al gimnasio: entrena a los demás como ellos quieren ser entrenados, no según tus gustos.",
+      "Los socios valoran al entrenador por su conducta, no por sus intenciones, y al final son ellos quienes juzgan la calidad del entrenamiento."
+    ]
+  },
+  "k2:2.2": {
+    "de": "Motivation und Inspiration",
+    "es": "Motivación e inspiración",
+    "resumen_es": [
+      "Para motivar a los socios hay que crear emociones: la inspiración lleva a la motivación."
+    ]
+  },
+  "k2:2.2.1": {
+    "de": "Definition",
+    "es": "Definición",
+    "resumen_es": [
+      "Inspiración = el impulso que crea un estímulo mental para entusiasmar al cliente con el entrenamiento y lograr objetivos claros.",
+      "La motivación es siempre iniciativa propia del cliente, nunca reactiva: el entrenador ayuda a motivarse, pero no es determinante.",
+      "Por eso un entrenador no debe desesperarse si el cliente no entrena."
+    ]
+  },
+  "k2:2.2.2": {
+    "de": "Praxistipps",
+    "es": "Consejos prácticos",
+    "resumen_es": [
+      "Consejo 1: fijar la hora del entrenamiento en la agenda, con la prioridad de una cita de trabajo, sin excusas.",
+      "Consejo 2: tener siempre lista la ropa deportiva y presentar el entrenamiento como equilibrio, no como carga extra. Las «esclusas» (p. ej. el trayecto al gimnasio) ayudan a cerrar la etapa anterior.",
+      "Consejo 3: autosugestión: imaginar lo positivo del programa y anticipar mentalmente sensaciones agradables."
+    ]
+  },
+  "k2:2.3": {
+    "de": "Körpersprache",
+    "es": "Lenguaje corporal",
+    "resumen_es": [
+      "En la comunicación, el receptor procesa un 55 % por gestos y mímica, un 38 % por la voz y solo un 7 % por el contenido.",
+      "Si el contenido va con «cero» lenguaje corporal, el efecto es cero: lo que se dice debe también transmitirse (comunicación congruente), así el entrenador resulta creíble.",
+      "Posturas: abierta/cerrada, activa/pasiva, segura/insegura. El entrenador debe mostrar una postura abierta, activa y segura.",
+      "Consejos: manos por encima del ombligo, distancia de 0,5–1,5 m, pausas al hablar, pecho abierto y contacto visual de 3 a 6 segundos con todos en grupos."
+    ]
+  },
+  "k2:3.1": {
+    "de": "Einführung in die Anatomie und Physiologie",
+    "es": "Introducción a la anatomía y la fisiología",
+    "resumen_es": [
+      "Los conocimientos anatómicos y fisiológicos son la base del trabajo del entrenador: saber dónde nace e inserta un músculo permite deducir su función y elegir ejercicios con criterio, e incluso crear movimientos nuevos."
+    ]
+  },
+  "k3.2:intro": {
+    "de": "Der Zellaufbau",
+    "es": "La estructura de la célula",
+    "resumen_es": [
+      "La célula es la unidad básica de todos los seres vivos: la unidad funcional más pequeña que se mantiene y reproduce por sí misma. Varias células iguales forman tejidos.",
+      "Propiedades de la célula: metabolismo, crecimiento, irritabilidad, movimiento y multiplicación.",
+      "Partes: citoplasma (masa que rellena la célula), núcleo (ADN y centro de control), retículo endoplasmático, ribosomas (fabrican proteínas), mitocondrias («centrales de energía»), aparato de Golgi (almacena y transporta secreciones) y lisosomas (digieren material propio y ajeno)."
+    ]
+  },
+  "k3.3:intro": {
+    "de": "Passiver Bewegungsapparat",
+    "es": "Aparato locomotor pasivo",
+    "resumen_es": [
+      "Huesos, cartílagos, articulaciones, ligamentos y discos forman el aparato locomotor pasivo (o de sostén).",
+      "El esqueleto da forma al cuerpo, las articulaciones fijan dónde es posible el movimiento, pero sin fuerza muscular quedan rígidas."
+    ]
+  },
+  "k3.3:3.3.1": {
+    "de": "Knochen",
+    "es": "Huesos",
+    "resumen_es": [
+      "Funciones: estabilidad, protección de órganos, almacén de minerales (calcio, fosfato), producción de células sanguíneas y inserción de músculos, tendones y ligamentos.",
+      "El esqueleto tiene más de 206 huesos y supone alrededor del 12 % del peso corporal; el crecimiento termina hacia los 20 años.",
+      "Los huesos se unen mediante suturas (cráneo), cartílago (costillas/esternón) o articulaciones."
+    ]
+  },
+  "k3.3:3.3.2": {
+    "de": "Knochenarten",
+    "es": "Tipos de huesos",
+    "resumen_es": [
+      "Largos (función: palanca; fémur, tibia, peroné, cúbito), cortos (estabilidad; carpo y tarso), planos (protección; omóplato, esternón, clavícula, costillas), sesamoideos (transmisión de fuerza; rótula), irregulares (vértebras, esfenoides) y neumáticos o con aire (reducen peso; frontal, maxilar, esfenoides, etmoides)."
+    ]
+  },
+  "k3.3:3.3.3": {
+    "de": "Knochenstruktur",
+    "es": "Estructura del hueso",
+    "resumen_es": [
+      "El hueso largo tiene tres zonas: epífisis (extremos), diáfisis (caña) y metáfisis (zona de crecimiento en longitud entre ambas).",
+      "El periostio (Knochenhaut) cubre el hueso: protege, nutre, permite el crecimiento y sirve de inserción a ligamentos y tendones; tiene nervios y vasos, por eso duele.",
+      "La capa externa (compacta) da resistencia a la flexión; el interior (esponjosa) ahorra peso; la médula ósea produce glóbulos blancos y rojos.",
+      "El hueso se remodela constantemente; con la edad pierde firmeza (osteoporosis)."
+    ]
+  },
+  "k3.3:3.3.4": {
+    "de": "Knorpel",
+    "es": "Cartílago",
+    "resumen_es": [
+      "El cartílago es un tejido de soporte elástico, muy resistente a la presión, sin nervios ni vasos: se nutre por difusión de líquido tisular.",
+      "Amortigua golpes en tobillo, rodilla y cadera y recupera su forma después de deformarse."
+    ]
+  },
+  "k3.3:3.3.5": {
+    "de": "Knorpelarten",
+    "es": "Tipos de cartílago",
+    "resumen_es": [
+      "Hialino: el más frecuente, muy resistente a la presión; recubre las superficies articulares, forma los cartílagos costales, la laringe y los anillos de la tráquea.",
+      "Fibroso (Faserknorpel): resiste tracción y presión; discos intervertebrales y meniscos.",
+      "Elástico: muy flexible; oreja y epiglotis."
+    ]
+  },
+  "k3.3:3.3.6": {
+    "de": "Bänder",
+    "es": "Ligamentos",
+    "resumen_es": [
+      "Funciones: asegurar, estabilizar y guiar la articulación. Son de tejido conectivo colágeno.",
+      "Ejemplo: los ligamentos externos e internos del tobillo evitan que el pie «se tuerza»."
+    ]
+  },
+  "k3.3:3.3.7": {
+    "de": "Gelenke",
+    "es": "Articulaciones",
+    "resumen_es": [
+      "Las articulaciones unen huesos, abren direcciones de movimiento y también las limitan.",
+      "El rango y la estabilidad dependen de la forma de los huesos, del estado de los músculos, de los ligamentos y de la cápsula articular.",
+      "Se distingue entre articulaciones verdaderas (diartrosis) y falsas (sinartrosis)."
+    ]
+  },
+  "k3.3:3.3.8": {
+    "de": "Gelenkformen",
+    "es": "Tipos de articulación",
+    "resumen_es": [
+      "Articulación verdadera: cartílago hialino en las superficies, cápsula, espacio articular con líquido; siempre con cabeza y cavidad.",
+      "Falsas: sin espacio articular, unidas por cartílago, tejido conectivo o hueso: movimiento limitado (sindesmosis, sincondrosis, sinostosis).",
+      "Formas de las verdaderas: esferoidea (hombro, cadera), elipsoidea (muñeca), en silla (base del pulgar), en bisagra (codo, dedos), de pivote (radiocubital) y plana."
+    ]
+  },
+  "k3.3:3.3.9": {
+    "de": "Kniegelenk",
+    "es": "Articulación de la rodilla",
+    "resumen_es": [
+      "La rodilla es la articulación más grande del cuerpo y de tipo «bisagra con giro»: flexión, extensión y rotación. La forman fémur, tibia y rótula (el peroné no).",
+      "Los dos meniscos (interno y externo) amortiguan, compensan las superficies desiguales y mejoran la estabilidad; el interno es más fijo y más propenso a lesiones.",
+      "Los ligamentos cruzados evitan que la rodilla se desplace hacia delante o hacia atrás; los ligamentos colaterales la estabilizan lateralmente y solo se tensan con la pierna estirada."
+    ]
+  },
+  "k3.3:3.3.10": {
+    "de": "Wirbelsäule",
+    "es": "Columna vertebral",
+    "resumen_es": [
+      "Mantiene el cuerpo erguido, soporta el peso de cabeza, tronco y brazos y protege la médula espinal. De lado forma una doble S que amortigua los golpes.",
+      "33–34 vértebras: 7 cervicales, 12 torácicas, 5 lumbares, 5 sacras fusionadas y 4–5 coccígeas. Lordosis: cervical y lumbar; cifosis: torácica y sacra.",
+      "Todas las vértebras tienen cuerpo, arco, 2 apófisis transversas, 1 espinosa y 4 articulares. El atlas (C1) no tiene cuerpo; el axis (C2) tiene el diente. El atlas permite asentir y el axis girar la cabeza.",
+      "Las 23 discos intervertebrales (anillo fibroso + núcleo gelatinoso) amortiguan y se nutren con el cambio de carga y descarga; por eso mides hasta 3 cm menos por la tarde."
+    ]
+  },
+  "k3.4:intro": {
+    "de": "Aktiver Bewegungsapparat",
+    "es": "Aparato locomotor activo",
+    "resumen_es": [
+      "Es la musculatura esquelética (músculos y tendones) con sus órganos auxiliares: fascias, tendones, vainas tendinosas y bolsas serosas.",
+      "Las fascias envuelven y separan músculos (pasivas); los tendones unen músculo y hueso; las vainas tendinosas y las bolsas serosas, llenas de líquido sinovial, reducen el roce y reparten la presión."
+    ]
+  },
+  "k3.4:3.4.1": {
+    "de": "Sehnen",
+    "es": "Tendones",
+    "resumen_es": [
+      "Unen el vientre muscular con el hueso y transmiten la fuerza al esqueleto.",
+      "Donde pasan por salientes óseos (muñeca, hombro) están rodeados por vainas llenas de líquido que reducen la fricción.",
+      "En las aponeurosis (láminas tendinosas) varios músculos se unen en un tendón grande."
+    ]
+  },
+  "k3.4:3.4.2": {
+    "de": "Skelettmuskulatur: Aufbau und Struktur",
+    "es": "Músculo esquelético: estructura",
+    "resumen_es": [
+      "Músculo → fascículos → fibras musculares → miofibrillas → sarcómeros (unidad funcional mínima con filamentos finos de actina y gruesos de miosina, limitados por discos Z). Al unirse actina y miosina el músculo se acorta.",
+      "Contracción: concéntrica (acortamiento, trabajo positivo), excéntrica (se alarga frenando, trabajo negativo) e isométrica (mantiene sin cambiar de longitud).",
+      "Unidad motora = motoneurona + fibras que inerva: cuanto más fino el control, menos fibras (ojo ≈ 10; pierna hasta 2000). Ley del todo o nada.",
+      "Agonista (actúa), antagonista (se opone y se estira) y sinergistas (ayudan). Los desequilibrios provocan malas posturas.",
+      "Tipos de fibra: ST (rojas, lentas, resistentes), FT (blancas, rápidas, se cansan pronto) y FTO (intermedias). Las FT pueden transformarse en ST/FTO con entrenamiento de resistencia, pero no al revés.",
+      "Formas musculares: paralelo, fusiforme, peniforme (simple y doble), bicipital, tricipital, cuadricipital y poligástrico. Los de fibra larga son músculos de movimiento y velocidad; los peniformes, de fuerza y sostén."
+    ]
+  },
+  "k3.4:3.4.3": {
+    "de": "Muskulatur",
+    "es": "Musculatura",
+    "resumen_es": [
+      "El cuerpo humano tiene unos 656 músculos que transmiten su fuerza por los tendones; casi siempre trabajan dos a la vez: uno se tensa y el otro se relaja.",
+      "Funciones: movimiento, soporte y amortiguación, información sobre el equilibrio, delimitación y producción de calor (escalofríos).",
+      "Propiedades: excitabilidad, extensibilidad, contractilidad y elasticidad.",
+      "Tres tipos: estriada o esquelética (voluntaria), lisa de las vísceras (involuntaria) y cardíaca (involuntaria pero estriada)."
+    ]
+  },
+  "k3.4:3.4.4": {
+    "de": "Muskulärer Energiestoffwechsel",
+    "es": "Metabolismo energético muscular",
+    "resumen_es": [
+      "Para todo trabajo muscular hace falta ATP; la reserva del músculo dura solo 2–3 s. Luego entra la fosfocreatina (hasta 6–8 s en no entrenados, hasta 20 s en entrenados).",
+      "Vía aeróbica (con oxígeno): rendimiento energético alto y lento; usa glucosa y grasas; puede mantenerse horas.",
+      "Vía anaeróbica (sin oxígeno): rápida pero poco rentable; forma ácido láctico (lactato) que fatiga; unos 90 s en entrenados.",
+      "Aeróbica: 36 ATP por glucosa, sin lactato. Anaeróbica: 2 ATP por glucosa, con lactato."
+    ]
+  },
+  "k3.5:3.4.5": {
+    "de": "Wichtige Begriffe: Ursprung und Ansatz",
+    "es": "Términos importantes: origen e inserción",
+    "resumen_es": [
+      "Origen: punto del músculo más próximo al centro del cuerpo y menos móvil. Inserción: el más alejado y más móvil.",
+      "Inserción directa: en hueso o cartílago. Indirecta: por un tendón o una aponeurosis."
+    ]
+  },
+  "k3.5:3.4.6": {
+    "de": "Muskelkatalog",
+    "es": "Catálogo de músculos",
+    "resumen_es": [
+      "Lista de los músculos principales con su origen (Ursprung), inserción (Ansatz) y función (Funktion), y a veces una particularidad (Besonderheit).",
+      "Sirve de consulta: aprende los nombres alemanes (p. ej. Großer Brustmuskel, Breiter Rückenmuskel) junto a su función principal."
+    ]
+  },
+  "k3.5:3.4.7": {
+    "de": "Zur Verkürzung / Abschwächung neigende Muskeln",
+    "es": "Músculos que tienden a acortarse o debilitarse",
+    "resumen_es": [
+      "En sentido estricto ningún músculo se acorta o debilita por sí solo: ciertos músculos, por uso excesivo o falta de uso, tienden a sobreactivarse y acortarse, o a debilitarse e inhibirse.",
+      "Si el desequilibrio entre agonista y antagonista es grande aparece una dysbalance muscular: tensiones, sobrecarga de ligamentos y tendones y limitación del movimiento.",
+      "Al acortarse tienden: trapecio descendente, nuca, pectoral, flexores del brazo, aductores, recto femoral, lumbares, parte posterior del muslo, pantorrillas, flexores de cadera → estirar.",
+      "Al debilitarse tienden: trapecio ascendente y transverso, extensores del brazo, romboides, erectores torácicos, abdominales, glúteos y parte externa del muslo → fortalecer.",
+      "Ojo: acortado no significa necesariamente «demasiado fuerte» ni al revés (los gimnastas son flexibles y muy fuertes)."
+    ]
+  },
+  "k3.5:3.5.1": {
+    "de": "Körperachsen und -ebenen",
+    "es": "Ejes y planos del cuerpo",
+    "resumen_es": [
+      "Ejes principales: longitudinal (largo), transversal u horizontal (de lado a lado) y sagital (de atrás hacia delante).",
+      "Planos: sagital (formado por eje longitudinal y sagital), frontal (paralelo a la frente; eje longitudinal y horizontal) y transversal (horizontal; ejes sagital y horizontal)."
+    ]
+  },
+  "k3.5:3.5.2": {
+    "de": "Lage- und Richtungsbezeichnungen",
+    "es": "Términos de posición y dirección",
+    "resumen_es": [
+      "Superior/inferior = arriba/abajo; craneal/caudal = hacia la cabeza/hacia el coxis; anterior/posterior = delante/detrás; ventral/dorsal = hacia el vientre/la espalda; lateral/medial = hacia el lado/hacia el centro; distal/proximal = lejos/cerca del tronco.",
+      "Movimientos: abducción (separar), aducción (acercar), extensión (estirar), flexión (doblar), rotación interna/externa (hombro, cadera), pronación y supinación (antebrazo y pie)."
+    ]
+  },
+  "k3.6:intro": {
+    "de": "Herz-Kreislaufsystem",
+    "es": "Sistema cardiovascular",
+    "resumen_es": [
+      "Está formado por el corazón y los vasos sanguíneos. Un corazón sano late más de 100.000 veces al día y la sangre recorre el circuito pulmonar y el corporal."
+    ]
+  },
+  "k3.6:3.6.1": {
+    "de": "Herz",
+    "es": "Corazón",
+    "resumen_es": [
+      "Tiene el tamaño de un puño y pesa unos 300–350 g (hasta 500 g en deportistas muy entrenados). Dos tercios están en el lado izquierdo del tórax; abajo lo limita el diafragma.",
+      "Una pared central lo divide en mitades derecha e izquierda; cada una tiene una aurícula (pequeña) y un ventrículo (grande). Cuatro válvulas (2 de vela: tricúspide y mitral; 2 de bolsillo: pulmonar y aórtica) evitan el retroceso.",
+      "Capas: endocardio, miocardio (músculo), epicardio y pericardio (saco)."
+    ]
+  },
+  "k3.6:3.6.2": {
+    "de": "Kleiner und großer Blutkreislauf",
+    "es": "Circulación menor y mayor",
+    "resumen_es": [
+      "Circulación pulmonar (menor): ventrículo derecho → arterias pulmonares → pulmón → venas pulmonares → aurícula izquierda.",
+      "Circulación corporal (mayor): ventrículo izquierdo → aorta → arterias → capilares → venas → aurícula derecha."
+    ]
+  },
+  "k3.6:3.6.3": {
+    "de": "Gasaustausch in der Lunge",
+    "es": "Intercambio de gases en el pulmón",
+    "resumen_es": [
+      "En los alvéolos la sangre recibe oxígeno y cede dióxido de carbono por difusión (por diferencia de concentración).",
+      "Los gases se unen a la hemoglobina, el pigmento con hierro de los glóbulos rojos."
+    ]
+  },
+  "k3.6:3.6.4": {
+    "de": "Herztätigkeit",
+    "es": "Actividad del corazón",
+    "resumen_es": [
+      "El sistema de conducción genera y propaga impulsos eléctricos; nacen en el nódulo sinusal (aurícula derecha).",
+      "Dos fases: sístole (contracción y expulsión: se abren las válvulas pulmonar y aórtica) y diástole (relajación y llenado: se abren las válvulas tricúspide y mitral)."
+    ]
+  },
+  "k3.6:3.6.5": {
+    "de": "Blutdruck",
+    "es": "Presión arterial",
+    "resumen_es": [
+      "Es la presión en las arterias de la circulación corporal. Primer valor = sistólico (fuerza de expulsión); segundo = diastólico (corazón relajado/resistencia de los vasos).",
+      "Normal: 120/80 mmHg. Hipertensión: permanentemente por encima de 140/90. Hipotensión: por debajo de 100/70.",
+      "La presión sube con vasos estrechados y con estrés."
+    ]
+  },
+  "k3.6:3.6.6": {
+    "de": "Blut",
+    "es": "Sangre",
+    "resumen_es": [
+      "Es aproximadamente el 8 % del peso corporal (5–6 litros). Arterias: llevan la sangre fuera del corazón; venas: hacia el corazón; capilares: los vasos finísimos que llegan a cada célula.",
+      "Componentes: células sanguíneas (≈ 45 %: glóbulos rojos, blancos y plaquetas) y plasma (≈ 55 %, de ellos ≈ 90 % agua).",
+      "Funciones: transporte, defensa, regulación del calor (36,5 °C) y tampón del pH."
+    ]
+  },
+  "k3.7:intro": {
+    "de": "Nervensystem",
+    "es": "Sistema nervioso",
+    "resumen_es": [
+      "Se divide en sistema nervioso central (SNC) y sistema nervioso periférico (SNP)."
+    ]
+  },
+  "k3.7:3.7.1": {
+    "de": "Zentrales Nervensystem (ZNS)",
+    "es": "Sistema nervioso central (SNC)",
+    "resumen_es": [
+      "Cerebro y médula espinal. Como un ordenador, nos mantiene en contacto con el entorno y coordina acciones conscientes e inconscientes: movimiento, lenguaje, pensamiento, memoria y reflejos."
+    ]
+  },
+  "k3.7:3.7.2": {
+    "de": "Peripheres Nervensystem (PNS)",
+    "es": "Sistema nervioso periférico (SNP)",
+    "resumen_es": [
+      "Es el puente del SNC con todo el cuerpo; trabaja en parte voluntariamente (ver, oír, moverse) y en parte involuntariamente (respiración, digestión, regulación del calor y del agua).",
+      "Control autónomo: simpático (aumenta la disposición al rendimiento: activa el sistema cardiovascular y el metabolismo) y parasimpático (frena y favorece la recuperación)."
+    ]
+  },
+  "k4:4.1": {
+    "de": "Einführung in die Trainingslehre",
+    "es": "Introducción a la teoría del entrenamiento",
+    "resumen_es": [
+      "La teoría del entrenamiento es la ciencia que estudia cómo influir en el rendimiento deportivo. Condición y coordinación están muy relacionadas.",
+      "Factores de rendimiento influenciables: físico, psique, alimentación, entrenamiento y recuperación. No influenciables: genética, entorno, factores sociales y salud."
+    ]
+  },
+  "k4:4.2": {
+    "de": "Grundbegriffe",
+    "es": "Conceptos básicos",
+    "resumen_es": [
+      "Entrenamiento = proceso planificado para lograr, estabilizar, aumentar (o reducir) el rendimiento. El conjunto de estímulos sobre el organismo es la carga de entrenamiento.",
+      "Carga externa (intensidades, repeticiones, tiempos) y carga interna (frecuencia cardíaca, lactato, urea).",
+      "Adaptaciones al entrenamiento = cambios funcionales y morfológicos de los sistemas ante un estímulo eficaz."
+    ]
+  },
+  "k4:4.2.1": {
+    "de": "Die biologische Ursachen-Wirkungs-Kette",
+    "es": "La cadena biológica causa-efecto",
+    "resumen_es": [
+      "El cuerpo responde a los estímulos del entorno (también al entrenamiento) con un cambio morfológico y funcional: aumenta la masa muscular y la capacidad de fuerza.",
+      "El entrenamiento altera a propósito el equilibrio (homeostasis). Aparece fatiga; en la recuperación el cuerpo restituye la energía y, con una dosificación eficaz, se adapta.",
+      "El estímulo debe superar un umbral; si no lo alcanza, no hay adaptación.",
+      "Componentes de la carga: intensidad, duración, densidad (pausa), volumen, frecuencia, contenido y método. Medios de entrenamiento: organizativos, informativos y de aparatos."
+    ]
+  },
+  "k4:4.3": {
+    "de": "Prinzipien des sportlichen Trainings",
+    "es": "Principios del entrenamiento deportivo",
+    "resumen_es": [
+      "Se agrupan en principios para desencadenar la adaptación, para asegurarla y para dirigirla de forma específica."
+    ]
+  },
+  "k4:4.3.1": {
+    "de": "Prinzipien zur Auslösung der Adaption",
+    "es": "Principios para desencadenar la adaptación",
+    "resumen_es": [
+      "Estímulo eficaz: debe superar un umbral. Regla de los estímulos: los subumbrales no hacen nada; los débiles mantienen; los fuertes provocan adaptaciones; los excesivos dañan.",
+      "Carga progresiva: si la carga se mantiene constante pierde eficacia.",
+      "Variación de la carga: cambiar intensidad, contenidos, dinámica o pausas evita el estancamiento."
+    ]
+  },
+  "k4:4.3.2": {
+    "de": "Prinzipien zur Sicherung der Adaption",
+    "es": "Principios para asegurar la adaptación",
+    "resumen_es": [
+      "Carga y recuperación óptimas, según la ley de la homeostasis (equilibrio entre procesos anabólicos y catabólicos): fase 1 carga con descenso del rendimiento (fatiga); fase 2 recuperación + aumento del nivel inicial = supercompensación; fase 3 vuelta al nivel inicial.",
+      "La carga se debe repetir. Las adaptaciones llegan con retraso: metabólicas y enzimáticas 2–3 semanas, estructurales 4–6 semanas, sistema nervioso central: meses.",
+      "Periodización y ciclización: macrociclos (1–4 meses), mesociclos (2–6 semanas), microciclos (7–10 días), ciclo diario y sesión; periodos de preparación, competición y transición."
+    ]
+  },
+  "k4:4.3.3": {
+    "de": "Prinzipien zur spezifischen Steuerung der Adaption",
+    "es": "Principios para dirigir la adaptación de forma específica",
+    "resumen_es": [
+      "Individualidad y adecuación al desarrollo: en niños y jóvenes cuenta la edad biológica, no la del calendario; hay que aprovechar las fases sensibles.",
+      "Especialización creciente: de lo sencillo a lo complejo, acercándose a la estructura del deporte objetivo.",
+      "Interacción reguladora entre los elementos del entrenamiento; en el deporte recreativo se ajustan todos los factores de carga (trabajo estresante, correr, gimnasio) para evitar sobre o infraexigencia."
+    ]
+  },
+  "k4:4.4": {
+    "de": "Ausdauertraining",
+    "es": "Entrenamiento de la resistencia",
+    "resumen_es": [
+      "Resistencia = capacidad de resistir la fatiga psíquica y física ante una carga y de recuperarse rápido.",
+      "Según la musculatura: global (todo el cuerpo) o local. Según el movimiento: dinámica (correr, nadar; sobre todo aeróbica) o estática (mantener; se llama también resistencia a la fuerza; aeróbica y anaeróbica).",
+      "Aeróbica: con oxígeno, recuperación rápida; es la resistencia de base (Grundlagenausdauer). Anaeróbica: deuda de oxígeno, más lactato, recuperación más lenta (sprint)."
+    ]
+  },
+  "k4:4.4.1": {
+    "de": "Trainingsmethoden",
+    "es": "Métodos de entrenamiento",
+    "resumen_es": [
+      "Duración: resistencia de corta duración (35 s–2 min, anaeróbica láctica), media (2–10 min, aeróbica-anaeróbica) y larga (desde 10 min, aeróbica).",
+      "Cuatro métodos básicos: continuo (60–85 % FCmáx), por intervalos (85–100 %), por repeticiones y de competición/control.",
+      "Intervalos extensivos (75–90 % FCmáx) e intensivos (> 90 %), con efectos como corazón de deportista, mejor eliminación de lactato y capilarización."
+    ]
+  },
+  "k4:4.4.2": {
+    "de": "Trainingsformen",
+    "es": "Formas de entrenamiento",
+    "resumen_es": [
+      "REKOM (regeneración): FC 60–65 %, menos de 45 min.",
+      "GA 1 (zona de quema de grasa): FC 65–75 %, más de 45 min. GA 2: FC 75–85 %, 20–120 min.",
+      "Resistencia a la fuerza: FC 70–90 %, 20–60 min. Específico de competición: FC > 90 %, 10–45 min."
+    ]
+  },
+  "k4:4.5": {
+    "de": "Krafttraining",
+    "es": "Entrenamiento de fuerza",
+    "resumen_es": [
+      "Fuerza = capacidad de vencer resistencias (concéntrico), contrarrestarlas (excéntrico) o mantenerlas (isométrico).",
+      "Coordinación intramuscular (nervio–músculo dentro de un músculo) e intermuscular (cooperación de agonistas y antagonistas).",
+      "Formas de fuerza: fuerza máxima, resistencia a la fuerza y fuerza rápida, con sus variantes (ver la pirámide de la fuerza en Imágenes)."
+    ]
+  },
+  "k4:4.5.1": {
+    "de": "Krafttrainingsformen und -methoden",
+    "es": "Formas y métodos de entrenamiento de fuerza",
+    "resumen_es": [
+      "Resistencia a la fuerza: 50–70 % Fmáx, 40–60 s / 15–25 rep., pausa 30–60 s.",
+      "Hipertrofia: 70–90 % Fmáx, 15–40 s / 6–15 rep., pausa 60–180 s (aumenta la sección del músculo).",
+      "Fuerza máxima: 90–100 % Fmáx, 1–15 s / 1–6 rep., pausa 3–5 min (coordinación intramuscular).",
+      "Sistema abierto (extremo libre, p. ej. extensión de piernas): aísla músculos. Sistema cerrado (extremo fijo, p. ej. prensa, sentadilla): cadenas musculares, más cercano a la vida diaria y protege los ligamentos."
+    ]
+  },
+  "k4:4.5.2": {
+    "de": "Basis-Bewegungsmuster",
+    "es": "Patrones básicos de movimiento",
+    "resumen_es": [
+      "Se entrena el movimiento, no el músculo: los músculos se desarrollan solos al trabajar los patrones.",
+      "Seis patrones: Plank (estabilizar el centro), Hinge (bisagra de cadera), Push (empujar), Pull (tirar), Lunge (zancada) y Squat (flexión de cadera y rodilla).",
+      "Cada patrón activa músculos concretos (p. ej. Push: pectorales, deltoides, tríceps; Squat: cuádriceps, isquiotibiales, glúteos, erectores)."
+    ]
+  },
+  "k4:4.5.3": {
+    "de": "Organisationsformen",
+    "es": "Formas de organización",
+    "resumen_es": [
+      "Entrenamiento en circuito: 6–12 ejercicios seguidos con pausas cortas o sin ellas, en varias rondas.",
+      "Entrenamiento por estaciones: varias series de un ejercicio en una estación y luego el siguiente (unos 6–8 ejercicios)."
+    ]
+  },
+  "k4:4.6": {
+    "de": "Schnelligkeitstraining",
+    "es": "Entrenamiento de la velocidad",
+    "resumen_es": [
+      "Velocidad = capacidad de alcanzar las mayores velocidades posibles de reacción y movimiento."
+    ]
+  },
+  "k4:4.6.1": {
+    "de": "Schnelligkeitsformen und -methoden",
+    "es": "Formas y métodos de velocidad",
+    "resumen_es": [
+      "Entrenar la velocidad de reacción, un movimiento explosivo o mantener una velocidad máxima exige buena preparación: la base se sienta con el entrenamiento de fuerza y resistencia.",
+      "El entrenamiento de fuerza rápida también entra en el fitness y salud."
+    ]
+  },
+  "k4:4.6.2": {
+    "de": "Allgemeine methodische Richtlinien",
+    "es": "Pautas metodológicas generales",
+    "resumen_es": [
+      "Calidad antes que cantidad; dominar la técnica primero; concentrarse en la velocidad de ejecución; hacerlo al inicio o solo; máximo 1–3 veces por semana (recuperación de 48–72 h).",
+      "Fuera: carreras de arrastre, cuestas; dentro: saltos, escalera de agilidad, balanceos con kettlebell o mancuerna."
+    ]
+  },
+  "k4:4.7.1": {
+    "de": "Metabolic Conditioning (MetCon): Erklärung",
+    "es": "Metabolic Conditioning (MetCon): explicación",
+    "resumen_es": [
+      "MetCon = capacidad de entrenar con alta intensidad durante mucho tiempo (cerca del 100 % durante al menos 20 minutos).",
+      "Suele diseñarse como circuito con muchos ejercicios para cambiar de grupo muscular al cansarse uno; alterna fases intensas con pausas cortas.",
+      "Objetivo: aumentar la capacidad cardiovascular. Similar a Tabata o HIIT (entrenamiento de intervalos de alta intensidad)."
+    ]
+  },
+  "k4:4.7.2": {
+    "de": "Energiespeicher",
+    "es": "Reservas de energía",
+    "resumen_es": [
+      "Fosfatos: energía inmediata pero muy breve (sprint, levantar pesado).",
+      "Glucógeno: carbohidratos; duran entre 10 y 20 minutos.",
+      "Grasas: cuando se agota el glucógeno el cuerpo recurre a la grasa; cuanto más dura el entrenamiento, más grasa se quema."
+    ]
+  },
+  "k4:4.7.3": {
+    "de": "Gestaltung MetCon-Training",
+    "es": "Diseño de un entrenamiento MetCon",
+    "resumen_es": [
+      "Alta intensidad durante al menos 20 min, varios ejercicios en circuito y pausas fijas o variables.",
+      "Ejemplo: 10 sentadillas → 30 s pausa → 3 min remo → 30 s pausa → repetir, mezclando trabajo anaeróbico y aeróbico."
+    ]
+  },
+  "k4:4.8": {
+    "de": "Beweglichkeit",
+    "es": "Movilidad (flexibilidad)",
+    "resumen_es": [
+      "Es la capacidad de realizar grandes amplitudes en una o varias articulaciones. Músculos y articulaciones móviles rinden más y se lesionan menos."
+    ]
+  },
+  "k4:4.8.1": {
+    "de": "Dehnungsformen und -methoden",
+    "es": "Formas y métodos de estiramiento",
+    "resumen_es": [
+      "El estiramiento es controvertido (¿mejora la movilidad?, ¿protege de lesiones?, ¿reduce las agujetas?) y debe adaptarse a cada cliente.",
+      "Formas: activa (el agonista estira al antagonista) o pasiva (pareja/aparato), estática (sin movimiento) o dinámica (alterna estiramiento y relajación).",
+      "Pautas: respiración tranquila, al menos 30 s para mejorar la movilidad, ejecución lenta y centrada en las zonas más rígidas (cadera, columna torácica)."
+    ]
+  },
+  "k4:4.8.2": {
+    "de": "Ziele und Anwendung des Dehnungstrainings",
+    "es": "Objetivos y aplicación del estiramiento",
+    "resumen_es": [
+      "Objetivos: ampliar el rango articular, mejorar el rendimiento, proteger de lesiones, mejorar la coordinación y la percepción corporal.",
+      "Aplicación: en bloques propios, en el calentamiento si hay déficit de movilidad, en la vuelta a la calma (no tras un entrenamiento muy intenso).",
+      "No estirar de forma estática justo antes de esfuerzos intensos y rápidos: primero estático, luego dinámico."
+    ]
+  },
+  "k4:4.9": {
+    "de": "Bewegungskoordination",
+    "es": "Coordinación del movimiento",
+    "resumen_es": [
+      "Coordinación = organización de la capacidad de control del aparato locomotor (Bernstein), a cargo del sistema nervioso y la psique. Es una capacidad muy descuidada hoy y debería estar en todo entrenamiento.",
+      "La sensorialidad tiene la función superior: analizadores externos (ojo, oído) e internos (kinestésico, vestibular, táctil)."
+    ]
+  },
+  "k4:4.9.1": {
+    "de": "Koordination und Muskulatur",
+    "es": "Coordinación y musculatura",
+    "resumen_es": [
+      "Coordinación intermuscular: cooperación entre agonista, antagonista y sinergistas (p. ej. en la flexión del codo: bíceps agonista, tríceps antagonista, braquial y braquiorradial sinergistas).",
+      "Coordinación intramuscular: cuántas fibras de un músculo se activan a la vez (relación nervio–músculo)."
+    ]
+  },
+  "k4:4.9.2": {
+    "de": "Betrachtungsweisen der Koordination",
+    "es": "Enfoques de la coordinación",
+    "resumen_es": [
+      "Cinco capacidades: diferenciación (afinar fases del movimiento), equilibrio, orientación (en el espacio), ritmo y reacción.",
+      "Ejemplos: peso muerto con tronco estable; apoyo a una pierna; lanzar una pelota desde distintas posiciones; marcar el ritmo contando 1-2-3; saltar al oír una señal."
+    ]
+  },
+  "k5-7:5.1": {
+    "de": "Einführung in die Belastungssteuerung",
+    "es": "Introducción al control de la carga",
+    "resumen_es": [
+      "Se usan métodos subjetivos y objetivos para mantener y controlar la calidad de carga prevista durante la sesión."
+    ]
+  },
+  "k5-7:5.2": {
+    "de": "Subjektive Belastungssteuerung",
+    "es": "Control subjetivo de la carga",
+    "resumen_es": [
+      "Tensión muscular: lo decisivo en el entrenamiento de fuerza; el músculo no cuenta repeticiones, «mide» tensión. Una leve sensación de tensión (poca agujeta) al día siguiente indica una carga bien dosificada.",
+      "Pirámides de fuerza máxima por repeticiones o duración: exigen buena técnica.",
+      "Escala de Borg (RPE, 6–20): valor × 10 ≈ frecuencia cardíaca. Para la resistencia de base (70–80 % FCmáx) el esfuerzo percibido debe estar entre 9 y 15. 9 = muy suave, 13 = algo duro pero sostenible, 15 = duro, 17 = muy duro, 19 = extremo.",
+      "Escala de Borg modificada: más comprensible; sirve para dialogar con el cliente. Los principiantes suelen sobre o subestimar.",
+      "Ritmo respiratorio: respiración tranquila por la nariz = zona sobre todo aeróbica. Ritmos 4/4 (aeróbico), 3/3 (transición), 2/2 (anaeróbico).",
+      "En fuerza: espirar en la fase de vencer (p. ej. al empujar en press de banca), inspirar al ceder; respirar continuamente y evitar la respiración con presión (Pressatmung)."
+    ]
+  },
+  "k5-7:5.3": {
+    "de": "Objektive Belastungssteuerung: Herzfrequenz",
+    "es": "Control objetivo de la carga: frecuencia cardíaca",
+    "resumen_es": [
+      "Sin pulsómetro se mide el pulso en arterias fáciles de palpar (carótida, radial)."
+    ]
+  },
+  "k5-7:5.3.1": {
+    "de": "Ruhefrequenz (HF Ruhe)",
+    "es": "Frecuencia en reposo",
+    "resumen_es": [
+      "Se mide por la mañana antes de levantarse, idealmente como media de tres días distintos.",
+      "> 90 latidos: posible enfermedad (consultar al médico); 70–80 normal; 60–70 buena; 50–60 muy buena; < 50 deportista entrenado."
+    ]
+  },
+  "k5-7:5.3.2": {
+    "de": "Maximalherzfrequenz (HF max)",
+    "es": "Frecuencia cardíaca máxima",
+    "resumen_es": [
+      "Fórmulas por edad: mujer 226 − edad; hombre 220 − edad; ciclismo 200 − edad; natación 190 − edad.",
+      "Alternativas: prueba escalonada (p. ej. Conconi) y prueba de cuesta. Las fórmulas son baratas pero fijas; las pruebas son precisas pero exigen esfuerzo máximo (no para principiantes)."
+    ]
+  },
+  "k5-7:5.3.3": {
+    "de": "Trainingsherzfrequenz (HF Training)",
+    "es": "Frecuencia cardíaca de entrenamiento",
+    "resumen_es": [
+      "Terapia: > 50–70 % de la FCmáx (siempre con el médico); prevención: 50–80 %; ocio: 60–90 %.",
+      "Pausa que compensa («lohnende Pause») cuando la FC vuelve a unos 120 lpm; pausa completa por debajo de 100 lpm."
+    ]
+  },
+  "k5-7:5.4": {
+    "de": "Laktat- und VO₂max-Diagnostik",
+    "es": "Diagnóstico de lactato y VO₂máx",
+    "resumen_es": [
+      "Test escalonado con medición simultánea de lactato (sangre), oxígeno (máscara) y frecuencia cardíaca (cinturón); etapas de 3–5 min.",
+      "Lactato: sal del ácido láctico formada sin oxígeno; en reposo 0,75–1,1 mmol/l; se elimina por completo en unas 3 h; los entrenados lo eliminan a ≈ 0,5 mmol/l por minuto, los no entrenados a ≈ 0,3.",
+      "VO₂máx: máximo de oxígeno que se puede captar. Élite ≈ 75–90 ml/kg/min; muy entrenados 50–70; no entrenados 30–40. Zona óptima para mejorarlo: ≈ 70 % del VO₂máx o 85 % de la FCmáx."
+    ]
+  },
+  "k5-7:6.1": {
+    "de": "Grundlagen der Trainingsplanung",
+    "es": "Fundamentos de la planificación del entrenamiento",
+    "resumen_es": [
+      "La planificación es «anticiparse al futuro»: estructura clara y adaptación continua; si el plan nunca cambia, la motivación cae y hay estancamiento.",
+      "Un plan individual considera nivel, experiencia previa, limitaciones de salud, tiempo disponible y objetivo. Hay que incluir también los deseos del cliente (la diversión decide cuánto entrena).",
+      "Sé realista: si solo puede entrenar 2 veces por semana, haz un plan para 2–3 días. Con clientes muy motivados, sube la carga despacio para evitar lesiones y sobreentrenamiento.",
+      "Estructura: periodización también en el deporte de salud (ej.: enero–marzo hipertrofia, abril–mayo resistencia de base, junio–septiembre resistencia a la fuerza, octubre recuperación, noviembre–diciembre base de fuerza).",
+      "Diagnóstico inicial: pulso en reposo, presión arterial (tablas), IMC (peso/talla²; no considera la masa muscular)."
+    ]
+  },
+  "k5-7:6.1.1": {
+    "de": "Methoden der Körperfettmessung",
+    "es": "Métodos de medición de la grasa corporal",
+    "resumen_es": [
+      "Calipometría: mide pliegues cutáneos con un calibrador; exige mucha práctica y un % graso bajo para ser precisa.",
+      "Análisis de impedancia bioeléctrica (BIA): una corriente débil mide la resistencia de los tejidos; puede ser poco exacta (el agua corporal varía)."
+    ]
+  },
+  "k5-7:6.2": {
+    "de": "Trainingseinheit (TE)",
+    "es": "La sesión de entrenamiento",
+    "resumen_es": [
+      "Una sesión en fitness y salud se estructura en tres partes: calentamiento, parte principal y vuelta a la calma."
+    ]
+  },
+  "k5-7:6.2.1": {
+    "de": "Aufbau einer Trainingseinheit",
+    "es": "Estructura de una sesión",
+    "resumen_es": [
+      "Calentamiento: aprox. 15 % del tiempo total (máx. 15 min). Parte principal: como máximo 2 grandes focos. Cooldown: vuelta a la calma."
+    ]
+  },
+  "k5-7:7.1": {
+    "de": "Korrekte Geräteeinweisung",
+    "es": "Instrucción correcta en los aparatos",
+    "resumen_es": [
+      "Paso 1: llevar al socio al aparato e informar qué grupo muscular trabaja.",
+      "Paso 2: explicar el beneficio del ejercicio, adaptado al objetivo y con lenguaje sencillo y gráfico (sin términos latinos).",
+      "Paso 3: explicar el ajuste y demostrar el ejercicio (posición inicial y final, tempo, respiración, 3–4 repeticiones), con lenguaje positivo («codos ligeramente flexionados», no «no estires los codos»).",
+      "Paso 4: el socio lo hace y ajusta el aparato él mismo; revisar peso, pasador, posición, mosquetones y discos con pasadores. Corregir máximo 2–3 errores graves por ejercicio y alabar al corregirse. Avisar y pedir permiso antes de tocar.",
+      "Medidas de corrección: verbales, visuales, táctiles e instrumentales.",
+      "Paso 5: pedir feedback (¿sintió el músculo?, ¿hubo problemas?) y alabar."
+    ]
+  },
+  "k5-7:7.2": {
+    "de": "Kommunikation des Trainers im Studioalltag",
+    "es": "Comunicación del entrenador en el día a día",
+    "resumen_es": [
+      "Mejorar la imagen del gimnasio: pedir valoraciones positivas cuando el socio está contento (al terminar una asesoría o plan, o tras una recomendación).",
+      "Hablar de promociones solo al entrar o al salir. «Atención percibida»: saludar por el nombre, contacto visual, sonreír.",
+      "Concertar citas de asesoría ante preguntas sobre planes ajenos, correcciones, conversaciones de objetivos, baja motivación o bajas.",
+      "Normas del gimnasio con un tono amable: toalla sobre los aparatos, desinfectar, recoger los discos, no gritar y no dejar caer los pesos."
+    ]
+  },
+  "k8:8.1": {
+    "de": "Einführung in die Übungen",
+    "es": "Introducción a los ejercicios",
+    "resumen_es": [
+      "Se presentan ejercicios básicos de fortalecimiento. El entrenador debe dominarlos en teoría y en práctica antes de integrarlos en un plan."
+    ]
+  },
+  "k8:8.2": {
+    "de": "Brustmuskulatur",
+    "es": "Musculatura del pecho",
+    "resumen_es": [
+      "Press de banca, aperturas / butterfly y flexiones. Cada ejercicio indica músculos, posición inicial, desarrollo del movimiento y variaciones."
+    ]
+  },
+  "k8:8.3": {
+    "de": "Obere Rückenmuskulatur",
+    "es": "Musculatura de la parte alta de la espalda",
+    "resumen_es": [
+      "Remo, jalón al pecho y dominadas: ejercicios de tracción para dorsal ancho, romboides, trapecio y bíceps."
+    ]
+  },
+  "k8:8.4": {
+    "de": "Schultermuskulatur",
+    "es": "Musculatura del hombro",
+    "resumen_es": [
+      "Press de hombros, butterfly inverso y elevaciones laterales."
+    ]
+  },
+  "k8:8.5": {
+    "de": "Armmuskulatur",
+    "es": "Musculatura del brazo",
+    "resumen_es": [
+      "Curl de bíceps y ejercicios de tríceps (extensiones)."
+    ]
+  },
+  "k8:8.6": {
+    "de": "Rumpfmuskulatur",
+    "es": "Musculatura del tronco",
+    "resumen_es": [
+      "Crunches, extensión de espalda y plancha: abdominales, lumbares y estabilidad del core."
+    ]
+  },
+  "k8:8.7": {
+    "de": "Beinmuskulatur",
+    "es": "Musculatura de las piernas",
+    "resumen_es": [
+      "Sentadilla, prensa, curl femoral, extensión de piernas, zancadas y elevación de talones."
+    ]
+  }
+}

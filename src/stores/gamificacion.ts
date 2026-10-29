@@ -21,6 +21,8 @@ export interface Estado {
   incorrectas: number;
   figurasVistas: string[];
   rondasPerfectas: number;
+  /** Secciones del modo lectura marcadas como leídas: "capitulo:num". */
+  seccionesLeidas: string[];
   logros: string[];
 }
 
@@ -72,6 +74,8 @@ export const LOGROS: Logro[] = [
   { id: 'xp500', icono: '⭐', de: '500 XP', es: '500 XP', descripcion: 'Alcanza 500 XP.', cumple: (e) => e.xp >= 500 },
   { id: 'figuras10', icono: '🖼️', de: 'Bildkenner', es: 'Ojo de águila', descripcion: 'Abre 10 figuras de Imágenes.', cumple: (e) => e.figurasVistas.length >= 10 },
   { id: 'figuras', icono: '🔬', de: 'Alle Bilder gesehen', es: 'Todas las figuras', descripcion: 'Abre todas las figuras de Imágenes.', cumple: (e) => e.figurasVistas.length >= imagenes.length },
+  { id: 'lector5', icono: '📖', de: 'Leser', es: 'Lector', descripcion: 'Lee 5 secciones en el modo lectura.', cumple: (e) => e.seccionesLeidas.length >= 5 },
+  { id: 'lector25', icono: '📚', de: 'Bücherwurm', es: 'Ratón de biblioteca', descripcion: 'Lee 25 secciones en el modo lectura.', cumple: (e) => e.seccionesLeidas.length >= 25 },
   { id: 'perfecta', icono: '✨', de: 'Perfekte Runde', es: 'Ronda perfecta', descripcion: 'Acierta todo en una ronda de práctica de imágenes.', cumple: (e) => e.rondasPerfectas >= 1 },
 ];
 
@@ -85,6 +89,7 @@ const vacio = (): Estado => ({
   incorrectas: 0,
   figurasVistas: [],
   rondasPerfectas: 0,
+  seccionesLeidas: [],
   logros: [],
 });
 
@@ -188,6 +193,12 @@ export function registrarFigura(id: string) {
 export function rondaCompletada(aciertos: number, total: number) {
   const perfecta = total > 0 && aciertos === total;
   ganarXP(perfecta ? 20 : 5, perfecta ? { rondasPerfectas: estado.rondasPerfectas + 1 } : {});
+}
+
+/** +5 XP la primera vez que marcas una sección del modo lectura como leída. */
+export function marcarSeccionLeida(clave: string) {
+  if (estado.seccionesLeidas.includes(clave)) return;
+  ganarXP(5, { seccionesLeidas: [...estado.seccionesLeidas, clave] });
 }
 
 export function reiniciarGamificacion() {

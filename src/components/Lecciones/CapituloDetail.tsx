@@ -1,11 +1,11 @@
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import { useLeitner } from '../../stores/useLeitner';
 import { useUserProgress } from '../../stores/useUserProgress';
 import { useState } from 'react';
 import capitulosData from '../../data/capitulos.json';
 import preguntasData from '../../data/preguntas.json';
 import leccionesContenido from '../../data/lecciones_contenido.json';
-import { ArrowLeft, CheckCircle, XCircle, Clock, ChevronDown, ChevronUp } from 'lucide-react';
+import { ArrowLeft, BookOpenText, CheckCircle, XCircle, Clock, ChevronDown, ChevronUp } from 'lucide-react';
 import type { Pregunta } from '../../types';
 
 const contenidoPorCapitulo = leccionesContenido as Record<string, string[]>;
@@ -71,6 +71,21 @@ export default function CapituloDetail() {
           <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">{capitulo.titulo_de}</p>
         </div>
       </div>
+
+      {contenidoPorCapitulo[capitulo_id] && (
+        <Link
+          to={`/lecciones/${capitulo_id}/lectura`}
+          className="card flex items-center gap-3 border-green-300 bg-green-50 transition-shadow hover:shadow-lg dark:border-green-700 dark:bg-green-900/20"
+        >
+          <BookOpenText className="h-8 w-8 flex-shrink-0 text-green-600 dark:text-green-400" />
+          <div>
+            <p className="font-semibold text-gray-900 dark:text-white">Modo lectura</p>
+            <p className="text-sm text-gray-700 dark:text-gray-300">
+              El texto del manual por secciones, con resumen en español, vocabulario tocable y audio. Gana XP al leer.
+            </p>
+          </div>
+        </Link>
+      )}
 
       {/* Contenido de la lección */}
       {contenidoPorCapitulo[capitulo_id] && (

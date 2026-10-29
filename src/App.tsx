@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard/Dashboard';
 import LeitnerDemo from './components/Leitner/LeitnerDemo';
 import LeccionesIndex from './components/Lecciones/LeccionesIndex';
 import CapituloDetail from './components/Lecciones/CapituloDetail';
+import LeccionLectura from './components/Lecciones/LeccionLectura';
 import FlashcardBrowser from './components/Flashcards/FlashcardBrowser';
 import QuizBrowser from './components/Quiz/QuizBrowser';
 import ExamBrowser from './components/Exam/ExamBrowser';
@@ -40,6 +41,7 @@ function App() {
               <Route path="/" element={<Dashboard />} />
               <Route path="/lecciones" element={<LeccionesIndex />} />
               <Route path="/lecciones/:capitulo_id" element={<CapituloDetail />} />
+              <Route path="/lecciones/:capitulo_id/lectura" element={<LeccionLectura />} />
               <Route path="/flashcards" element={<FlashcardBrowser />} />
               <Route path="/quiz" element={<QuizBrowser />} />
               <Route path="/exam" element={<ExamBrowser />} />

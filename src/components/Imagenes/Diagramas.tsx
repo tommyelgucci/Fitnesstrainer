@@ -74,8 +74,8 @@ function Supercompensacion() {
         strokeWidth="3"
       />
       <Etiqueta x={135} y={40} de="Phase 1" es="Fase 1 · Carga" />
-      <Etiqueta x={268} y={40} de="Phase 2" es="Fase 2 · Recuperación" />
-      <Etiqueta x={450} y={40} de="Phase 3" es="Fase 3 · Supercompensación" />
+      <Etiqueta x={268} y={40} de="Phase 2" es="Fase 2 · Recuperación y supercomp." />
+      <Etiqueta x={470} y={40} de="Phase 3" es="Fase 3 · Vuelta al nivel inicial" />
       <Etiqueta x={450} y={78} de="vergrößertes Reservoir" es="reserva ampliada" size={12} />
       <Etiqueta x={78} y={140} de="Leistungsniveau" es="nivel de rendimiento" anchor="start" size={12} />
       <Etiqueta x={140} y={268} de="Ermüdung" es="fatiga" size={12} />
