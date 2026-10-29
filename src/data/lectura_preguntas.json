@@ -1,0 +1,200 @@
+{
+  "k2:2.1": [
+    { "p": "Según el manual, ¿cómo debe entrenar un entrenador a sus clientes?", "o": ["Como a él le gusta entrenar", "Como el cliente quiere ser entrenado, de forma individual", "Siempre con el mismo plan para todos", "Solo con lo que dicta el reglamento del gimnasio"], "c": 1, "e": "Regla de oro en la sala: «Trainiere andere so, wie er/sie trainiert werden will»; la atención se adapta al cliente, no a tus preferencias." },
+    { "p": "¿Por quién valoran los socios al entrenador?", "o": ["Por sus intenciones", "Por su conducta", "Por su titulación", "Por su edad"], "c": 1, "e": "Los socios valoran a los entrenadores por su comportamiento y no por sus intenciones." }
+  ],
+  "k2:2.2.1": [
+    { "p": "¿Cómo es la motivación según el texto?", "o": ["Siempre reactiva", "Siempre iniciativa propia del cliente (nunca reactiva)", "Responsabilidad exclusiva del entrenador", "No se puede influir en ella"], "c": 1, "e": "«Motivation ist immer initiativ, nie reaktiv»: el entrenador ayuda, pero no es determinante." }
+  ],
+  "k2:2.2.2": [
+    { "p": "¿Cuál es el consejo básico para mantener la motivación?", "o": ["Entrenar solo cuando haya ganas", "Fijar la hora del entrenamiento en la agenda como una cita importante", "Cambiar de gimnasio a menudo", "Entrenar siempre acompañado"], "c": 1, "e": "Tipp 1: fijar el momento del entrenamiento, sin excusas, con la prioridad de una cita de trabajo." }
+  ],
+  "k2:2.3": [
+    { "p": "¿Qué porcentaje del mensaje procesa el receptor por la voz según el manual?", "o": ["7 %", "55 %", "38 %", "93 %"], "c": 2, "e": "55 % gestos y mímica, 38 % voz y solo 7 % el contenido." },
+    { "p": "¿Cómo se llama que lo dicho y lo transmitido con el cuerpo coincidan?", "o": ["Comunicación pasiva", "Comunicación congruente", "Comunicación táctil", "Comunicación cerrada"], "c": 1, "e": "Kongruente Kommunikation: lo que se dice también se irradia, y eso da credibilidad." }
+  ],
+  "k3.2:intro": [
+    { "p": "¿Qué orgánulo es la «central de energía» de la célula?", "o": ["Lisosoma", "Ribosoma", "Mitocondria", "Aparato de Golgi"], "c": 2, "e": "Las mitocondrias son responsables del metabolismo energético (Kraftwerke der Zelle)." },
+    { "p": "¿Dónde se encuentra la información genética (ADN)?", "o": ["En el citoplasma", "En el núcleo", "En los lisosomas", "En el retículo endoplasmático"], "c": 1, "e": "El Zellkern contiene la Erbinformation (DNS) y es la central de control de la célula." }
+  ],
+  "k3.3:3.3.1": [
+    { "p": "¿Aproximadamente qué parte del peso corporal es el esqueleto?", "o": ["5 %", "12 %", "30 %", "50 %"], "c": 1, "e": "Etwa 12 Prozent des gesamten Körpergewichtes entfallen auf das Skelett." }
+  ],
+  "k3.3:3.3.2": [
+    { "p": "¿Qué función tienen los huesos largos (Röhrenknochen)?", "o": ["Protección", "Palanca", "Reducir peso", "Estabilidad"], "c": 1, "e": "Röhrenknochen: función de palanca (fémur, tibia, peroné, cúbito)." },
+    { "p": "La rótula es un ejemplo de…", "o": ["Hueso corto", "Hueso plano", "Hueso sesamoideo", "Hueso irregular"], "c": 2, "e": "Sesambeine: transmiten fuerza; ejemplo, la Kniescheibe." }
+  ],
+  "k3.3:3.3.3": [
+    { "p": "¿Qué zona del hueso largo es responsable del crecimiento en longitud?", "o": ["Diáfisis", "Periostio", "Metáfisis", "Compacta"], "c": 2, "e": "La zona entre epífisis y diáfisis (Metaphyse) es responsable del crecimiento longitudinal." },
+    { "p": "¿Por qué duele el periostio?", "o": ["Porque está lleno de médula", "Porque contiene nervios y vasos sanguíneos", "Porque es cartílago", "Porque no se irriga"], "c": 1, "e": "El periostio contiene nervios y vasos, por eso es sensible al dolor, al contrario que el hueso." }
+  ],
+  "k3.3:3.3.4": [
+    { "p": "¿Cómo se nutre el cartílago?", "o": ["Por vasos sanguíneos propios", "Por nervios", "Por difusión de líquido tisular", "Por la médula ósea"], "c": 2, "e": "No tiene nervios ni vasos: la nutrición es por «filtrado» de líquido tisular (difusión)." }
+  ],
+  "k3.3:3.3.5": [
+    { "p": "¿Dónde se encuentra el cartílago fibroso (Faserknorpel)?", "o": ["En la oreja", "En discos intervertebrales y meniscos", "En las superficies articulares", "En la laringe"], "c": 1, "e": "Resiste tracción y presión: Bandscheiben y Menisken." }
+  ],
+  "k3.3:3.3.6": [
+    { "p": "¿Qué función tienen los ligamentos (Bänder)?", "o": ["Unir músculo con hueso", "Asegurar, estabilizar y guiar la articulación", "Producir líquido sinovial", "Amortiguar golpes"], "c": 1, "e": "Gelenksicherung, Gelenkstabilisierung y Gelenkführung." }
+  ],
+  "k3.3:3.3.8": [
+    { "p": "¿Qué tienen siempre las articulaciones verdaderas?", "o": ["Cabeza y cavidad articulares", "Solo tejido conectivo", "Un disco de hueso", "Ningún espacio articular"], "c": 0, "e": "Jedes echte Gelenk besitzt einen Gelenkkopf und eine Gelenkpfanne, con espacio articular lleno de líquido." },
+    { "p": "El codo es una articulación…", "o": ["Esferoidea", "En silla de montar", "En bisagra", "Plana"], "c": 2, "e": "Scharniergelenk: dedos y codo." }
+  ],
+  "k3.3:3.3.9": [
+    { "p": "¿Qué huesos forman la articulación de la rodilla?", "o": ["Fémur, tibia y peroné", "Fémur, tibia y rótula", "Tibia, peroné y rótula", "Fémur y tibia solamente"], "c": 1, "e": "El peroné anatómicamente no pertenece a la rodilla." },
+    { "p": "¿Qué evitan los ligamentos cruzados?", "o": ["Que la rodilla se desplace hacia delante o atrás", "Que la rodilla se desplace hacia los lados", "La rotación de la rótula", "El roce del tendón"], "c": 0, "e": "Estabilizan la rodilla en el eje horizontal; los colaterales lo hacen lateralmente." }
+  ],
+  "k3.3:3.3.10": [
+    { "p": "¿Cuántas vértebras cervicales, torácicas y lumbares hay?", "o": ["5, 12 y 7", "7, 12 y 5", "7, 10 y 5", "12, 7 y 5"], "c": 1, "e": "7 Halswirbel, 12 Brustwirbel y 5 Lendenwirbel." },
+    { "p": "¿Qué movimiento permite el axis (C2)?", "o": ["Asentir", "Girar la cabeza", "Inclinar el tronco", "Respirar"], "c": 1, "e": "El atlas se ocupa del movimiento arriba-abajo; el axis, de la rotación." },
+    { "p": "¿De qué se compone el disco intervertebral?", "o": ["Anillo fibroso y núcleo gelatinoso", "Hueso y cartílago hialino", "Solo agua", "Médula y periostio"], "c": 0, "e": "Äußerer Faserring (anulus fibrosus) e innerer Gallertkern (nucleus pulposus)." }
+  ],
+  "k3.4:intro": [
+    { "p": "¿Qué función tienen las vainas tendinosas y las bolsas serosas?", "o": ["Producir energía", "Reducir el roce y repartir la presión", "Unir hueso con hueso", "Contraer el músculo"], "c": 1, "e": "Están llenas de líquido sinovial y reducen la fricción." }
+  ],
+  "k3.4:3.4.1": [
+    { "p": "¿Qué une un tendón?", "o": ["Hueso con hueso", "Músculo (vientre) con hueso", "Músculo con piel", "Dos músculos entre sí"], "c": 1, "e": "Sehnen stellen die Verbindung von Muskelbauch und Knochen dar." }
+  ],
+  "k3.4:3.4.2": [
+    { "p": "¿Cuál es la unidad funcional más pequeña del músculo?", "o": ["La fibra muscular", "La miofibrilla", "El sarcómero", "El fascículo"], "c": 2, "e": "Der Sarkomer, limitado por discos Z." },
+    { "p": "¿Cómo trabaja el bíceps al bajar el cuerpo en una dominada?", "o": ["Concéntricamente", "Isométricamente", "Excéntricamente (frena)", "No trabaja"], "c": 2, "e": "Al bajar, el bíceps frena el movimiento con contracción excéntrica." },
+    { "p": "¿Cuántas fibras tiene una unidad motora de los músculos oculares frente a los de la pierna?", "o": ["Unas 10 frente a hasta 2000", "Unas 2000 frente a 10", "Igual en ambos", "Unas 100 frente a 200"], "c": 0, "e": "Cuanto más fino el control, menos fibras por motoneurona." },
+    { "p": "¿Qué fibras pueden transformarse con entrenamiento de resistencia?", "o": ["ST en FT", "FT en ST o FTO (no al revés)", "Todas por igual", "Ninguna"], "c": 1, "e": "La conversión de FT en ST/FTO es posible con entrenamiento de resistencia, pero no a la inversa." }
+  ],
+  "k3.4:3.4.3": [
+    { "p": "¿Qué tipo de músculo es involuntario y estriado?", "o": ["Esquelético", "Liso", "Cardíaco", "Ninguno"], "c": 2, "e": "La Herzmuskulatur trabaja involuntariamente y tiene estructura estriada." }
+  ],
+  "k3.4:3.4.4": [
+    { "p": "¿Cuánto dura la reserva de ATP del músculo?", "o": ["2–3 segundos", "30 segundos", "2 minutos", "10 minutos"], "c": 0, "e": "Después entra la fosfocreatina (6–8 s en no entrenados)." },
+    { "p": "¿Cuántos ATP se obtienen por molécula de glucosa en la vía aeróbica?", "o": ["2", "36", "130", "8"], "c": 1, "e": "Aeróbica: 36 ATP por glucosa; anaeróbica: 2 ATP y formación de lactato." }
+  ],
+  "k3.5:3.4.5": [
+    { "p": "El origen de un músculo es el punto…", "o": ["Más alejado del centro y más móvil", "Más cercano al centro del cuerpo y menos móvil", "Donde termina el tendón", "Siempre en el cartílago"], "c": 1, "e": "Ursprung: más cerca de la línea media del cuerpo y menos móvil; Ansatz: más lejos y más móvil." }
+  ],
+  "k3.5:3.4.7": [
+    { "p": "¿Qué músculos tienden a acortarse y se deben estirar?", "o": ["Glúteos y abdominales", "Pectoral y flexores de la cadera", "Romboides y extensores del brazo", "Erectores torácicos"], "c": 1, "e": "Entre los que tienden a acortarse están el pectoral, los flexores de cadera, las pantorrillas… Los de la otra lista se fortalecen." },
+    { "p": "¿Qué es una dysbalance muscular?", "o": ["Un desgarro", "Un desequilibrio entre agonista y antagonista", "Una fibra rápida", "Una lesión del tendón"], "c": 1, "e": "Si acortamiento o debilitamiento entre agonista y antagonista es marcado, aparecen tensiones, sobrecargas y limitaciones." }
+  ],
+  "k3.5:3.5.1": [
+    { "p": "¿Qué ejes forman el plano sagital según el manual?", "o": ["Longitudinal y sagital", "Horizontal y sagital", "Longitudinal y horizontal", "Solo el horizontal"], "c": 0, "e": "Die Sagittalebene wird durch die Longitudinal- und Sagittalachse gebildet." }
+  ],
+  "k3.5:3.5.2": [
+    { "p": "¿Qué significa «proximal»?", "o": ["Lejos del tronco", "Hacia la espalda", "Hacia el tronco (cerca del origen del miembro)", "Hacia arriba"], "c": 2, "e": "Proximal = hacia el tronco; distal = lejos de él." },
+    { "p": "Pronación del antebrazo es…", "o": ["Palma hacia arriba", "Giro hacia dentro (palma hacia abajo)", "Separar el brazo del cuerpo", "Estirar el codo"], "c": 1, "e": "Pronation = Einwärtsdrehung; Supination = Auswärtsdrehung." }
+  ],
+  "k3.6:3.6.1": [
+    { "p": "¿Qué válvula separa la aurícula izquierda del ventrículo izquierdo?", "o": ["Tricúspide", "Pulmonar", "Mitral", "Aórtica"], "c": 2, "e": "Mitralklappe, de 2 velas." },
+    { "p": "¿Cuántas válvulas tiene el corazón?", "o": ["2", "3", "4", "6"], "c": 2, "e": "2 de vela (tricúspide y mitral) y 2 de bolsillo (pulmonar y aórtica)." }
+  ],
+  "k3.6:3.6.2": [
+    { "p": "¿Cuál es el recorrido de la circulación pulmonar (menor)?", "o": ["Ventrículo izquierdo → aorta → cuerpo", "Ventrículo derecho → arterias pulmonares → pulmón → venas pulmonares → aurícula izquierda", "Aurícula derecha → aorta", "Pulmón → ventrículo derecho"], "c": 1, "e": "Rechte Kammer – Lungenarterien – Lunge – Lungenvenen – linker Vorhof." }
+  ],
+  "k3.6:3.6.3": [
+    { "p": "¿Cómo pasan los gases entre alvéolo y sangre?", "o": ["Por bombeo activo", "Por difusión (diferencia de concentración)", "Por la linfa", "Por ósmosis del plasma"], "c": 1, "e": "Das geschieht durch das Konzentrationsgefälle; Vorgang = Diffusion." }
+  ],
+  "k3.6:3.6.4": [
+    { "p": "¿Dónde nace el impulso eléctrico del corazón?", "o": ["En el nódulo sinusal", "En el ventrículo izquierdo", "En la aorta", "En el diafragma"], "c": 0, "e": "Der Impuls entsteht im Sinusknoten, im rechten Vorhof." }
+  ],
+  "k3.6:3.6.5": [
+    { "p": "¿Cuál es la presión arterial normal de referencia?", "o": ["100/70 mmHg", "120/80 mmHg", "140/90 mmHg", "160/100 mmHg"], "c": 1, "e": "Normwert 120/80; hipertensión permanente > 140/90; hipotensión < 100/70." }
+  ],
+  "k3.6:3.6.6": [
+    { "p": "¿Qué son las arterias?", "o": ["Vasos que llevan sangre al corazón", "Vasos que llevan sangre fuera del corazón", "Los vasos más finos", "Vasos linfáticos"], "c": 1, "e": "Arterien transportan la sangre desde el corazón; Venen, hacia él; Kapillaren son los más finos." }
+  ],
+  "k3.7:3.7.2": [
+    { "p": "¿Qué parte del sistema nervioso frena la disposición al rendimiento y favorece la recuperación?", "o": ["Simpático", "Parasimpático", "Sistema nervioso central", "Cerebro"], "c": 1, "e": "El parasimpático (antagonista del simpático) dampft die Leistungsbereitschaft." }
+  ],
+  "k4:4.2": [
+    { "p": "¿Qué son la carga externa y la interna?", "o": ["Externa: intensidades, repeticiones, tiempos; interna: FC, lactato, urea", "Externa: FC; interna: repeticiones", "Externa: lactato; interna: pesos", "No hay diferencia"], "c": 0, "e": "Äußere Belastung = visible; innere Belastung = HF, Laktat, Harnstoffwerte." }
+  ],
+  "k4:4.2.1": [
+    { "p": "Para provocar una adaptación, el estímulo debe…", "o": ["Ser siempre máximo", "Superar un umbral eficaz", "Ser constante sin cambios", "Durar exactamente 1 hora"], "c": 1, "e": "Si el estímulo no alcanza el umbral, no se desencadenan adaptaciones." }
+  ],
+  "k4:4.3.1": [
+    { "p": "Según la regla de los estímulos, los estímulos demasiado fuertes…", "o": ["Mejoran más", "Mantienen el nivel", "Dañan", "No tienen efecto"], "c": 2, "e": "Subumbrales sin efecto; débiles mantienen; fuertes adaptan; demasiado fuertes dañan." }
+  ],
+  "k4:4.3.2": [
+    { "p": "En la ley de la homeostasis, ¿qué ocurre en la fase 2?", "o": ["Fatiga", "Recuperación + aumento del nivel inicial (supercompensación)", "Pérdida total del rendimiento", "Reposo absoluto de semanas"], "c": 1, "e": "Fase 1 carga con fatiga; fase 2 regeneración + supercompensación; fase 3 vuelta al nivel inicial." },
+    { "p": "¿Cuánto tardan en aparecer las adaptaciones estructurales (morfológicas)?", "o": ["2–3 días", "2–3 semanas", "4–6 semanas", "Meses"], "c": 2, "e": "Metabólicas y enzimáticas 2–3 semanas; morfológicas 4–6; sistema nervioso central: meses." }
+  ],
+  "k4:4.3.3": [
+    { "p": "En niños y jóvenes, la carga debe basarse en…", "o": ["La edad cronológica", "La edad biológica", "El peso", "La talla"], "c": 1, "e": "Nach dem biologischen, nicht nach dem kalendarischen Alter." }
+  ],
+  "k4:4.4": [
+    { "p": "La resistencia aeróbica de base se llama…", "o": ["Kraftausdauer", "Grundlagenausdauer", "Schnellkraft", "Maximalkraft"], "c": 1, "e": "Die aerobe Belastungsfähigkeit des Körpers wird auch als Grundlagenausdauer bezeichnet." }
+  ],
+  "k4:4.4.1": [
+    { "p": "¿Qué intensidad de FCmáx tiene el método continuo (Dauermethode)?", "o": ["30–40 %", "60–85 %", "85–100 %", "100 % siempre"], "c": 1, "e": "Dauermethode: 60–85 % HF max, sin pausa; intervalos: 85–100 %." }
+  ],
+  "k4:4.4.2": [
+    { "p": "¿Qué forma de entrenamiento es de regeneración (FC 60–65 %, menos de 45 min)?", "o": ["GA 2", "REKOM", "WSA", "Kraftausdauer"], "c": 1, "e": "REKOM-Training = Regenerationstraining." }
+  ],
+  "k4:4.5": [
+    { "p": "¿Cuáles son las tres formas básicas de la fuerza?", "o": ["Máxima, resistencia a la fuerza y rápida", "Aeróbica, anaeróbica y mixta", "Lenta, media y rápida", "Estática, dinámica y mixta"], "c": 0, "e": "Maximalkraft, Kraftausdauer y Schnellkraft." }
+  ],
+  "k4:4.5.1": [
+    { "p": "¿Qué intensidad y repeticiones corresponden a la hipertrofia?", "o": ["90–100 % y 1–6", "70–90 % y 6–15", "50–70 % y 15–25", "30–50 % y 25–40"], "c": 1, "e": "Hypertrophie: 70–90 % Fmax, 6–15 Wh., pausa 60–180 s." },
+    { "p": "¿Qué caracteriza al sistema cerrado (p. ej. sentadilla o prensa)?", "o": ["Aísla un músculo", "El extremo del miembro está fijo y trabajan cadenas musculares", "No activa antagonistas", "Solo es para rehabilitación"], "c": 1, "e": "En el sistema cerrado se entrenan muchos músculos en cadena, con estabilización articular." }
+  ],
+  "k4:4.5.2": [
+    { "p": "¿Cuáles son los seis patrones básicos de movimiento?", "o": ["Plank, Hinge, Push, Pull, Lunge, Squat", "Run, Jump, Throw, Catch, Swim, Climb", "Flexión, extensión, giro, salto, carrera, empuje", "Plank, Curl, Press, Row, Fly, Dip"], "c": 0, "e": "Tabelle 17: Plank, Hinge, Push, Pull, Lunge y Squat." }
+  ],
+  "k4:4.5.3": [
+    { "p": "En el entrenamiento en circuito…", "o": ["Se hacen varias series de un ejercicio antes de pasar al siguiente", "Se hacen 6–12 ejercicios seguidos con pausas cortas, en varias rondas", "Solo se entrena un músculo", "No hay rondas"], "c": 1, "e": "Kreistraining: 6–12 Übungen nacheinander; Stationstraining: varias series en una estación." }
+  ],
+  "k4:4.6.2": [
+    { "p": "¿Cuántas veces por semana, como máximo, se recomienda entrenar la velocidad?", "o": ["1–3", "5–6", "Todos los días", "Una vez al mes"], "c": 0, "e": "Max. 1–3 x pro Woche, con 48–72 h de recuperación." }
+  ],
+  "k4:4.7.1": [
+    { "p": "¿Cuál es la idea del MetCon?", "o": ["Entrenar a baja intensidad durante horas", "Entrenar con alta intensidad durante mucho tiempo (≥ 20 min)", "Solo estirar", "Un solo ejercicio máximo"], "c": 1, "e": "Metabolic Conditioning: intensidad cerca del 100 % durante al menos 20 minutos, normalmente en circuito." }
+  ],
+  "k4:4.7.2": [
+    { "p": "¿Qué reserva de energía dura entre 10 y 20 minutos?", "o": ["Fosfatos", "Glucógeno", "Grasas", "Proteínas"], "c": 1, "e": "Glykogenspeicher: carbohidratos; fosfatos dan energía inmediata pero brevísima; después se usa la grasa." }
+  ],
+  "k4:4.8.1": [
+    { "p": "Para mejorar la movilidad, ¿cuánto debe durar como mínimo un estiramiento?", "o": ["5 segundos", "30 segundos", "5 minutos", "No importa"], "c": 1, "e": "Mindestens 30 Sekunden Dehnungsdauer, respiración tranquila y movimiento controlado." }
+  ],
+  "k4:4.8.2": [
+    { "p": "¿Qué no se recomienda justo antes de esfuerzos intensos y rápidos?", "o": ["Calentar", "Estiramiento estático", "Estiramiento dinámico", "Hidratarse"], "c": 1, "e": "Kein statisches Dehnen direkt davor: primero estático, después dinámico." }
+  ],
+  "k4:4.9.1": [
+    { "p": "La coordinación intramuscular se refiere a…", "o": ["La cooperación entre agonista y antagonista", "Cuántas fibras de un músculo se activan a la vez (nervio–músculo)", "El equilibrio sobre una pierna", "El ritmo respiratorio"], "c": 1, "e": "Intermuskuläre = entre músculos; intramuskuläre = entre nervio y músculo." }
+  ],
+  "k4:4.9.2": [
+    { "p": "El apoyo a una pierna entrena sobre todo la capacidad de…", "o": ["Reacción", "Ritmo", "Equilibrio", "Orientación"], "c": 2, "e": "Gleichgewichtsfähigkeit: einbeinstand o superficie inestable." }
+  ],
+  "k5-7:5.2": [
+    { "p": "Para la resistencia de base (70–80 % de la FCmáx), ¿entre qué valores de Borg debe moverse el esfuerzo?", "o": ["Entre 6 y 9", "Entre 9 y 15", "Entre 15 y 20", "Entre 17 y 19"], "c": 1, "e": "Los valores no deben quedar por debajo de 9 ni superar 15." },
+    { "p": "En fuerza, la regla de respiración es…", "o": ["Aguantar la respiración al empujar", "Espirar al vencer la resistencia e inspirar al ceder", "Inspirar al empujar siempre", "Respirar solo al final"], "c": 1, "e": "Grundregel: in der überwindenden Phase ausatmen; Pressatmung vermeiden." }
+  ],
+  "k5-7:5.3.1": [
+    { "p": "¿Cuándo se mide la frecuencia cardíaca en reposo?", "o": ["Después de comer", "Por la mañana, antes de levantarse", "Tras entrenar", "Por la noche"], "c": 1, "e": "Am Morgen kurz vor dem Aufstehen; ideal: media de tres días distintos." }
+  ],
+  "k5-7:5.3.2": [
+    { "p": "¿Cómo se calcula la FCmáx de un hombre con la fórmula por edad?", "o": ["226 − edad", "220 − edad", "200 − edad", "190 − edad"], "c": 1, "e": "Mujer 226 − edad; hombre 220 − edad; ciclismo 200 − edad; natación 190 − edad." }
+  ],
+  "k5-7:5.3.3": [
+    { "p": "¿A partir de qué FC se habla de una pausa completa?", "o": ["Por debajo de 100 lpm", "Por debajo de 140 lpm", "Por debajo de 160 lpm", "Cuando llega a 120 lpm"], "c": 0, "e": "Lohnende Pause ≈ 120 lpm; vollständige Pause < 100 lpm." }
+  ],
+  "k5-7:5.4": [
+    { "p": "¿Qué mide el VO₂máx?", "o": ["La cantidad máxima de oxígeno que se puede captar", "La frecuencia cardíaca máxima", "El lactato en reposo", "La fuerza máxima"], "c": 0, "e": "Es la maximale Sauerstoffmenge; la medición se hace con máscara de gases." }
+  ],
+  "k5-7:6.1": [
+    { "p": "¿Qué hacer si un cliente solo puede entrenar 2 veces por semana?", "o": ["Hacerle un plan para 5 días", "Un plan realista para 2–3 días por semana", "Rechazarlo", "Aumentar el peso"], "c": 1, "e": "Realistische Trainingsplanung: el plan se ajusta al tiempo real del cliente." },
+    { "p": "El IMC (BMI) no tiene en cuenta…", "o": ["El peso", "La estatura", "La masa muscular", "La edad del test"], "c": 2, "e": "Der BMI erfasst lediglich das absolute Gewicht; un alto porcentaje muscular no se considera." }
+  ],
+  "k5-7:6.1.1": [
+    { "p": "¿Qué mide la calipometría?", "o": ["La corriente eléctrica del cuerpo", "El grosor de los pliegues cutáneos", "El agua corporal", "El oxígeno en sangre"], "c": 1, "e": "Körperfaltendicke con un Caliper; la BIA usa una corriente débil." }
+  ],
+  "k5-7:6.2.1": [
+    { "p": "¿Qué porcentaje del tiempo total (máx. 15 min) suele tener el calentamiento?", "o": ["≈ 5 %", "≈ 15 %", "≈ 50 %", "≈ 80 %"], "c": 1, "e": "Erwärmung: ca. 15 % der Gesamttrainingszeit (max. 15 min)." }
+  ],
+  "k5-7:7.1": [
+    { "p": "¿Cuántos errores graves se corrigen como máximo por ejercicio?", "o": ["1", "2–3", "5–6", "Todos los que haya"], "c": 1, "e": "Pro Übung werden maximal 2–3 grobe Fehler korrigiert; demasiada crítica desmotiva." },
+    { "p": "¿Cuál es el paso 5 de la instrucción en un aparato?", "o": ["Explicar el ajuste", "Pedir feedback al socio y alabarlo", "Mostrar el aparato", "Cambiar de aparato"], "c": 1, "e": "Step 5: Feedback einholen und Mitglied loben." }
+  ],
+  "k5-7:7.2": [
+    { "p": "¿Cuándo es adecuado hablar de promociones al socio?", "o": ["Durante el entrenamiento", "Solo antes o después del entrenamiento", "Mientras corrige un ejercicio", "Nunca"], "c": 1, "e": "Mitglieder werden nur vor oder nach dem Training aktiv auf Aktionen angesprochen." }
+  ]
+}

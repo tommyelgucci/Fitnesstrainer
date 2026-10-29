@@ -28,7 +28,7 @@ No hay tests automáticos. Para verificar UI de verdad: `npm run build && npx vi
 - **No inventes contenido de examen.** Las explicaciones de figuras son redacción propia: si algo (porcentajes, rangos, nombres técnicos) no es seguro, márcalo para contrastar con el *Lehrbrief* en vez de afirmarlo. El PDF original no está en el repo; la fuente de las preguntas es `Fragenkatalog_BLizenz.md`.
 - `public/images/*.jpg` son figuras del manual: no las reemplaces sin pedirlo; si hace falta una versión mejor, crea un SVG propio y enlázalo.
 
-- **Modo lectura**: `lectura/parser.ts` convierte el volcado de PDF de `lecciones_contenido.json` en secciones (es heurístico: se prueba con `node --experimental-strip-types` sobre los datos y se mira la salida). Los títulos y resúmenes en español van en `lectura_secciones.json` con clave `"capitulo:num"`; escribe los resúmenes **a partir del texto del libro**, sin añadir cifras que no estén. El vocabulario resaltado sale de `imagenes_info` + `glosario_lectura.json`.
+- **Modo lectura**: `lectura/parser.ts` convierte el volcado de PDF de `lecciones_contenido.json` en secciones (es heurístico: se prueba con `node --experimental-strip-types` sobre los datos y se mira la salida). Los títulos y resúmenes en español van en `lectura_secciones.json` con clave `"capitulo:num"`; escribe los resúmenes **a partir del texto del libro**, sin añadir cifras que no estén. El vocabulario resaltado sale de `imagenes_info` + `glosario_lectura.json`. Las preguntas de comprensión del final de cada sección (`lectura_preguntas.json`, misma clave, opción múltiple con `c` = índice correcto) deben poder responderse con lo que dice el libro.
 - **Simulacro**: ver `docs/EXAM_ARCHITECTURE.md`. Tiempos, formatos y la meta del 80 % son de la app, no oficiales: no los presentes como criterio del examen real.
 - **Repaso de términos**: `stores/repasoTerminos.ts` guarda tarjetas Leitner de términos de figuras (clave `figura|término`), separado de `useLeitner`, que usa ids de preguntas.
 
@@ -56,4 +56,4 @@ No añadas `Co-Authored-By: Claude`, `Claude-Session:` ni enlaces a `claude.ai/c
 
 Hecho: lecciones con modo lectura, quiz, flashcards con Leitner, simulacro en dos fases, sección Imágenes completa (58 figuras explicadas, con repaso de términos), XP/racha/logros, PWA instalable con modo sin conexión.
 
-Pendiente de más a menos valor: contrastar con el manual los porcentajes y nombres técnicos de `imagenes_info/` y los resúmenes de `lectura_secciones.json`; traducción completa de las lecciones (hoy solo hay resumen por sección); preguntas de comprensión al final de cada sección de lectura.
+Pendiente de más a menos valor: contrastar con el manual los porcentajes y nombres técnicos de `imagenes_info/` y los resúmenes de `lectura_secciones.json`; traducción completa de las lecciones (hoy solo hay resumen por sección); preguntas de comprensión para las secciones que aún no tienen (hay 80 en 59 secciones).

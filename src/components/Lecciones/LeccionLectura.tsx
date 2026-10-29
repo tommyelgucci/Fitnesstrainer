@@ -13,6 +13,7 @@ import type { EntradaVocab } from '../../lectura/vocabulario';
 import { marcarSeccionLeida, useGamificacion } from '../../stores/gamificacion';
 import { responderTermino } from '../../stores/repasoTerminos';
 import { hablarAleman } from '../Imagenes/hablar';
+import Comprobacion from './Comprobacion';
 
 interface MetaSeccion {
   de: string;
@@ -277,6 +278,8 @@ export default function LeccionLectura() {
           </div>
         )}
       </article>
+
+      <Comprobacion key={clave(seccion)} clave={clave(seccion)} />
 
       <div className="flex items-center justify-between gap-2">
         <button className="btn btn-secondary" disabled={idx === 0} onClick={() => ir(idx - 1)}>
