@@ -1,32 +1,74 @@
-# React + TypeScript + Vite
+# FitnessB Exam
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+App web para preparar el examen **B-Lizenz de Fitnesstrainer** (clever fit Akademie, *Lehrbrief B-Lizenz*, 3. Auflage). Está pensada para estudiar en alemán con apoyo en español: cada pregunta, término y figura aparece en los dos idiomas.
 
-Currently, two official plugins are available:
+Funciona sin servidor: el contenido es JSON estático y todo el progreso vive en `localStorage` del navegador.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Qué incluye
 
-## React Compiler
+| Sección | Para qué sirve |
+|---|---|
+| **Dashboard** | Nivel, XP, racha de días, meta diaria, últimos 7 días y logros |
+| **Lecciones** | Contenido por capítulo + preguntas (80 % para avanzar) |
+| **Flashcards** | Términos alemanes con repetición espaciada (Leitner, 5 cajas) |
+| **Quiz** | Preguntas tipo test por capítulo |
+| **Examen** | Simulacro con tiempo y preguntas proporcionales al peso de cada capítulo |
+| **Imágenes** | 58 figuras del manual explicadas en español, con términos DE/ES, pronunciación, puntos interactivos, glosario y práctica |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Progreso y gamificación
 
-## Expanding the Oxlint configuration
+- **XP**: +10 por acierto, +2 por intentarlo, +3 por abrir una figura nueva, +5 por completar una ronda de práctica de imágenes (+20 si es perfecta).
+- **Niveles**: Neuling → Lehrling → Praktikant → Trainer → Profi → Meister.
+- **Racha**: días seguidos con alguna actividad (se rompe si pasa un día entero sin estudiar).
+- **Meta diaria**: 50 XP. **Logros**: 10, definidos en `src/stores/gamificacion.ts`.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Desarrollo
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
+```bash
+npm install
+npm run dev       # servidor de desarrollo
+npm run build     # tsc -b && vite build  → dist/
+npm run lint      # oxlint
+npm run preview   # sirve el build (base /Fitnesstrainer/)
+```
+
+La app se publica en GitHub Pages con `.github/workflows/deploy.yml` en cada push a `main`. Como vive bajo `/Fitnesstrainer/`, el `base` de Vite y el `basename` del router están configurados con ese prefijo; las rutas a `public/` deben usar `import.meta.env.BASE_URL`.
+
+## Estructura
+
+```
+src/
+  components/      Dashboard, Lecciones, Flashcards, Quiz, Exam, Imagenes, Leitner
+  stores/          useUserProgress, useLeitner (hooks con localStorage)
+                   gamificacion.ts (XP, racha, logros: store a nivel de módulo)
+  data/            preguntas.json, lecciones_contenido.json, capitulos.json
+                   imagenes.json + imagenes_info/*.json  (ver abajo)
+  utils/leitner.ts algoritmo de cajas
+public/images/     figuras del manual (JPG)
+scripts/           parseMarkdown.*: genera preguntas a partir de Fragenkatalog_BLizenz.md
+docs/              arquitectura y uso de cada módulo
+```
+
+### Datos de las figuras
+
+`src/data/imagenes.json` lista las figuras (id, capítulo, archivo, título DE/ES). Todo lo demás está en `src/data/imagenes_info/*.json`, indexado por `id`, y `src/data/imagenesInfo.ts` lo une en un único array tipado:
+
+```jsonc
+"k3.6-02": {
+  "tipo": "anatomia",          // anatomia | ejercicio | grafico | tabla
+  "diagrama": "…",             // opcional: SVG propio de Diagramas.tsx en lugar del JPG
+  "resumen_es": "…",
+  "claves_es": ["…"],
+  "terminos": [
+    { "de": "Aorta", "es": "Aorta", "nota": "…", "x": 36.4, "y": 11 }  // x,y = % sobre la imagen (opcional)
+  ],
+  // solo ejercicios:
+  "ejecucion_es": [], "musculos": [{ "de": "", "es": "", "rol": "principal" }], "errores_es": []
 }
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Los términos con `x`/`y` generan puntos tocables y entran en el modo de práctica «Identificar en la imagen».
+
+## Contenido y fuentes
+
+Las preguntas y respuestas proceden del *Lehrbrief B-Lizenz* (ver `Fragenkatalog_BLizenz.md`). Las explicaciones y traducciones de las figuras son redacción propia y conviene contrastarlas con el manual antes del examen.

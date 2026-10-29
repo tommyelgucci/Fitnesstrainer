@@ -1,14 +1,26 @@
-import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { BookOpen, Layers, Zap, Target, TrendingUp, Image as ImageIcon } from 'lucide-react';
+import { BookOpen, Layers, Flame, Target, TrendingUp, Image as ImageIcon } from 'lucide-react';
+import { useUserProgress } from '../../stores/useUserProgress';
+import { LOGROS, META_DIARIA_XP, claveDia, nivelDe, rachaVigente, useGamificacion, xpDeHoy } from '../../stores/gamificacion';
 
 export default function Dashboard() {
-  useEffect(() => {
-    const saved = localStorage.getItem('fitness-trainer:progress');
-    if (saved) {
-      JSON.parse(saved);
-    }
-  }, []);
+  const e = useGamificacion();
+  const { progress, obtenerTasaExito } = useUserProgress();
+  const hoy = claveDia();
+  const racha = rachaVigente(e, hoy);
+  const nivel = nivelDe(e.xp);
+  const pctNivel = nivel.hasta ? Math.round(((e.xp - nivel.desde) / (nivel.hasta - nivel.desde)) * 100) : 100;
+  const xpHoy = xpDeHoy(e, hoy);
+  const pctMeta = Math.min(100, Math.round((xpHoy / META_DIARIA_XP) * 100));
+  const vistas = Object.keys(progress.respuestas_guardadas).length;
+
+  const semana = Array.from({ length: 7 }, (_, k) => {
+    const d = new Date();
+    d.setDate(d.getDate() - (6 - k));
+    const clave = claveDia(d);
+    return { clave, xp: e.xpPorDia[clave] ?? 0, letra: d.toLocaleDateString('es', { weekday: 'narrow' }).toUpperCase() };
+  });
+  const maxSemana = Math.max(META_DIARIA_XP, ...semana.map((d) => d.xp));
 
   return (
     <div className="mx-auto max-w-6xl">
@@ -21,33 +33,62 @@ export default function Dashboard() {
         </p>
       </div>
 
-      {/* Quick Stats */}
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-4 mb-8">
+      {/* Nivel, racha y meta diaria */}
+      <div className="mb-4 grid grid-cols-1 gap-4 md:grid-cols-3">
         <div className="card">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Capítulos dominados</p>
-              <p className="text-2xl font-bold text-gray-900 dark:text-white">0/10</p>
-            </div>
-            <Target className="h-8 w-8 text-blue-500" />
+          <p className="text-sm text-gray-600 dark:text-gray-400">Nivel {nivel.numero}</p>
+          <p className="text-2xl font-bold text-gray-900 dark:text-white">
+            {nivel.de} <span className="text-base font-normal italic text-gray-500">· {nivel.es}</span>
+          </p>
+          <div className="mt-3 h-3 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
+            <div className="h-full rounded-full bg-gradient-to-r from-amber-400 to-orange-500 transition-all" style={{ width: `${pctNivel}%` }} />
           </div>
+          <p className="mt-1 text-xs text-gray-600 dark:text-gray-400">
+            {e.xp} XP{nivel.hasta ? ` · faltan ${nivel.hasta - e.xp} para el siguiente nivel` : ' · ¡nivel máximo!'}
+          </p>
         </div>
 
         <div className="card">
           <div className="flex items-center justify-between">
             <div>
               <p className="text-sm text-gray-600 dark:text-gray-400">Racha de días</p>
-              <p className="text-2xl font-bold text-green-600 dark:text-green-400">0 días</p>
+              <p className="text-3xl font-bold text-orange-600 dark:text-orange-400">{racha} {racha === 1 ? 'día' : 'días'}</p>
+              <p className="text-xs text-gray-600 dark:text-gray-400">Mejor racha: {e.mejorRacha}</p>
             </div>
-            <Zap className="h-8 w-8 text-yellow-500" />
+            <Flame className={`h-10 w-10 ${racha > 0 ? 'text-orange-500' : 'text-gray-300 dark:text-gray-600'}`} />
           </div>
+          {racha > 0 && xpHoy === 0 && (
+            <p className="mt-2 text-xs font-medium text-amber-700 dark:text-amber-400">Estudia hoy para no perder tu racha.</p>
+          )}
+          {racha === 0 && <p className="mt-2 text-xs text-gray-600 dark:text-gray-400">Responde una pregunta para empezar tu racha.</p>}
         </div>
 
         <div className="card">
           <div className="flex items-center justify-between">
+            <p className="text-sm text-gray-600 dark:text-gray-400">Meta de hoy</p>
+            <p className="text-sm font-semibold text-gray-900 dark:text-white">{Math.min(xpHoy, META_DIARIA_XP)} / {META_DIARIA_XP} XP</p>
+          </div>
+          <div className="mt-2 h-3 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
+            <div className={`h-full rounded-full transition-all ${pctMeta === 100 ? 'bg-green-500' : 'bg-teal-500'}`} style={{ width: `${pctMeta}%` }} />
+          </div>
+          <div className="mt-3 flex h-12 items-end gap-1" aria-label="XP de los últimos 7 días">
+            {semana.map((d) => (
+              <div key={d.clave} className="flex flex-1 flex-col items-center gap-0.5">
+                <div className={`w-full rounded-sm ${d.xp >= META_DIARIA_XP ? 'bg-green-500' : d.xp > 0 ? 'bg-teal-400' : 'bg-gray-200 dark:bg-gray-700'}`} style={{ height: `${Math.max(4, (d.xp / maxSemana) * 36)}px` }} title={`${d.xp} XP`} />
+                <span className="text-[10px] text-gray-500">{d.letra}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Quick Stats */}
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mb-8">
+        <div className="card">
+          <div className="flex items-center justify-between">
             <div>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Preguntas vistas</p>
-              <p className="text-2xl font-bold text-gray-900 dark:text-white">0</p>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Preguntas respondidas</p>
+              <p className="text-2xl font-bold text-gray-900 dark:text-white">{vistas}</p>
             </div>
             <BookOpen className="h-8 w-8 text-purple-500" />
           </div>
@@ -56,10 +97,20 @@ export default function Dashboard() {
         <div className="card">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-sm text-gray-600 dark:text-gray-400">% Aprobación</p>
-              <p className="text-2xl font-bold text-gray-900 dark:text-white">0%</p>
+              <p className="text-sm text-gray-600 dark:text-gray-400">% de acierto</p>
+              <p className="text-2xl font-bold text-gray-900 dark:text-white">{obtenerTasaExito()}%</p>
             </div>
             <TrendingUp className="h-8 w-8 text-orange-500" />
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Logros</p>
+              <p className="text-2xl font-bold text-gray-900 dark:text-white">{e.logros.length}/{LOGROS.length}</p>
+            </div>
+            <Target className="h-8 w-8 text-blue-500" />
           </div>
         </div>
       </div>
@@ -122,6 +173,25 @@ export default function Dashboard() {
             </div>
           </div>
         </Link>
+      </div>
+
+      {/* Logros */}
+      <div className="card mb-8">
+        <h2 className="mb-3 text-lg font-semibold text-gray-900 dark:text-white">Logros</h2>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+          {LOGROS.map((l) => {
+            const ok = e.logros.includes(l.id);
+            return (
+              <div key={l.id} className={`rounded-lg border p-3 text-center ${ok ? 'border-amber-300 bg-amber-50 dark:border-amber-700 dark:bg-amber-900/20' : 'border-gray-200 opacity-60 dark:border-gray-700'}`}>
+                <div className={`text-3xl ${ok ? '' : 'grayscale'}`}>{l.icono}</div>
+                <p className="mt-1 text-sm font-semibold text-gray-900 dark:text-white">{l.de}</p>
+                <p className="text-xs italic text-gray-600 dark:text-gray-400">{l.es}</p>
+                <p className="mt-1 text-xs text-gray-600 dark:text-gray-400">{l.descripcion}</p>
+              </div>
+            );
+          })}
+        </div>
+        <p className="mt-3 text-xs text-gray-500">Ganas +10 XP por acierto, +2 por intentarlo, +3 por abrir una figura nueva y hasta +20 por una ronda perfecta. Meta diaria: {META_DIARIA_XP} XP.</p>
       </div>
 
       {/* Info Section */}

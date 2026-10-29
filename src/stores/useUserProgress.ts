@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import type { RespuestaUsuario, UserProgress } from '../types';
+import { registrarRespuestaXP } from './gamificacion';
 
 const STORAGE_KEY = 'fitness-trainer:progress';
 
@@ -51,6 +52,7 @@ export function useUserProgress(): UseUserProgressReturn {
   // Registrar respuesta
   const registrarRespuesta = useCallback(
     (pregunta_id: string, respuesta_correcta: boolean) => {
+      registrarRespuestaXP(respuesta_correcta);
       setProgress((prev) => {
         const nuevasRespuestas = { ...prev.respuestas_guardadas };
 

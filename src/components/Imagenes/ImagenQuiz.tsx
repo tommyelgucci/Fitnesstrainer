@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { CheckCircle2, XCircle, Volume2, RotateCcw } from 'lucide-react';
 import { imagenes } from '../../data/imagenesInfo';
@@ -6,6 +6,7 @@ import { barajar, itemsDe } from './quizUtils';
 import type { Item, Modo } from './quizUtils';
 import ImagenInteractiva from './ImagenInteractiva';
 import { hablarAleman } from './hablar';
+import { registrarRespuestaXP, rondaCompletada } from '../../stores/gamificacion';
 
 interface Pregunta {
   item: Item;
@@ -55,6 +56,13 @@ export default function ImagenQuiz({
   const [elegida, setElegida] = useState<number | null>(null);
   const [aciertos, setAciertos] = useState(0);
   const [fallos, setFallos] = useState<Item[]>([]);
+
+  const terminada = preguntas.length > 0 && i >= preguntas.length;
+  useEffect(() => {
+    if (terminada) rondaCompletada(aciertos, preguntas.length);
+    // solo al terminar la ronda
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [terminada]);
 
   const reiniciar = () => {
     setRonda((r) => r + 1);
@@ -109,6 +117,7 @@ export default function ImagenQuiz({
   const responder = (k: number) => {
     if (respondida) return;
     setElegida(k);
+    registrarRespuestaXP(k === correcta);
     if (k === correcta) setAciertos((a) => a + 1);
     else setFallos((f) => [...f, p.item]);
   };

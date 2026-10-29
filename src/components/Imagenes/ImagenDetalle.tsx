@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Volume2, Eye, EyeOff, Dumbbell, Lightbulb, AlertTriangle, Target, Brain } from 'lucide-react';
 import capitulosData from '../../data/capitulos.json';
@@ -9,6 +9,7 @@ import { itemsDe } from './quizUtils';
 import type { Modo } from './quizUtils';
 import { Diagrama } from './Diagramas';
 import { hablarAleman } from './hablar';
+import { registrarFigura } from '../../stores/gamificacion';
 
 const ROL: Record<string, string> = {
   principal: 'bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300',
@@ -24,6 +25,10 @@ export default function ImagenDetalle() {
   const [puntos, setPuntos] = useState(true);
   const [original, setOriginal] = useState(false);
   const [practica, setPractica] = useState<Modo | null>(null);
+
+  useEffect(() => {
+    if (id) registrarFigura(id);
+  }, [id]);
 
   if (!img) {
     return (

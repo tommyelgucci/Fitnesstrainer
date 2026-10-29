@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './styles/globals.css';
 import Navigation from './components/Navigation';
+import Avisos from './components/Avisos';
 import Dashboard from './components/Dashboard/Dashboard';
 import LeitnerDemo from './components/Leitner/LeitnerDemo';
 import LeccionesIndex from './components/Lecciones/LeccionesIndex';
@@ -47,6 +48,8 @@ function App() {
               <Route path="/leitner-demo" element={<LeitnerDemo />} />
             </Routes>
           </main>
+
+          <Avisos />
 
           <footer className="border-t border-gray-200 bg-gray-50 p-4 text-center text-sm text-gray-600 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400">
             <p>FitnesstrainerB Exam Study App</p>
