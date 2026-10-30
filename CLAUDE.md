@@ -34,6 +34,8 @@ No hay tests automáticos. Para verificar UI de verdad: `npm run build && npx vi
 
 - **PWA / sin conexión**: `public/sw.js` es una plantilla; el plugin `swPrecache` (`vite.config.ts`) rellena `VERSION` y `PRECACHE` al construir. No pongas esos marcadores en comentarios del SW (el reemplazo busca el literal). Todo recurso nuevo en `public/` entra solo en el precaché; si añades datos cargados por `fetch`, usa rutas dentro del scope `/Fitnesstrainer/`. Se comprueba con Playwright: cargar, esperar al SW, `context.setOffline(true)` y navegar a una ruta anidada.
 
+- **Traducción de las lecciones**: `src/data/lecciones_es/*.json`, una clave por sección (`"capitulo:num"`) y una cadena por fragmento en el orden del parser (párrafo, etiqueta, subtítulo y cada punto de lista cuentan uno). `leccionesEs.ts` ignora una sección si el número de fragmentos no coincide, así que **cambiar el parser sin retraducir deja esa sección sin traducción** (no la desalinea). Se traduce el texto tal cual sale del parser (incluidos sus fragmentos cortados), conservando entre paréntesis los términos alemanes clave. Para ver qué falta, regenerar la lista de fragmentos con el parser y comparar longitudes.
+
 ## Cómo se firman los commits
 
 Todos los commits de este repo se atribuyen solo al dueño, como en el resto de sus repositorios:
@@ -54,6 +56,6 @@ No añadas `Co-Authored-By: Claude`, `Claude-Session:` ni enlaces a `claude.ai/c
 
 ## Estado y siguientes pasos
 
-Hecho: lecciones con modo lectura, quiz, flashcards con Leitner, simulacro en dos fases, sección Imágenes completa (58 figuras explicadas, con repaso de términos), XP/racha/logros, PWA instalable con modo sin conexión.
+Hecho: lecciones con modo lectura y traducción completa, quiz, flashcards con Leitner, simulacro en dos fases, sección Imágenes completa (58 figuras explicadas, con repaso de términos), XP/racha/logros, PWA instalable con modo sin conexión.
 
-Pendiente de más a menos valor: contrastar con el manual los porcentajes y nombres técnicos de `imagenes_info/` y los resúmenes de `lectura_secciones.json`; traducción completa de las lecciones (hoy solo hay resumen por sección); preguntas de comprensión para las secciones que aún no tienen (hay 80 en 59 secciones).
+Pendiente de más a menos valor: contrastar con el manual los porcentajes y nombres técnicos de `imagenes_info/` y los resúmenes de `lectura_secciones.json`; revisar con el *Lehrbrief* la traducción de las lecciones (ya están traducidos todos los capítulos, redacción propia); preguntas de comprensión para las secciones que aún no tienen (hay 80 en 59 secciones).

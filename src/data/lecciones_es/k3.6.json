@@ -1,0 +1,50 @@
+{
+  "k3.6:intro": [
+    "El sistema cardiovascular (Herz-Kreislaufsystem) consta del corazón y de los vasos sanguíneos. Un corazón sano late cada día más de",
+    "100.000 veces y bombea con cada latido la «savia de la vida», la sangre, por el cuerpo. La sangre es impulsada por los vasos mediante la presión arterial y recorre tanto la circulación pulmonar como la circulación corporal."
+  ],
+  "k3.6:3.6.1": [
+    "El corazón humano tiene aproximadamente el tamaño de un puño cerrado y pesa de 300 a 350 gramos. Las diferencias individuales de tamaño y peso se deben a la edad, el sexo y la exigencia a la que se somete. Así, el peso puede aumentar hasta 500 g en deportistas de resistencia muy entrenados. Posición (Lage): el corazón corresponde a un cono truncado cuya punta apunta oblicuamente hacia abajo.",
+    "2/3 del corazón están en el lado izquierdo del tórax y 1/3 en el derecho. El límite inferior del corazón lo forma el diafragma. Por delante, el corazón toca el esternón y las costillas. Lateralmente está limitado por los pulmones. (Fig. 30: Posición del corazón)",
+    "Objetivos de aprendizaje (Lernziele)",
+    "Tras trabajar este capítulo conocerás…",
+    "… la anatomía y la función del corazón humano.",
+    "… la circulación mayor y menor, la actividad del corazón y la presión arterial.",
+    "… el proceso del intercambio de gases en el pulmón. Estructura y función: el corazón está dividido por un tabique en una mitad derecha y otra izquierda. Ambas mitades tienen una aurícula pequeña y un ventrículo grande. Las 4 válvulas cardíacas (2 válvulas de vela, 2 válvulas de bolsillo) separan las aurículas de los ventrículos e impiden el reflujo. A través de las venas grandes la sangre «usada» llega del cuerpo a la aurícula derecha. La válvula tricúspide separa la aurícula derecha del ventrículo derecho e impide el reflujo. Por su forma de vela dividida en tres también se llama válvula de vela. En cuanto la válvula pulmonar, situada entre el ventrículo derecho y la arteria pulmonar, ya no puede resistir la presión de la sangre en el ventrículo, se abre y deja que la sangre fluya por la arteria hacia el pulmón (Pulmo). Ambas válvulas trabajan a contratiempo: mientras se abre la tricúspide, se cierra al mismo tiempo la pulmonar, y viceversa. La sangre «recién preparada» llega por las venas pulmonares primero a la aurícula izquierda. La válvula mitral, que deja pasar la sangre «fresca» al ventrículo izquierdo, está entre la aurícula izquierda y el ventrículo izquierdo y funciona igual que la tricúspide. También se llama válvula de vela, pero consta de solo 2 «velas». La válvula aórtica está entre el ventrículo izquierdo y la aorta y tiene la misma constitución y las mismas funciones que la pulmonar. (Fig. 31: Estructura y función del corazón) Capas del corazón:",
+    "Endocardio (Herzinnenhaut, Endokard)",
+    "Miocardio (Herzmuskel, Myokard)",
+    "Epicardio (Herzaußenhaut, Epikard)",
+    "Pericardio (Herzbeutel, Perikard)"
+  ],
+  "k3.6:3.6.2": [
+    "Mientras la mitad derecha del corazón transporta del cuerpo al pulmón la sangre pobre en oxígeno (O₂) y rica en dióxido de carbono (CO₂) (circulación pulmonar o menor), la mitad izquierda recibe la sangre enriquecida con oxígeno fresco del pulmón y la bombea de vuelta al cuerpo (circulación corporal o mayor).",
+    "Circulación pulmonar menor (Kleiner Lungenkreislauf): ventrículo derecho – arterias pulmonares – pulmón – venas pulmonares – aurícula izquierda. Circulación corporal mayor (Großer Körperkreislauf): ventrículo izquierdo – aorta – arterias – capilares – venas – aurícula derecha"
+  ],
+  "k3.6:3.6.3": [
+    "En los alvéolos pulmonares (Lungenbläschen, Alveolen) la sangre se enriquece con oxígeno y cede al mismo tiempo dióxido de carbono (un producto final del metabolismo aeróbico). Esto ocurre por el gradiente de concentración que existe entre los gases unidos en la sangre y los gases del aire respirado. Este proceso se llama difusión.",
+    "El lugar de unión de los gases en la sangre es el pigmento sanguíneo con hierro (hemoglobina, Hämoglobin), que se encuentra en los glóbulos rojos (eritrocitos, Erythrozyten). (Fig. 32: Intercambio de gases en el pulmón)"
+  ],
+  "k3.6:3.6.4": [
+    "El sistema de conducción (Reizleitungssystem) controla la actividad del corazón y transmite impulsos eléctricos. El impulso nace en el nódulo sinusal (Sinusknoten; pequeña estructura muscular en la aurícula derecha) y desde allí se reparte a otras estaciones. La actividad del corazón transcurre en fases determinadas.",
+    "Se distingue entre la fase de tensión y expulsión (sístole, Systole) y la fase de relajación y llenado (diástole, Diastole). Sístole: antes de la sístole los ventrículos están dilatados y las aurículas en tensión.",
+    "Los dos ventrículos se contraen, las válvulas de bolsillo (pulmonar y aórtica) ceden a la presión y se abren: la sangre es impulsada por las arterias hacia el pulmón y hacia el cuerpo. El primer ruido cardíaco se hace visible (onda R) y audible. Al mismo tiempo las aurículas se vuelven a llenar de sangre.",
+    "Para evitar el reflujo de los ventrículos a las aurículas, en la fase de expulsión se cierran las válvulas de vela (tricúspide y mitral). Diástole: los dos ventrículos están flácidos y vacíos, las válvulas de bolsillo cerradas, para que la sangre expulsada no pueda volver a fluir hacia atrás.",
+    "Las aurículas, ya llenas de sangre, se contraen y al mismo tiempo se abren las válvulas de vela. La sangre fluye ahora hacia los ventrículos."
+  ],
+  "k3.6:3.6.5": [
+    "Se llama presión arterial (Blutdruck) a la presión en las arterias de la circulación corporal. El primer valor medido (valor sistólico) caracteriza la fuerza de expulsión del corazón; el segundo (valor diastólico) muestra el músculo cardíaco en la fase de relajación o la resistencia de los vasos de las arterias. Si los vasos se estrechan por enfermedades cardiovasculares, la presión arterial aumenta.",
+    "Pero también con el estrés (físico y mental) sube la presión arterial. Cuando la presión es permanentemente superior a 140/90 mmHg (milímetros de columna de mercurio) se habla de hipertensión (Bluthochdruck, Hypertonie). Cuando es permanentemente inferior a 100/70 mmHg hay hipotensión (Hypotonie). El valor normal de la presión arterial es 120/80 mmHg.",
+    "Tabla 5: Valores normales de presión arterial. Sistólica (mmHg) / diastólica (mmHg): hipotensión < 100 / < 70; óptima < 120 / < 80; normal < 130 / < 90; normal-alta 130–139 / 85–89; hipertensión grado 1: 140–159 / 90–99; hipertensión grado 2: 160–179 / 100–109; hipertensión grado 3: > 180 / > 110"
+  ],
+  "k3.6:3.6.6": [
+    "En el ser humano, la cantidad de sangre que circula por el corazón y los vasos es aproximadamente el 8 % del peso corporal y fluye dentro de vasos sanguíneos cerrados. Se llaman arterias cuando transportan sangre desde el corazón y venas cuando la transportan hacia el corazón.",
+    "Como las ramas de un árbol, los vasos sanguíneos forman ramificaciones tan finas que, mediante los más finos «vasos capilares» (Kapillaren), pueden abastecer a todas las células del cuerpo.",
+    "Tabla 6: Componentes de la sangre. Sangre, aprox. 5–6 litros: componentes sólidos (células sanguíneas): glóbulos rojos (eritrocitos), glóbulos blancos (leucocitos), plaquetas (trombocitos); componentes líquidos (plasma sanguíneo): agua, proteínas, otras sustancias. Si se observa la sangre más de cerca, consta de componentes sólidos, las células sanguíneas (aprox.",
+    "45 %), y de componentes líquidos, el plasma sanguíneo (aprox. 55 %). Los glóbulos rojos transportan sobre todo oxígeno y se forman en la médula ósea. Los glóbulos blancos sirven para defenderse de gérmenes patógenos y de sustancias extrañas al cuerpo. Las plaquetas participan en la coagulación de la sangre.",
+    "El componente líquido de la sangre consta de aprox. un 90 % de agua. Numerosas proteínas (aprox. 8 %) y otras sustancias (aprox. 2 %, como azúcar, hormonas, vitaminas, etc.). Función:",
+    "Función de transporte (Transportfunktion)",
+    "Función de defensa (Abwehrfunktion)",
+    "Regulación del calor (Wärmeregulation)",
+    "Función tampón (Pufferfunktion). Función de transporte: la sangre transporta oxígeno, nutrientes y hormonas a las células y al mismo tiempo retira los productos de desecho celulares (p. ej. dióxido de carbono). Función de defensa: en la sangre hay células y sustancias especiales para defenderse de gérmenes patógenos y de sustancias extrañas. Regulación del calor: por su alto contenido de agua, la sangre almacena bien y durante mucho tiempo el calor. Con la circulación permanente se reparte funcionalmente el calor por el cuerpo y se mantiene una temperatura constante de 36,5 °C. Función tampón: la sangre mantiene constante el valor del pH (relación entre ácidos y bases en el cuerpo) y amortigua las oscilaciones."
+  ]
+}

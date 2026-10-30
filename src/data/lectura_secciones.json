@@ -44,13 +44,6 @@
       "Consejos: manos por encima del ombligo, distancia de 0,5–1,5 m, pausas al hablar, pecho abierto y contacto visual de 3 a 6 segundos con todos en grupos."
     ]
   },
-  "k2:3.1": {
-    "de": "Einführung in die Anatomie und Physiologie",
-    "es": "Introducción a la anatomía y la fisiología",
-    "resumen_es": [
-      "Los conocimientos anatómicos y fisiológicos son la base del trabajo del entrenador: saber dónde nace e inserta un músculo permite deducir su función y elegir ejercicios con criterio, e incluso crear movimientos nuevos."
-    ]
-  },
   "k3.2:intro": {
     "de": "Der Zellaufbau",
     "es": "La estructura de la célula",
@@ -711,6 +704,26 @@
     "es": "Musculatura de las piernas",
     "resumen_es": [
       "Sentadilla, prensa, curl femoral, extensión de piernas, zancadas y elevación de talones."
+    ]
+  },
+  "k1:intro": {
+    "de": "Einführung",
+    "es": "Introducción",
+    "resumen_es": [
+      "El entrenamiento en gimnasios ha crecido durante años por motivos estéticos, por la conciencia de la salud y por el disfrute que ofrece. La actividad física regular favorece una vida autónoma y plena hasta una edad avanzada.",
+      "La industria del fitness se ha vuelto más accesible y ofrece muchas alternativas, desde grandes cadenas hasta estudios especializados en entrenamiento personal, yoga o EMS. La competencia y la orientación al servicio del entrenador son factores importantes para el éxito de un estudio.",
+      "El trabajo de un entrenador combina conocimientos profesionales y habilidades sociales con la capacidad de entusiasmar y atender a los socios para ayudarles a alcanzar sus objetivos.",
+      "Cualidades del entrenador: competencia social, conocimientos técnicos, orientación al servicio y compromiso deportivo.",
+      "Ámbitos laborales: sala de máquinas/gimnasio/club, clases dirigidas, entrenamiento personal, deporte infantil y entrenamiento de equipos o de disciplinas individuales."
+    ]
+  },
+  "k3.1:3.1": {
+    "de": "Einführung",
+    "es": "Introducción",
+    "resumen_es": [
+      "Los conocimientos anatómicos y fisiológicos son imprescindibles para el trabajo de un entrenador.",
+      "Conocer el origen y la inserción de un músculo ayuda a deducir sus funciones y a elegir ejercicios específicos o crear movimientos nuevos.",
+      "El capítulo presenta una primera visión de los fundamentos anatómicos y fisiológicos del cuerpo humano."
     ]
   }
 }
